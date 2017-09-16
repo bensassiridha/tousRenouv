@@ -1,0 +1,105 @@
+.get-free-quote-form{
+    margin-top: 32px;
+}
+
+.get-free-quote-form .form-group{
+    margin-bottom: 10px;
+}
+
+.get-free-quote-form #form-first-name,
+.get-free-quote-form #form-cp{
+    width: 98%;
+}
+
+.get-free-quote-form #form-last-name,
+.get-free-quote-form #form-city{
+    width: 98%;
+    float: right;
+}
+
+.get-free-quote-form input[type="text"], 
+.get-free-quote-form input[type="password"],
+.get-free-quote-form input[type="tel"],
+.get-free-quote-form input[type="email"] {
+	height: 40px;
+    margin: 0;
+    padding: 0 13px;
+    vertical-align: middle;
+    background: #f8f8f8;
+    border: 2px solid #ddd;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 50px;
+    color: #888;
+    -moz-border-radius: 4px; -webkit-border-radius: 4px; border-radius: 4px;
+    -moz-box-shadow: none; -webkit-box-shadow: none; box-shadow: none;
+    -o-transition: all .3s; -moz-transition: all .3s; -webkit-transition: all .3s; -ms-transition: all .3s; transition: all .3s;
+}
+
+.get-free-quote-form textarea, 
+.get-free-quote-form textarea.form-control {
+    height: 240px;
+    margin: 0;
+    padding: 0 13px;
+    vertical-align: middle;
+    background: #f8f8f8;
+    border: 2px solid #ddd;
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 50px;
+    color: #888;
+    -moz-border-radius: 4px; -webkit-border-radius: 4px; border-radius: 4px;
+    -moz-box-shadow: none; -webkit-box-shadow: none; box-shadow: none;
+    -o-transition: all .3s; -moz-transition: all .3s; -webkit-transition: all .3s; -ms-transition: all .3s; transition: all .3s;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	line-height: 24px;
+}
+
+.get-free-quote-form input[type="text"]:focus, 
+.get-free-quote-form input[type="password"]:focus, 
+.get-free-quote-form textarea:focus, 
+.get-free-quote-form textarea.form-control:focus {
+	outline: 0;
+	background: #fff;
+    border: 2px solid #ccc;
+    -moz-box-shadow: none; -webkit-box-shadow: none; box-shadow: none;
+}
+
+.get-free-quote-form input[type="text"]:-moz-placeholder, .get-free-quote-form input[type="password"]:-moz-placeholder, 
+.get-free-quote-form textarea:-moz-placeholder, .get-free-quote-form textarea.form-control:-moz-placeholder { color: #888; }
+
+.get-free-quote-form input[type="text"]:-ms-input-placeholder, .get-free-quote-form input[type="password"]:-ms-input-placeholder, 
+.get-free-quote-form textarea:-ms-input-placeholder, .get-free-quote-form textarea.form-control:-ms-input-placeholder { color: #888; }
+
+.get-free-quote-form input[type="text"]::-webkit-input-placeholder, .get-free-quote-form input[type="password"]::-webkit-input-placeholder, 
+.get-free-quote-form textarea::-webkit-input-placeholder, .get-free-quote-form textarea.form-control::-webkit-input-placeholder { color: #888; }
+
+
+
+.get-free-quote-form button.btn {
+	height: 40px;
+    margin: 0;
+    padding: 0 20px;
+    vertical-align: middle;
+    background: #19b9e7;
+    border: 0;
+    font-size: 13px;
+    line-height: 40px;
+    color: #fff;
+    -moz-border-radius: 4px; -webkit-border-radius: 4px; border-radius: 4px;
+    text-shadow: none;
+    -moz-box-shadow: none; -webkit-box-shadow: none; box-shadow: none;
+    -o-transition: all .3s; -moz-transition: all .3s; -webkit-transition: all .3s; -ms-transition: all .3s; transition: all .3s;
+    font-weight: 900;
+    letter-spacing: 1px;
+    margin-top: 10px;
+}
+
+.get-free-quote-form button.btn:hover { opacity: 0.6; color: #fff; }
+
+.get-free-quote-form button.btn:active { outline: 0; opacity: 0.6; color: #fff; -moz-box-shadow: none; -webkit-box-shadow: none; box-shadow: none; }
+
+.get-free-quote-form button.btn:focus { outline: 0; opacity: 0.6; background: #19b9e7; color: #fff; }
+
+.get-free-quote-form button.btn:active:focus, button.btn.active:focus { outline: 0; opacity: 0.6; background: #19b9e7; color: #fff; }

@@ -1,0 +1,1358 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/api_rest/adresse_manager.php" description="/*&#10; * edit adresse for user&#10; * @url = http://tousr..." line="101" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="93891ef1-331f-4bda-b243-55d9fac86560" name="Default" comment="" />
+    <ignored path="tousrenouv.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path=".idea/dataSources.local.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="tousrenouv" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/AjaxVerifChat.php" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/api_reste.php" />
+        <option value="$PROJECT_DIR$/inc/head.php" />
+        <option value="$PROJECT_DIR$/session.php" />
+        <option value="$PROJECT_DIR$/ttre_adm/inc/head.php" />
+        <option value="$PROJECT_DIR$/inc/session.php" />
+        <option value="$PROJECT_DIR$/chat.php" />
+        <option value="$PROJECT_DIR$/.htaccess" />
+        <option value="$PROJECT_DIR$/mysql.php" />
+        <option value="$PROJECT_DIR$/espace_particulier.php" />
+        <option value="$PROJECT_DIR$/api_rest/espace_particulier.php" />
+        <option value="$PROJECT_DIR$/api_rest/template.php" />
+        <option value="$PROJECT_DIR$/api_rest/pdo.php" />
+        <option value="$PROJECT_DIR$/devis.php" />
+        <option value="$PROJECT_DIR$/api_rest/category_quote_manager.php" />
+        <option value="$PROJECT_DIR$/recherche.php" />
+        <option value="$PROJECT_DIR$/api_rest/adresse_manager.php" />
+        <option value="$PROJECT_DIR$/api_rest/user_manager.php" />
+        <option value="$PROJECT_DIR$/api_rest/devis_achat_manager.php" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="PhpServers">
+    <servers />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1378" />
+    <option name="height" value="744" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/bureau/tousRenov" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\wamp64\www\tousrenouv\api_rest" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\wamp64\www\tousrenouv\api_rest" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
+      <BehatRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run-script" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui />
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="93891ef1-331f-4bda-b243-55d9fac86560" name="Default" comment="" />
+      <created>1502651200229</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1502651200229</updated>
+      <workItem from="1502651201571" duration="1337000" />
+      <workItem from="1502806405201" duration="2077000" />
+      <workItem from="1502885288731" duration="8121000" />
+      <workItem from="1502903262743" duration="926000" />
+      <workItem from="1502910477719" duration="1286000" />
+      <workItem from="1502982417662" duration="7173000" />
+      <workItem from="1503065285512" duration="4873000" />
+      <workItem from="1503143904651" duration="18025000" />
+      <workItem from="1503223201873" duration="5840000" />
+      <workItem from="1503757957280" duration="17280000" />
+      <workItem from="1503822544848" duration="109000" />
+      <workItem from="1503823201123" duration="10536000" />
+      <workItem from="1503945900206" duration="173000" />
+      <workItem from="1504034013117" duration="633000" />
+      <workItem from="1504259019781" duration="691000" />
+      <workItem from="1504277830162" duration="1256000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="80336000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1378" height="744" extended-state="0" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2677761" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3420622" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2677761" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3420622" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/espace_particulier.php</url>
+          <line>12</line>
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/api_rest/user_manager.php</url>
+          <line>15</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/devis.php</url>
+          <line>594</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="3" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/api_rest/pdo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api_rest/template.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysql.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="3" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.htaccess">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="77" selection-start-line="20" selection-start-column="77" selection-end-line="20" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api_rest/user_manager.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1503855129414" expanded="true" signature="917:930" ph="select * fro... " />
+            <marker date="1503855129414" expanded="true" signature="917:931" ph="select * fro... ${ttre_client_part}" />
+            <marker date="1503855129414" expanded="true" signature="917:948" ph="select * fro... ttre_client_part" />
+            <marker date="1503855129414" expanded="true" signature="917:958" ph="select * fro... ${$table}" />
+            <marker date="1503855129414" expanded="true" signature="1925:2018" ph="select * fro... ttre_client_part" />
+            <marker date="1503855129414" expanded="true" signature="2110:2185" ph="select * fro... ttre_client_pro" />
+            <marker date="1503855129414" expanded="true" signature="8723:9215" ph="INSERT INTO `${$table}`... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/espace_particulier.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="153" selection-start-line="16" selection-start-column="153" selection-end-line="16" selection-end-column="165" />
+          <folding>
+            <marker date="1502903126611" expanded="true" signature="324:458" ph="SELECT * FRO... ttre_client_part" />
+            <marker date="1502903126611" expanded="true" signature="986:1057" ph="SELECT * FRO... ttre_client_part" />
+            <marker date="1502903126611" expanded="true" signature="1549:2657" ph="INSERT INTO ttre_client_part... " />
+            <marker date="1502903126611" expanded="true" signature="2706:3167" ph="INSERT INTO ttre_client_part_adresses... " />
+            <marker date="1502903126611" expanded="true" signature="3247:3322" ph="SELECT * FRO... ttre_partenaire_part" />
+            <marker date="1502903126611" expanded="true" signature="3374:3462" ph="INSERT INTO ttre_partenaire_part... " />
+            <marker date="1502903126611" expanded="true" signature="3512:3585" ph="DELETE FROM " />
+            <marker date="1502903126611" expanded="true" signature="4312:4381" ph="SELECT * FRO... ttre_villes_france" />
+            <marker date="1502903126611" expanded="true" signature="4810:4906" ph="UPDATE ttre_... " />
+            <marker date="1502903126611" expanded="true" signature="5327:5399" ph="SELECT * FRO... ttre_client_part" />
+            <marker date="1502903126611" expanded="true" signature="5879:7079" ph="UPDATE ttre_... " />
+            <marker date="1502903126611" expanded="true" signature="7159:7226" ph="SELECT * FRO... ttre_partenaire_part" />
+            <marker date="1502903126611" expanded="true" signature="7278:7358" ph="INSERT INTO ttre_partenaire_part... " />
+            <marker date="1502903126611" expanded="true" signature="7408:7473" ph="DELETE FROM " />
+            <marker date="1502903126611" expanded="true" signature="8120:8189" ph="SELECT * FRO... ttre_villes_france" />
+            <marker date="1502903126611" expanded="true" signature="8832:8909" ph="SELECT * FRO... ttre_client_part" />
+            <marker date="1502903126611" expanded="true" signature="9059:9163" ph="UPDATE ttre_... " />
+            <marker date="1502903126611" expanded="true" signature="9531:9972" ph="INSERT INTO ttre_client_part_adresses... " />
+            <marker date="1502903126611" expanded="true" signature="10175:10217" ph="SELECT * FRO... ttre_devis" />
+            <marker date="1502903126611" expanded="true" signature="10309:10774" ph="UPDATE ttre_... " />
+            <marker date="1502903126611" expanded="true" signature="10844:10920" ph="UPDATE ttre_... " />
+            <marker date="1502903126611" expanded="true" signature="10943:11384" ph="INSERT INTO ttre_client_part_adresses... " />
+            <marker date="1502903126611" expanded="true" signature="11548:11590" ph="SELECT * FRO... ttre_devis" />
+            <marker date="1502903126611" expanded="true" signature="11649:11696" ph="DELETE FROM " />
+            <marker date="1502903126611" expanded="true" signature="11733:11809" ph="UPDATE ttre_... " />
+            <marker date="1502903126611" expanded="true" signature="12105:12170" ph="SELECT * FRO... ttre_client_part" />
+            <marker date="1502903126611" expanded="true" signature="12674:12739" ph="DELETE FROM " />
+            <marker date="1502903126611" expanded="true" signature="12769:12909" ph="INSERT INTO ttre_client_part_generation_pass... " />
+            <marker date="1502903126611" expanded="true" signature="12941:14676" ph="..." />
+            <marker date="1502903126611" expanded="true" signature="12954:13088" ph="..." />
+            <marker date="1502903126611" expanded="false" signature="13116:13228" ph="..." />
+            <marker date="1502903126611" expanded="true" signature="13229:14662" ph="..." />
+            <marker date="1502903126611" expanded="false" signature="13263:13335" ph="..." />
+            <marker date="1502903126611" expanded="true" signature="13336:13434" ph="..." />
+            <marker date="1502903126611" expanded="false" signature="13472:13497" ph="..." />
+            <marker date="1502903126611" expanded="true" signature="13498:14421" ph="..." />
+            <marker date="1502903126611" expanded="false" signature="13519:13591" ph="..." />
+            <marker date="1502903126611" expanded="false" signature="13950:14024" ph="..." />
+            <marker date="1502903126611" expanded="true" signature="14025:14407" ph="..." />
+            <marker date="1502903126611" expanded="true" signature="14047:14378" ph="..." />
+            <marker date="1502903126611" expanded="false" signature="14462:14520" ph="..." />
+            <marker date="1502903126611" expanded="true" signature="14521:14648" ph="..." />
+            <marker date="1502903126611" expanded="false" signature="14552:14569" ph="..." />
+            <marker date="1502903126611" expanded="true" signature="14570:14623" ph="..." />
+            <marker date="1502903126611" expanded="true" signature="15257:15342" ph="SELECT * FRO... ttre_client_part_generation_pass" />
+            <marker date="1502903126611" expanded="true" signature="15526:15640" ph="UPDATE ttre_... " />
+            <marker date="1502903126611" expanded="true" signature="15906:15992" ph="UPDATE ttre_... " />
+            <marker date="1502903126611" expanded="true" signature="16173:16365" ph="INSERT INTO ttre_devis_cm... " />
+            <marker date="1502903126611" expanded="true" signature="18349:18414" ph="INSERT INTO ttre_devis_cm_photo... " />
+            <marker date="1502903126611" expanded="true" signature="18528:18562" ph="SELECT * FRO... ttre_devis" />
+            <marker date="1502903126611" expanded="true" signature="18612:18704" ph="SELECT * FRO... ttre_devis_client_pro" />
+            <marker date="1502903126611" expanded="true" signature="18733:18772" ph="SELECT * FRO... ttre_client_pro" />
+            <marker date="1502903126611" expanded="true" signature="18881:18916" ph="SELECT * FRO... ttre_email" />
+            <marker date="1502903126611" expanded="true" signature="18951:19760" ph="..." />
+            <marker date="1502903126611" expanded="true" signature="18966:19106" ph="..." />
+            <marker date="1502903126611" expanded="false" signature="19133:19242" ph="..." />
+            <marker date="1502903126611" expanded="true" signature="19243:19744" ph="..." />
+            <marker date="1502903126611" expanded="false" signature="19277:19317" ph="..." />
+            <marker date="1502903126611" expanded="true" signature="19318:19728" ph="..." />
+            <marker date="1502903126611" expanded="false" signature="19405:19477" ph="..." />
+            <marker date="1502903126611" expanded="false" signature="19576:19634" ph="..." />
+            <marker date="1502903126611" expanded="true" signature="19635:19712" ph="..." />
+            <marker date="1502903126611" expanded="false" signature="19658:19675" ph="..." />
+            <marker date="1502903126611" expanded="true" signature="20506:20593" ph="UPDATE ttre_... " />
+            <marker date="1502903126611" expanded="true" signature="20616:20714" ph="UPDATE ttre_... " />
+            <marker date="1502903126611" expanded="true" signature="20859:20945" ph="UPDATE ttre_... " />
+            <marker date="1502903126611" expanded="true" signature="20968:21058" ph="UPDATE ttre_... " />
+            <marker date="1502903126611" expanded="true" signature="21365:21457" ph="UPDATE ttre_... " />
+            <marker date="1502903126611" expanded="true" signature="21639:21837" ph="INSERT INTO ttre_achat_devis_cm... " />
+            <marker date="1502903126611" expanded="true" signature="23821:23892" ph="INSERT INTO ttre_achat_devis_cm_photo... " />
+            <marker date="1502903126611" expanded="true" signature="24006:24046" ph="SELECT * FRO... ttre_achat_devis" />
+            <marker date="1502903126611" expanded="true" signature="24096:24192" ph="SELECT * FRO... ttre_achat_devis_client_pro" />
+            <marker date="1502903126611" expanded="true" signature="24221:24260" ph="SELECT * FRO... ttre_client_pro" />
+            <marker date="1502903126611" expanded="true" signature="24369:24404" ph="SELECT * FRO... ttre_email" />
+            <marker date="1502903126611" expanded="true" signature="24439:25248" ph="..." />
+            <marker date="1502903126611" expanded="true" signature="24454:24594" ph="..." />
+            <marker date="1502903126611" expanded="false" signature="24621:24730" ph="..." />
+            <marker date="1502903126611" expanded="true" signature="24731:25232" ph="..." />
+            <marker date="1502903126611" expanded="false" signature="24765:24805" ph="..." />
+            <marker date="1502903126611" expanded="true" signature="24806:25216" ph="..." />
+            <marker date="1502903126611" expanded="false" signature="24893:24965" ph="..." />
+            <marker date="1502903126611" expanded="false" signature="25064:25122" ph="..." />
+            <marker date="1502903126611" expanded="true" signature="25123:25200" ph="..." />
+            <marker date="1502903126611" expanded="false" signature="25146:25163" ph="..." />
+            <marker date="1502903126611" expanded="true" signature="30116:30162" ph="SELECT * FRO... ttre_formulaire" />
+            <marker date="1502903126611" expanded="true" signature="42148:42187" ph="SELECT * FRO... ttre_mention" />
+            <marker date="1502903126611" expanded="true" signature="47902:47942" ph="SELECT * FRO... ttre_client_part" />
+            <marker date="1502903126611" expanded="true" signature="49252:49353" ph="SELECT * FRO... ttre_villes_france" />
+            <marker date="1502903126611" expanded="true" signature="49788:49853" ph="SELECT * FRO... ttre_partenaire_part" />
+            <marker date="1502903126611" expanded="true" signature="50394:50433" ph="SELECT * FRO... ttre_mention" />
+            <marker date="1502903126611" expanded="true" signature="59491:59556" ph="SELECT * FRO... ttre_client_part_adresses" />
+            <marker date="1502903126611" expanded="true" signature="59610:59711" ph="SELECT * FRO... ttre_villes_france" />
+            <marker date="1502903126611" expanded="true" signature="62650:62756" ph="SELECT * FRO... ttre_client_part_adresses" />
+            <marker date="1502903126611" expanded="true" signature="62890:63228" ph="..." />
+            <marker date="1502903126611" expanded="true" signature="62918:63216" ph="..." />
+            <marker date="1502903126611" expanded="true" signature="63302:63369" ph="SELECT * FRO... ttre_villes_france" />
+            <marker date="1502903126611" expanded="true" signature="63411:64174" ph="..." />
+            <marker date="1502903126611" expanded="true" signature="64713:64752" ph="..." />
+            <marker date="1502903126611" expanded="true" signature="66256:66290" ph="SELECT * FRO... ttre_devis" />
+            <marker date="1502903126611" expanded="true" signature="66340:66432" ph="SELECT * FRO... ttre_devis_client_pro" />
+            <marker date="1502903126611" expanded="true" signature="66590:67079" ph="..." />
+            <marker date="1502903126611" expanded="true" signature="66624:67079" ph="..." />
+            <marker date="1502903126611" expanded="true" signature="66652:67073" ph="..." />
+            <marker date="1502903126611" expanded="true" signature="66703:67061" ph="..." />
+            <marker date="1502903126611" expanded="true" signature="67107:67156" ph="SELECT * FRO... ttre_client_part_adresses" />
+            <marker date="1502903126611" expanded="true" signature="67460:67528" ph="SELECT * FRO... ttre_villes_france" />
+            <marker date="1502903126611" expanded="true" signature="67710:67981" ph="..." />
+            <marker date="1502903126611" expanded="true" signature="67756:67970" ph="..." />
+            <marker date="1502903126611" expanded="true" signature="68018:68057" ph="SELECT * FRO... ttre_client_pro" />
+            <marker date="1502903126611" expanded="true" signature="68120:68189" ph="SELECT * FRO... ttre_villes_france" />
+            <marker date="1502903126611" expanded="true" signature="68224:68264" ph="SELECT * FRO... ttre_client_part" />
+            <marker date="1502903126611" expanded="true" signature="68338:68926" ph="..." />
+            <marker date="1502903126611" expanded="true" signature="68401:68915" ph="..." />
+            <marker date="1502903126611" expanded="true" signature="68992:69240" ph="..." />
+            <marker date="1502903126611" expanded="true" signature="69062:69240" ph="..." />
+            <marker date="1502903126611" expanded="true" signature="69088:69234" ph="..." />
+            <marker date="1502903126611" expanded="true" signature="69281:69376" ph="SELECT * FRO... ttre_devis_details" />
+            <marker date="1502903126611" expanded="true" signature="69537:69592" ph="..." />
+            <marker date="1502903126611" expanded="true" signature="69762:70110" ph="..." />
+            <marker date="1502903126611" expanded="false" signature="69821:69840" ph="..." />
+            <marker date="1502903126611" expanded="true" signature="70147:70185" ph="SELECT * FRO... ttre_tva" />
+            <marker date="1502903126611" expanded="true" signature="70258:70370" ph="SELECT SUM(v... ttre_devis_details" />
+            <marker date="1502903126611" expanded="true" signature="70468:70648" ph="..." />
+            <marker date="1502903126611" expanded="true" signature="70703:70830" ph="..." />
+            <marker date="1502903126611" expanded="true" signature="70983:71075" ph="SELECT * FRO... ttre_devis_client_pro" />
+            <marker date="1502903126611" expanded="true" signature="71368:71403" ph="..." />
+            <marker date="1502903126611" expanded="true" signature="71539:71574" ph="..." />
+            <marker date="1502903126611" expanded="true" signature="71671:71705" ph="SELECT * FRO... ttre_devis" />
+            <marker date="1502903126611" expanded="true" signature="71755:71847" ph="SELECT * FRO... ttre_devis_client_pro" />
+            <marker date="1502903126611" expanded="true" signature="71878:71918" ph="SELECT * FRO... ttre_client_part" />
+            <marker date="1502903126611" expanded="true" signature="71969:72008" ph="SELECT * FRO... ttre_client_pro" />
+            <marker date="1502903126611" expanded="true" signature="72059:72140" ph="SELECT * FRO... ttre_devis_cm" />
+            <marker date="1502903126611" expanded="true" signature="72323:72369" ph="SELECT * FRO... ttre_devis_cm_photo" />
+            <marker date="1502903126611" expanded="true" signature="72878:73011" ph="..." />
+            <marker date="1502903126611" expanded="true" signature="73135:74875" ph="..." />
+            <marker date="1502903126611" expanded="true" signature="73160:74875" ph="..." />
+            <marker date="1502903126611" expanded="true" signature="73191:74875" ph="..." />
+            <marker date="1502903126611" expanded="true" signature="73281:74272" ph="..." />
+            <marker date="1502903126611" expanded="true" signature="73318:74257" ph="..." />
+            <marker date="1502903126611" expanded="true" signature="73341:73460" ph="..." />
+            <marker date="1502903126611" expanded="true" signature="73473:73484" ph="..." />
+            <marker date="1502903126611" expanded="true" signature="73505:74074" ph="..." />
+            <marker date="1502903126611" expanded="true" signature="73521:73856" ph="..." />
+            <marker date="1502903126611" expanded="true" signature="73538:73839" ph="..." />
+            <marker date="1502903126611" expanded="true" signature="73872:73940" ph="..." />
+            <marker date="1502903126611" expanded="true" signature="73956:74054" ph="..." />
+            <marker date="1502903126611" expanded="true" signature="74155:74240" ph="..." />
+            <marker date="1502903126611" expanded="true" signature="74375:74863" ph="..." />
+            <marker date="1502903126611" expanded="true" signature="74403:74848" ph="..." />
+            <marker date="1502903126611" expanded="true" signature="74455:74689" ph="..." />
+            <marker date="1502903126611" expanded="true" signature="74747:74833" ph="..." />
+            <marker date="1502903126611" expanded="true" signature="75008:75138" ph="..." />
+            <marker date="1502903126611" expanded="true" signature="75179:75207" ph="..." />
+            <marker date="1502903126611" expanded="true" signature="75270:75396" ph="SELECT * FRO... ttre_devis" />
+            <marker date="1502903126611" expanded="true" signature="75518:75702" ph="..." />
+            <marker date="1502903126611" expanded="true" signature="75545:75696" ph="..." />
+            <marker date="1502903126611" expanded="true" signature="75774:75808" ph="SELECT * FRO... ttre_devis" />
+            <marker date="1502903126611" expanded="true" signature="75854:75940" ph="SELECT * FRO... ttre_devis_client_pro" />
+            <marker date="1502903126611" expanded="true" signature="76043:76517" ph="..." />
+            <marker date="1502903126611" expanded="true" signature="76979:77071" ph="UPDATE ttre_... " />
+            <marker date="1502903126611" expanded="true" signature="77332:77372" ph="SELECT * FRO... ttre_achat_devis" />
+            <marker date="1502903126611" expanded="true" signature="77438:77814" ph="..." />
+            <marker date="1502903126611" expanded="true" signature="77460:77814" ph="..." />
+            <marker date="1502903126611" expanded="true" signature="77488:77814" ph="..." />
+            <marker date="1502903126611" expanded="true" signature="77522:77814" ph="..." />
+            <marker date="1502903126611" expanded="true" signature="77556:77802" ph="..." />
+            <marker date="1502903126611" expanded="true" signature="77607:77790" ph="..." />
+            <marker date="1502903126611" expanded="true" signature="77842:77891" ph="SELECT * FRO... ttre_client_part_adresses" />
+            <marker date="1502903126611" expanded="true" signature="78195:78263" ph="SELECT * FRO... ttre_villes_france" />
+            <marker date="1502903126611" expanded="true" signature="78454:78717" ph="..." />
+            <marker date="1502903126611" expanded="true" signature="78500:78706" ph="..." />
+            <marker date="1502903126611" expanded="true" signature="78825:78897" ph="..." />
+            <marker date="1502903126611" expanded="true" signature="78851:78891" ph="..." />
+            <marker date="1502903126611" expanded="true" signature="78938:79039" ph="SELECT * FRO... ttre_achat_devis_details" />
+            <marker date="1502903126611" expanded="true" signature="79200:79256" ph="..." />
+            <marker date="1502903126611" expanded="true" signature="79301:79376" ph="..." />
+            <marker date="1502903126611" expanded="false" signature="79321:79340" ph="..." />
+            <marker date="1502903126611" expanded="true" signature="79444:79458" ph="..." />
+            <marker date="1502903126611" expanded="true" signature="79478:79692" ph="..." />
+            <marker date="1502903126611" expanded="true" signature="79839:79899" ph="SELECT * FRO... ttre_achat_devis_fichier_suite" />
+            <marker date="1502903126611" expanded="true" signature="80227:80325" ph="SELECT * FRO... ttre_achat_devis_client_pro" />
+            <marker date="1502903126611" expanded="true" signature="80517:80663" ph="..." />
+            <marker date="1502903126611" expanded="true" signature="80545:80651" ph="..." />
+            <marker date="1502903126611" expanded="true" signature="80735:80774" ph="SELECT * FRO... ttre_client_pro" />
+            <marker date="1502903126611" expanded="true" signature="80832:81196" ph="..." />
+            <marker date="1502903126611" expanded="true" signature="81564:81592" ph="..." />
+            <marker date="1502903126611" expanded="true" signature="81655:81787" ph="SELECT * FRO... ttre_achat_devis" />
+            <marker date="1502903126611" expanded="true" signature="81909:82086" ph="..." />
+            <marker date="1502903126611" expanded="true" signature="81936:82080" ph="..." />
+            <marker date="1502903126611" expanded="true" signature="82158:82198" ph="SELECT * FRO... ttre_achat_devis" />
+            <marker date="1502903126611" expanded="true" signature="82243:82797" ph="..." />
+            <marker date="1502903126611" expanded="true" signature="83683:83723" ph="SELECT * FRO... ttre_achat_devis" />
+            <marker date="1502903126611" expanded="true" signature="83773:83869" ph="SELECT * FRO... ttre_achat_devis_client_pro" />
+            <marker date="1502903126611" expanded="true" signature="83921:84184" ph="..." />
+            <marker date="1502903126611" expanded="true" signature="83932:84178" ph="..." />
+            <marker date="1502903126611" expanded="true" signature="83983:84166" ph="..." />
+            <marker date="1502903126611" expanded="true" signature="84212:84261" ph="SELECT * FRO... ttre_client_part_adresses" />
+            <marker date="1502903126611" expanded="true" signature="84565:84633" ph="SELECT * FRO... ttre_villes_france" />
+            <marker date="1502903126611" expanded="true" signature="84789:85067" ph="..." />
+            <marker date="1502903126611" expanded="true" signature="84835:85056" ph="..." />
+            <marker date="1502903126611" expanded="true" signature="85104:85143" ph="SELECT * FRO... ttre_client_pro" />
+            <marker date="1502903126611" expanded="true" signature="85206:85275" ph="SELECT * FRO... ttre_villes_france" />
+            <marker date="1502903126611" expanded="true" signature="85310:85350" ph="SELECT * FRO... ttre_client_part" />
+            <marker date="1502903126611" expanded="true" signature="85407:86003" ph="..." />
+            <marker date="1502903126611" expanded="true" signature="85470:85992" ph="..." />
+            <marker date="1502903126611" expanded="true" signature="86100:86172" ph="..." />
+            <marker date="1502903126611" expanded="true" signature="86126:86166" ph="..." />
+            <marker date="1502903126611" expanded="true" signature="86213:86314" ph="SELECT * FRO... ttre_achat_devis_details" />
+            <marker date="1502903126611" expanded="false" signature="86483:86502" ph="..." />
+            <marker date="1502903126611" expanded="true" signature="86503:86558" ph="..." />
+            <marker date="1502903126611" expanded="true" signature="86603:86678" ph="..." />
+            <marker date="1502903126611" expanded="false" signature="86623:86642" ph="..." />
+            <marker date="1502903126611" expanded="true" signature="86847:86907" ph="SELECT * FRO... ttre_achat_devis_fichier_suite" />
+            <marker date="1502903126611" expanded="true" signature="87334:87369" ph="..." />
+            <marker date="1502903126611" expanded="true" signature="87446:87481" ph="..." />
+            <marker date="1502903126611" expanded="true" signature="87617:87652" ph="..." />
+            <marker date="1502903126611" expanded="true" signature="87749:87789" ph="SELECT * FRO... ttre_achat_devis" />
+            <marker date="1502903126611" expanded="true" signature="87839:87935" ph="SELECT * FRO... ttre_achat_devis_client_pro" />
+            <marker date="1502903126611" expanded="true" signature="87966:88006" ph="SELECT * FRO... ttre_client_part" />
+            <marker date="1502903126611" expanded="true" signature="88057:88096" ph="SELECT * FRO... ttre_client_pro" />
+            <marker date="1502903126611" expanded="true" signature="88147:88234" ph="SELECT * FRO... ttre_achat_devis_cm" />
+            <marker date="1502903126611" expanded="true" signature="88381:88433" ph="SELECT * FRO... ttre_achat_devis_cm_photo" />
+            <marker date="1502903126611" expanded="true" signature="88942:89075" ph="..." />
+            <marker date="1502903126611" expanded="true" signature="89200:91142" ph="..." />
+            <marker date="1502903126611" expanded="true" signature="89225:91128" ph="..." />
+            <marker date="1502903126611" expanded="true" signature="89256:91114" ph="..." />
+            <marker date="1502903126611" expanded="true" signature="89345:90480" ph="..." />
+            <marker date="1502903126611" expanded="true" signature="89385:90455" ph="..." />
+            <marker date="1502903126611" expanded="true" signature="89427:89586" ph="..." />
+            <marker date="1502903126611" expanded="true" signature="89599:89683" ph="..." />
+            <marker date="1502903126611" expanded="true" signature="89704:90273" ph="..." />
+            <marker date="1502903126611" expanded="true" signature="89721:90056" ph="..." />
+            <marker date="1502903126611" expanded="true" signature="89738:90039" ph="..." />
+            <marker date="1502903126611" expanded="true" signature="90072:90140" ph="..." />
+            <marker date="1502903126611" expanded="true" signature="90156:90254" ph="..." />
+            <marker date="1502903126611" expanded="true" signature="90354:90439" ph="..." />
+            <marker date="1502903126611" expanded="true" signature="90613:91100" ph="..." />
+            <marker date="1502903126611" expanded="true" signature="90641:91085" ph="..." />
+            <marker date="1502903126611" expanded="true" signature="90693:90926" ph="..." />
+            <marker date="1502903126611" expanded="true" signature="90984:91070" ph="..." />
+            <marker date="1502903126611" expanded="true" signature="91425:91453" ph="..." />
+            <marker date="1502903126611" expanded="true" signature="91516:91648" ph="SELECT * FRO... ttre_achat_devis" />
+            <marker date="1502903126611" expanded="true" signature="91770:91907" ph="..." />
+            <marker date="1502903126611" expanded="true" signature="91797:91901" ph="..." />
+            <marker date="1502903126611" expanded="true" signature="91979:92019" ph="SELECT * FRO... ttre_achat_devis" />
+            <marker date="1502903126611" expanded="true" signature="92065:92155" ph="SELECT * FRO... ttre_achat_devis_client_pro" />
+            <marker date="1502903126611" expanded="true" signature="92186:92545" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/espace_pro.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1445">
+          <caret line="85" column="60" selection-start-line="85" selection-start-column="45" selection-end-line="85" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api_rest/pdo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api_rest/template.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysql.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.htaccess">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="27" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysql.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.htaccess">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="27" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AjaxVerifChat.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inc/head.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="110" column="39" selection-start-line="110" selection-start-column="39" selection-end-line="110" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/session.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="377">
+          <caret line="108" column="6" selection-start-line="108" selection-start-column="6" selection-end-line="108" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ttre_adm/inc/head.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="74" column="2" selection-start-line="74" selection-start-column="2" selection-end-line="74" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inc/session.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1513">
+          <caret line="89" column="0" selection-start-line="89" selection-start-column="0" selection-end-line="89" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/espace_professionnel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="89" column="20" selection-start-line="89" selection-start-column="20" selection-end-line="89" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chat.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.htaccess">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="77" selection-start-line="20" selection-start-column="77" selection-end-line="20" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysql.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="3" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/com/jetbrains/php/lang/psi/stubs/data/standard_2.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="662" column="47" selection-start-line="662" selection-start-column="47" selection-end-line="662" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/espace_pro.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1384" column="101" selection-start-line="1384" selection-start-column="90" selection-end-line="1384" selection-end-column="101" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/v1/_NEW/ttre_adm/mysql.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="33" column="13" selection-start-line="33" selection-start-column="13" selection-end-line="34" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/espace_particulier.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-349">
+          <caret line="1459" column="42" selection-start-line="1459" selection-start-column="42" selection-end-line="1459" selection-end-column="42" />
+          <folding>
+            <marker date="1502903126611" expanded="true" signature="324:458" ph="SELECT * FRO... ttre_client_part" />
+            <marker date="1502903126611" expanded="true" signature="986:1057" ph="SELECT * FRO... ttre_client_part" />
+            <marker date="1502903126611" expanded="true" signature="1549:2657" ph="INSERT INTO ttre_client_part... " />
+            <marker date="1502903126611" expanded="true" signature="2706:3167" ph="INSERT INTO ttre_client_part_adresses... " />
+            <marker date="1502903126611" expanded="true" signature="3247:3322" ph="SELECT * FRO... ttre_partenaire_part" />
+            <marker date="1502903126611" expanded="true" signature="3374:3462" ph="INSERT INTO ttre_partenaire_part... " />
+            <marker date="1502903126611" expanded="true" signature="3512:3585" ph="DELETE FROM " />
+            <marker date="1502903126611" expanded="true" signature="4312:4381" ph="SELECT * FRO... ttre_villes_france" />
+            <marker date="1502903126611" expanded="true" signature="4810:4906" ph="UPDATE ttre_... " />
+            <marker date="1502903126611" expanded="true" signature="5327:5399" ph="SELECT * FRO... ttre_client_part" />
+            <marker date="1502903126611" expanded="true" signature="5879:7079" ph="UPDATE ttre_... " />
+            <marker date="1502903126611" expanded="true" signature="7159:7226" ph="SELECT * FRO... ttre_partenaire_part" />
+            <marker date="1502903126611" expanded="true" signature="7278:7358" ph="INSERT INTO ttre_partenaire_part... " />
+            <marker date="1502903126611" expanded="true" signature="7408:7473" ph="DELETE FROM " />
+            <marker date="1502903126611" expanded="true" signature="8120:8189" ph="SELECT * FRO... ttre_villes_france" />
+            <marker date="1502903126611" expanded="true" signature="8832:8909" ph="SELECT * FRO... ttre_client_part" />
+            <marker date="1502903126611" expanded="true" signature="9059:9163" ph="UPDATE ttre_... " />
+            <marker date="1502903126611" expanded="true" signature="9531:9972" ph="INSERT INTO ttre_client_part_adresses... " />
+            <marker date="1502903126611" expanded="true" signature="10175:10217" ph="SELECT * FRO... ttre_devis" />
+            <marker date="1502903126611" expanded="true" signature="10309:10774" ph="UPDATE ttre_... " />
+            <marker date="1502903126611" expanded="true" signature="10844:10920" ph="UPDATE ttre_... " />
+            <marker date="1502903126611" expanded="true" signature="10943:11384" ph="INSERT INTO ttre_client_part_adresses... " />
+            <marker date="1502903126611" expanded="true" signature="11548:11590" ph="SELECT * FRO... ttre_devis" />
+            <marker date="1502903126611" expanded="true" signature="11649:11696" ph="DELETE FROM " />
+            <marker date="1502903126611" expanded="true" signature="11733:11809" ph="UPDATE ttre_... " />
+            <marker date="1502903126611" expanded="true" signature="12105:12170" ph="SELECT * FRO... ttre_client_part" />
+            <marker date="1502903126611" expanded="true" signature="12674:12739" ph="DELETE FROM " />
+            <marker date="1502903126611" expanded="true" signature="12769:12909" ph="INSERT INTO ttre_client_part_generation_pass... " />
+            <marker date="1502903126611" expanded="true" signature="12941:14676" ph="..." />
+            <marker date="1502903126611" expanded="true" signature="12954:13088" ph="..." />
+            <marker date="1502903126611" expanded="false" signature="13116:13228" ph="..." />
+            <marker date="1502903126611" expanded="true" signature="13229:14662" ph="..." />
+            <marker date="1502903126611" expanded="false" signature="13263:13335" ph="..." />
+            <marker date="1502903126611" expanded="true" signature="13336:13434" ph="..." />
+            <marker date="1502903126611" expanded="false" signature="13472:13497" ph="..." />
+            <marker date="1502903126611" expanded="true" signature="13498:14421" ph="..." />
+            <marker date="1502903126611" expanded="false" signature="13519:13591" ph="..." />
+            <marker date="1502903126611" expanded="false" signature="13950:14024" ph="..." />
+            <marker date="1502903126611" expanded="true" signature="14025:14407" ph="..." />
+            <marker date="1502903126611" expanded="true" signature="14047:14378" ph="..." />
+            <marker date="1502903126611" expanded="false" signature="14462:14520" ph="..." />
+            <marker date="1502903126611" expanded="true" signature="14521:14648" ph="..." />
+            <marker date="1502903126611" expanded="false" signature="14552:14569" ph="..." />
+            <marker date="1502903126611" expanded="true" signature="14570:14623" ph="..." />
+            <marker date="1502903126611" expanded="true" signature="15257:15342" ph="SELECT * FRO... ttre_client_part_generation_pass" />
+            <marker date="1502903126611" expanded="true" signature="15526:15640" ph="UPDATE ttre_... " />
+            <marker date="1502903126611" expanded="true" signature="15906:15992" ph="UPDATE ttre_... " />
+            <marker date="1502903126611" expanded="true" signature="16173:16365" ph="INSERT INTO ttre_devis_cm... " />
+            <marker date="1502903126611" expanded="true" signature="18349:18414" ph="INSERT INTO ttre_devis_cm_photo... " />
+            <marker date="1502903126611" expanded="true" signature="18528:18562" ph="SELECT * FRO... ttre_devis" />
+            <marker date="1502903126611" expanded="true" signature="18612:18704" ph="SELECT * FRO... ttre_devis_client_pro" />
+            <marker date="1502903126611" expanded="true" signature="18733:18772" ph="SELECT * FRO... ttre_client_pro" />
+            <marker date="1502903126611" expanded="true" signature="18881:18916" ph="SELECT * FRO... ttre_email" />
+            <marker date="1502903126611" expanded="true" signature="18951:19760" ph="..." />
+            <marker date="1502903126611" expanded="true" signature="18966:19106" ph="..." />
+            <marker date="1502903126611" expanded="false" signature="19133:19242" ph="..." />
+            <marker date="1502903126611" expanded="true" signature="19243:19744" ph="..." />
+            <marker date="1502903126611" expanded="false" signature="19277:19317" ph="..." />
+            <marker date="1502903126611" expanded="true" signature="19318:19728" ph="..." />
+            <marker date="1502903126611" expanded="false" signature="19405:19477" ph="..." />
+            <marker date="1502903126611" expanded="false" signature="19576:19634" ph="..." />
+            <marker date="1502903126611" expanded="true" signature="19635:19712" ph="..." />
+            <marker date="1502903126611" expanded="false" signature="19658:19675" ph="..." />
+            <marker date="1502903126611" expanded="true" signature="20506:20593" ph="UPDATE ttre_... " />
+            <marker date="1502903126611" expanded="true" signature="20616:20714" ph="UPDATE ttre_... " />
+            <marker date="1502903126611" expanded="true" signature="20859:20945" ph="UPDATE ttre_... " />
+            <marker date="1502903126611" expanded="true" signature="20968:21058" ph="UPDATE ttre_... " />
+            <marker date="1502903126611" expanded="true" signature="21365:21457" ph="UPDATE ttre_... " />
+            <marker date="1502903126611" expanded="true" signature="21639:21837" ph="INSERT INTO ttre_achat_devis_cm... " />
+            <marker date="1502903126611" expanded="true" signature="23821:23892" ph="INSERT INTO ttre_achat_devis_cm_photo... " />
+            <marker date="1502903126611" expanded="true" signature="24006:24046" ph="SELECT * FRO... ttre_achat_devis" />
+            <marker date="1502903126611" expanded="true" signature="24096:24192" ph="SELECT * FRO... ttre_achat_devis_client_pro" />
+            <marker date="1502903126611" expanded="true" signature="24221:24260" ph="SELECT * FRO... ttre_client_pro" />
+            <marker date="1502903126611" expanded="true" signature="24369:24404" ph="SELECT * FRO... ttre_email" />
+            <marker date="1502903126611" expanded="true" signature="24439:25248" ph="..." />
+            <marker date="1502903126611" expanded="true" signature="24454:24594" ph="..." />
+            <marker date="1502903126611" expanded="false" signature="24621:24730" ph="..." />
+            <marker date="1502903126611" expanded="true" signature="24731:25232" ph="..." />
+            <marker date="1502903126611" expanded="false" signature="24765:24805" ph="..." />
+            <marker date="1502903126611" expanded="true" signature="24806:25216" ph="..." />
+            <marker date="1502903126611" expanded="false" signature="24893:24965" ph="..." />
+            <marker date="1502903126611" expanded="false" signature="25064:25122" ph="..." />
+            <marker date="1502903126611" expanded="true" signature="25123:25200" ph="..." />
+            <marker date="1502903126611" expanded="false" signature="25146:25163" ph="..." />
+            <marker date="1502903126611" expanded="true" signature="30116:30162" ph="SELECT * FRO... ttre_formulaire" />
+            <marker date="1502903126611" expanded="true" signature="42148:42187" ph="SELECT * FRO... ttre_mention" />
+            <marker date="1502903126611" expanded="true" signature="47902:47942" ph="SELECT * FRO... ttre_client_part" />
+            <marker date="1502903126611" expanded="true" signature="49252:49353" ph="SELECT * FRO... ttre_villes_france" />
+            <marker date="1502903126611" expanded="true" signature="49788:49853" ph="SELECT * FRO... ttre_partenaire_part" />
+            <marker date="1502903126611" expanded="true" signature="50394:50433" ph="SELECT * FRO... ttre_mention" />
+            <marker date="1502903126611" expanded="true" signature="59491:59556" ph="SELECT * FRO... ttre_client_part_adresses" />
+            <marker date="1502903126611" expanded="true" signature="59610:59711" ph="SELECT * FRO... ttre_villes_france" />
+            <marker date="1502903126611" expanded="true" signature="62650:62756" ph="SELECT * FRO... ttre_client_part_adresses" />
+            <marker date="1502903126611" expanded="true" signature="62890:63228" ph="..." />
+            <marker date="1502903126611" expanded="true" signature="62918:63216" ph="..." />
+            <marker date="1502903126611" expanded="true" signature="63302:63369" ph="SELECT * FRO... ttre_villes_france" />
+            <marker date="1502903126611" expanded="true" signature="63411:64174" ph="..." />
+            <marker date="1502903126611" expanded="true" signature="64713:64752" ph="..." />
+            <marker date="1502903126611" expanded="true" signature="66256:66290" ph="SELECT * FRO... ttre_devis" />
+            <marker date="1502903126611" expanded="true" signature="66340:66432" ph="SELECT * FRO... ttre_devis_client_pro" />
+            <marker date="1502903126611" expanded="true" signature="66590:67079" ph="..." />
+            <marker date="1502903126611" expanded="true" signature="66624:67079" ph="..." />
+            <marker date="1502903126611" expanded="true" signature="66652:67073" ph="..." />
+            <marker date="1502903126611" expanded="true" signature="66703:67061" ph="..." />
+            <marker date="1502903126611" expanded="true" signature="67107:67156" ph="SELECT * FRO... ttre_client_part_adresses" />
+            <marker date="1502903126611" expanded="true" signature="67460:67528" ph="SELECT * FRO... ttre_villes_france" />
+            <marker date="1502903126611" expanded="true" signature="67710:67981" ph="..." />
+            <marker date="1502903126611" expanded="true" signature="67756:67970" ph="..." />
+            <marker date="1502903126611" expanded="true" signature="68018:68057" ph="SELECT * FRO... ttre_client_pro" />
+            <marker date="1502903126611" expanded="true" signature="68120:68189" ph="SELECT * FRO... ttre_villes_france" />
+            <marker date="1502903126611" expanded="true" signature="68224:68264" ph="SELECT * FRO... ttre_client_part" />
+            <marker date="1502903126611" expanded="true" signature="68338:68926" ph="..." />
+            <marker date="1502903126611" expanded="true" signature="68401:68915" ph="..." />
+            <marker date="1502903126611" expanded="true" signature="68992:69240" ph="..." />
+            <marker date="1502903126611" expanded="true" signature="69062:69240" ph="..." />
+            <marker date="1502903126611" expanded="true" signature="69088:69234" ph="..." />
+            <marker date="1502903126611" expanded="true" signature="69281:69376" ph="SELECT * FRO... ttre_devis_details" />
+            <marker date="1502903126611" expanded="true" signature="69537:69592" ph="..." />
+            <marker date="1502903126611" expanded="true" signature="69762:70110" ph="..." />
+            <marker date="1502903126611" expanded="false" signature="69821:69840" ph="..." />
+            <marker date="1502903126611" expanded="true" signature="70147:70185" ph="SELECT * FRO... ttre_tva" />
+            <marker date="1502903126611" expanded="true" signature="70258:70370" ph="SELECT SUM(v... ttre_devis_details" />
+            <marker date="1502903126611" expanded="true" signature="70468:70648" ph="..." />
+            <marker date="1502903126611" expanded="true" signature="70703:70830" ph="..." />
+            <marker date="1502903126611" expanded="true" signature="70983:71075" ph="SELECT * FRO... ttre_devis_client_pro" />
+            <marker date="1502903126611" expanded="true" signature="71368:71403" ph="..." />
+            <marker date="1502903126611" expanded="true" signature="71539:71574" ph="..." />
+            <marker date="1502903126611" expanded="true" signature="71671:71705" ph="SELECT * FRO... ttre_devis" />
+            <marker date="1502903126611" expanded="true" signature="71755:71847" ph="SELECT * FRO... ttre_devis_client_pro" />
+            <marker date="1502903126611" expanded="true" signature="71878:71918" ph="SELECT * FRO... ttre_client_part" />
+            <marker date="1502903126611" expanded="true" signature="71969:72008" ph="SELECT * FRO... ttre_client_pro" />
+            <marker date="1502903126611" expanded="true" signature="72059:72140" ph="SELECT * FRO... ttre_devis_cm" />
+            <marker date="1502903126611" expanded="true" signature="72323:72369" ph="SELECT * FRO... ttre_devis_cm_photo" />
+            <marker date="1502903126611" expanded="true" signature="72878:73011" ph="..." />
+            <marker date="1502903126611" expanded="true" signature="73135:74875" ph="..." />
+            <marker date="1502903126611" expanded="true" signature="73160:74875" ph="..." />
+            <marker date="1502903126611" expanded="true" signature="73191:74875" ph="..." />
+            <marker date="1502903126611" expanded="true" signature="73281:74272" ph="..." />
+            <marker date="1502903126611" expanded="true" signature="73318:74257" ph="..." />
+            <marker date="1502903126611" expanded="true" signature="73341:73460" ph="..." />
+            <marker date="1502903126611" expanded="true" signature="73473:73484" ph="..." />
+            <marker date="1502903126611" expanded="true" signature="73505:74074" ph="..." />
+            <marker date="1502903126611" expanded="true" signature="73521:73856" ph="..." />
+            <marker date="1502903126611" expanded="true" signature="73538:73839" ph="..." />
+            <marker date="1502903126611" expanded="true" signature="73872:73940" ph="..." />
+            <marker date="1502903126611" expanded="true" signature="73956:74054" ph="..." />
+            <marker date="1502903126611" expanded="true" signature="74155:74240" ph="..." />
+            <marker date="1502903126611" expanded="true" signature="74375:74863" ph="..." />
+            <marker date="1502903126611" expanded="true" signature="74403:74848" ph="..." />
+            <marker date="1502903126611" expanded="true" signature="74455:74689" ph="..." />
+            <marker date="1502903126611" expanded="true" signature="74747:74833" ph="..." />
+            <marker date="1502903126611" expanded="true" signature="75008:75138" ph="..." />
+            <marker date="1502903126611" expanded="true" signature="75179:75207" ph="..." />
+            <marker date="1502903126611" expanded="true" signature="75270:75396" ph="SELECT * FRO... ttre_devis" />
+            <marker date="1502903126611" expanded="true" signature="75518:75702" ph="..." />
+            <marker date="1502903126611" expanded="true" signature="75545:75696" ph="..." />
+            <marker date="1502903126611" expanded="true" signature="75774:75808" ph="SELECT * FRO... ttre_devis" />
+            <marker date="1502903126611" expanded="true" signature="75854:75940" ph="SELECT * FRO... ttre_devis_client_pro" />
+            <marker date="1502903126611" expanded="true" signature="76043:76517" ph="..." />
+            <marker date="1502903126611" expanded="true" signature="76979:77071" ph="UPDATE ttre_... " />
+            <marker date="1502903126611" expanded="true" signature="77332:77372" ph="SELECT * FRO... ttre_achat_devis" />
+            <marker date="1502903126611" expanded="true" signature="77438:77814" ph="..." />
+            <marker date="1502903126611" expanded="true" signature="77460:77814" ph="..." />
+            <marker date="1502903126611" expanded="true" signature="77488:77814" ph="..." />
+            <marker date="1502903126611" expanded="true" signature="77522:77814" ph="..." />
+            <marker date="1502903126611" expanded="true" signature="77556:77802" ph="..." />
+            <marker date="1502903126611" expanded="true" signature="77607:77790" ph="..." />
+            <marker date="1502903126611" expanded="true" signature="77842:77891" ph="SELECT * FRO... ttre_client_part_adresses" />
+            <marker date="1502903126611" expanded="true" signature="78195:78263" ph="SELECT * FRO... ttre_villes_france" />
+            <marker date="1502903126611" expanded="true" signature="78454:78717" ph="..." />
+            <marker date="1502903126611" expanded="true" signature="78500:78706" ph="..." />
+            <marker date="1502903126611" expanded="true" signature="78825:78897" ph="..." />
+            <marker date="1502903126611" expanded="true" signature="78851:78891" ph="..." />
+            <marker date="1502903126611" expanded="true" signature="78938:79039" ph="SELECT * FRO... ttre_achat_devis_details" />
+            <marker date="1502903126611" expanded="true" signature="79200:79256" ph="..." />
+            <marker date="1502903126611" expanded="true" signature="79301:79376" ph="..." />
+            <marker date="1502903126611" expanded="false" signature="79321:79340" ph="..." />
+            <marker date="1502903126611" expanded="true" signature="79444:79458" ph="..." />
+            <marker date="1502903126611" expanded="true" signature="79478:79692" ph="..." />
+            <marker date="1502903126611" expanded="true" signature="79839:79899" ph="SELECT * FRO... ttre_achat_devis_fichier_suite" />
+            <marker date="1502903126611" expanded="true" signature="80227:80325" ph="SELECT * FRO... ttre_achat_devis_client_pro" />
+            <marker date="1502903126611" expanded="true" signature="80517:80663" ph="..." />
+            <marker date="1502903126611" expanded="true" signature="80545:80651" ph="..." />
+            <marker date="1502903126611" expanded="true" signature="80735:80774" ph="SELECT * FRO... ttre_client_pro" />
+            <marker date="1502903126611" expanded="true" signature="80832:81196" ph="..." />
+            <marker date="1502903126611" expanded="true" signature="81564:81592" ph="..." />
+            <marker date="1502903126611" expanded="true" signature="81655:81787" ph="SELECT * FRO... ttre_achat_devis" />
+            <marker date="1502903126611" expanded="true" signature="81909:82086" ph="..." />
+            <marker date="1502903126611" expanded="true" signature="81936:82080" ph="..." />
+            <marker date="1502903126611" expanded="true" signature="82158:82198" ph="SELECT * FRO... ttre_achat_devis" />
+            <marker date="1502903126611" expanded="true" signature="82243:82797" ph="..." />
+            <marker date="1502903126611" expanded="true" signature="83683:83723" ph="SELECT * FRO... ttre_achat_devis" />
+            <marker date="1502903126611" expanded="true" signature="83773:83869" ph="SELECT * FRO... ttre_achat_devis_client_pro" />
+            <marker date="1502903126611" expanded="true" signature="83921:84184" ph="..." />
+            <marker date="1502903126611" expanded="true" signature="83932:84178" ph="..." />
+            <marker date="1502903126611" expanded="true" signature="83983:84166" ph="..." />
+            <marker date="1502903126611" expanded="true" signature="84212:84261" ph="SELECT * FRO... ttre_client_part_adresses" />
+            <marker date="1502903126611" expanded="true" signature="84565:84633" ph="SELECT * FRO... ttre_villes_france" />
+            <marker date="1502903126611" expanded="true" signature="84789:85067" ph="..." />
+            <marker date="1502903126611" expanded="true" signature="84835:85056" ph="..." />
+            <marker date="1502903126611" expanded="true" signature="85104:85143" ph="SELECT * FRO... ttre_client_pro" />
+            <marker date="1502903126611" expanded="true" signature="85206:85275" ph="SELECT * FRO... ttre_villes_france" />
+            <marker date="1502903126611" expanded="true" signature="85310:85350" ph="SELECT * FRO... ttre_client_part" />
+            <marker date="1502903126611" expanded="true" signature="85407:86003" ph="..." />
+            <marker date="1502903126611" expanded="true" signature="85470:85992" ph="..." />
+            <marker date="1502903126611" expanded="true" signature="86100:86172" ph="..." />
+            <marker date="1502903126611" expanded="true" signature="86126:86166" ph="..." />
+            <marker date="1502903126611" expanded="true" signature="86213:86314" ph="SELECT * FRO... ttre_achat_devis_details" />
+            <marker date="1502903126611" expanded="false" signature="86483:86502" ph="..." />
+            <marker date="1502903126611" expanded="true" signature="86503:86558" ph="..." />
+            <marker date="1502903126611" expanded="true" signature="86603:86678" ph="..." />
+            <marker date="1502903126611" expanded="false" signature="86623:86642" ph="..." />
+            <marker date="1502903126611" expanded="true" signature="86847:86907" ph="SELECT * FRO... ttre_achat_devis_fichier_suite" />
+            <marker date="1502903126611" expanded="true" signature="87334:87369" ph="..." />
+            <marker date="1502903126611" expanded="true" signature="87446:87481" ph="..." />
+            <marker date="1502903126611" expanded="true" signature="87617:87652" ph="..." />
+            <marker date="1502903126611" expanded="true" signature="87749:87789" ph="SELECT * FRO... ttre_achat_devis" />
+            <marker date="1502903126611" expanded="true" signature="87839:87935" ph="SELECT * FRO... ttre_achat_devis_client_pro" />
+            <marker date="1502903126611" expanded="true" signature="87966:88006" ph="SELECT * FRO... ttre_client_part" />
+            <marker date="1502903126611" expanded="true" signature="88057:88096" ph="SELECT * FRO... ttre_client_pro" />
+            <marker date="1502903126611" expanded="true" signature="88147:88234" ph="SELECT * FRO... ttre_achat_devis_cm" />
+            <marker date="1502903126611" expanded="true" signature="88381:88433" ph="SELECT * FRO... ttre_achat_devis_cm_photo" />
+            <marker date="1502903126611" expanded="true" signature="88942:89075" ph="..." />
+            <marker date="1502903126611" expanded="true" signature="89200:91142" ph="..." />
+            <marker date="1502903126611" expanded="true" signature="89225:91128" ph="..." />
+            <marker date="1502903126611" expanded="true" signature="89256:91114" ph="..." />
+            <marker date="1502903126611" expanded="true" signature="89345:90480" ph="..." />
+            <marker date="1502903126611" expanded="true" signature="89385:90455" ph="..." />
+            <marker date="1502903126611" expanded="true" signature="89427:89586" ph="..." />
+            <marker date="1502903126611" expanded="true" signature="89599:89683" ph="..." />
+            <marker date="1502903126611" expanded="true" signature="89704:90273" ph="..." />
+            <marker date="1502903126611" expanded="true" signature="89721:90056" ph="..." />
+            <marker date="1502903126611" expanded="true" signature="89738:90039" ph="..." />
+            <marker date="1502903126611" expanded="true" signature="90072:90140" ph="..." />
+            <marker date="1502903126611" expanded="true" signature="90156:90254" ph="..." />
+            <marker date="1502903126611" expanded="true" signature="90354:90439" ph="..." />
+            <marker date="1502903126611" expanded="true" signature="90613:91100" ph="..." />
+            <marker date="1502903126611" expanded="true" signature="90641:91085" ph="..." />
+            <marker date="1502903126611" expanded="true" signature="90693:90926" ph="..." />
+            <marker date="1502903126611" expanded="true" signature="90984:91070" ph="..." />
+            <marker date="1502903126611" expanded="true" signature="91425:91453" ph="..." />
+            <marker date="1502903126611" expanded="true" signature="91516:91648" ph="SELECT * FRO... ttre_achat_devis" />
+            <marker date="1502903126611" expanded="true" signature="91770:91907" ph="..." />
+            <marker date="1502903126611" expanded="true" signature="91797:91901" ph="..." />
+            <marker date="1502903126611" expanded="true" signature="91979:92019" ph="SELECT * FRO... ttre_achat_devis" />
+            <marker date="1502903126611" expanded="true" signature="92065:92155" ph="SELECT * FRO... ttre_achat_devis_client_pro" />
+            <marker date="1502903126611" expanded="true" signature="92186:92545" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/devis/1.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/devis/2.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/devis/3.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/devis/4.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/devis/5.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/devis/6.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/10.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/9.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/8.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/6.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/5.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/3.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/1.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/2.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/upload/logosCateg/50X30/xhauffage_tousrenov.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/upload/logosCateg/50X30/9.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api_rest/template.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api_rest/pdo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="161" selection-start-line="11" selection-start-column="161" selection-end-line="11" selection-end-column="161" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/devis.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="292" column="32" selection-start-line="292" selection-start-column="32" selection-end-line="292" selection-end-column="32" />
+          <folding>
+            <marker date="1503224336578" expanded="true" signature="10581:11418" ph="INSERT INTO ttre_client_part... " />
+            <marker date="1503224336578" expanded="true" signature="11931:12035" ph="SELECT * FRO... ttre_client_part_adresses" />
+            <marker date="1503224336578" expanded="true" signature="12227:12344" ph="SELECT min(i... " />
+            <marker date="1503224336578" expanded="true" signature="12583:13024" ph="INSERT INTO ttre_client_part_adresses... " />
+            <marker date="1503224336578" expanded="true" signature="13123:13423" ph="INSERT INTO ttre_achat_devis... " />
+            <marker date="1503224336578" expanded="true" signature="13687:13726" ph="SELECT * FRO... ttre_categories" />
+            <marker date="1503224336578" expanded="true" signature="13856:14113" ph="INSERT INTO ttre_achat_devis_details... " />
+            <marker date="1503224336578" expanded="true" signature="14151:14191" ph="SELECT * FRO... ttre_client_part" />
+            <marker date="1503224336578" expanded="true" signature="14264:15219" ph="..." />
+            <marker date="1503224336578" expanded="true" signature="14279:14414" ph="..." />
+            <marker date="1503224336578" expanded="true" signature="14448:14557" ph="..." />
+            <marker date="1503224336578" expanded="true" signature="14558:15203" ph="..." />
+            <marker date="1503224336578" expanded="true" signature="14592:14632" ph="..." />
+            <marker date="1503224336578" expanded="true" signature="14633:15187" ph="..." />
+            <marker date="1503224336578" expanded="true" signature="14727:14799" ph="..." />
+            <marker date="1503224336578" expanded="true" signature="15035:15093" ph="..." />
+            <marker date="1503224336578" expanded="true" signature="15094:15171" ph="..." />
+            <marker date="1503224336578" expanded="true" signature="15117:15134" ph="..." />
+            <marker date="1503224336578" expanded="true" signature="15783:16224" ph="INSERT INTO ttre_client_part_adresses... " />
+            <marker date="1503224336578" expanded="true" signature="16468:16510" ph="SELECT * FRO... ttre_devis" />
+            <marker date="1503224336578" expanded="true" signature="16602:17067" ph="UPDATE ttre_... " />
+            <marker date="1503224336578" expanded="true" signature="17137:17213" ph="UPDATE ttre_... " />
+            <marker date="1503224336578" expanded="true" signature="17236:17677" ph="INSERT INTO ttre_client_part_adresses... " />
+            <marker date="1503224336578" expanded="true" signature="18410:18793" ph="INSERT INTO ttre_achat_devis... " />
+            <marker date="1503224336578" expanded="true" signature="19244:19328" ph="INSERT INTO ttre_achat_devis_fichier_suite... " />
+            <marker date="1503224336578" expanded="true" signature="19559:19598" ph="SELECT * FRO... ttre_categories" />
+            <marker date="1503224336578" expanded="true" signature="19719:19976" ph="INSERT INTO ttre_achat_devis_details... " />
+            <marker date="1503224336578" expanded="true" signature="20008:20048" ph="SELECT * FRO... ttre_client_part" />
+            <marker date="1503224336578" expanded="true" signature="20115:21094" ph="..." />
+            <marker date="1503224336578" expanded="true" signature="20127:20253" ph="..." />
+            <marker date="1503224336578" expanded="true" signature="20288:20397" ph="..." />
+            <marker date="1503224336578" expanded="true" signature="20398:21081" ph="..." />
+            <marker date="1503224336578" expanded="true" signature="20429:20469" ph="..." />
+            <marker date="1503224336578" expanded="true" signature="20470:21068" ph="..." />
+            <marker date="1503224336578" expanded="true" signature="20578:20650" ph="..." />
+            <marker date="1503224336578" expanded="true" signature="20914:20972" ph="..." />
+            <marker date="1503224336578" expanded="true" signature="20973:21055" ph="..." />
+            <marker date="1503224336578" expanded="true" signature="20993:21010" ph="..." />
+            <marker date="1503224336578" expanded="true" signature="22389:22435" ph="SELECT * FRO... ttre_formulaire" />
+            <marker date="1503224336578" expanded="true" signature="23371:23434" ph="SELECT * FRO... ttre_categories" />
+            <marker date="1503224336578" expanded="true" signature="24136:24175" ph="SELECT * FRO... ttre_categories" />
+            <marker date="1503224336578" expanded="true" signature="24727:25648" ph="..." />
+            <marker date="1503224336578" expanded="true" signature="24856:25638" ph="..." />
+            <marker date="1503224336578" expanded="true" signature="24898:25626" ph="..." />
+            <marker date="1503224336578" expanded="true" signature="24953:25172" ph="..." />
+            <marker date="1503224336578" expanded="true" signature="25228:25605" ph="..." />
+            <marker date="1503224336578" expanded="true" signature="38892:41544" ph="..." />
+            <marker date="1503224336578" expanded="true" signature="39034:41538" ph="..." />
+            <marker date="1503224336578" expanded="true" signature="39066:41529" ph="..." />
+            <marker date="1503224336578" expanded="true" signature="39092:41514" ph="..." />
+            <marker date="1503224336578" expanded="true" signature="39125:41499" ph="..." />
+            <marker date="1503224336578" expanded="true" signature="39185:41484" ph="..." />
+            <marker date="1503224336578" expanded="true" signature="39270:39588" ph="..." />
+            <marker date="1503224336578" expanded="true" signature="41285:41384" ph="..." />
+            <marker date="1503224336578" expanded="true" signature="42077:42469" ph="..." />
+            <marker date="1503224336578" expanded="true" signature="42118:42457" ph="..." />
+            <marker date="1503224336578" expanded="true" signature="42153:42444" ph="..." />
+            <marker date="1503224336578" expanded="true" signature="42520:43250" ph="..." />
+            <marker date="1503224336578" expanded="true" signature="42550:43239" ph="..." />
+            <marker date="1503224336578" expanded="true" signature="42723:43220" ph="..." />
+            <marker date="1503224336578" expanded="true" signature="42761:43206" ph="..." />
+            <marker date="1503224336578" expanded="true" signature="43161:43171" ph="..." />
+            <marker date="1503224336578" expanded="true" signature="43277:43766" ph="..." />
+            <marker date="1503224336578" expanded="true" signature="43307:43755" ph="..." />
+            <marker date="1503224336578" expanded="true" signature="43404:43743" ph="..." />
+            <marker date="1503224336578" expanded="true" signature="43805:44135" ph="..." />
+            <marker date="1503224336578" expanded="true" signature="43835:44124" ph="..." />
+            <marker date="1503224336578" expanded="true" signature="43932:44112" ph="..." />
+            <marker date="1503224336578" expanded="true" signature="44314:45953" ph="..." />
+            <marker date="1503224336578" expanded="true" signature="44437:45939" ph="..." />
+            <marker date="1503224336578" expanded="true" signature="44469:45923" ph="..." />
+            <marker date="1503224336578" expanded="true" signature="44496:45908" ph="..." />
+            <marker date="1503224336578" expanded="true" signature="44530:45892" ph="..." />
+            <marker date="1503224336578" expanded="true" signature="44573:45875" ph="..." />
+            <marker date="1503224336578" expanded="true" signature="44661:44810" ph="..." />
+            <marker date="1503224336578" expanded="true" signature="44827:44995" ph="..." />
+            <marker date="1503224336578" expanded="true" signature="45012:45170" ph="..." />
+            <marker date="1503224336578" expanded="true" signature="45187:45363" ph="..." />
+            <marker date="1503224336578" expanded="true" signature="45380:45511" ph="..." />
+            <marker date="1503224336578" expanded="true" signature="45528:45692" ph="..." />
+            <marker date="1503224336578" expanded="true" signature="45752:45857" ph="..." />
+            <marker date="1503224336578" expanded="true" signature="47926:47991" ph="SELECT * FRO... ttre_client_part_adresses" />
+            <marker date="1503224336578" expanded="true" signature="48045:48146" ph="SELECT * FRO... ttre_villes_france" />
+            <marker date="1503224336578" expanded="true" signature="50626:50963" ph="..." />
+            <marker date="1503224336578" expanded="true" signature="50654:50952" ph="..." />
+            <marker date="1503224336578" expanded="true" signature="50990:51094" ph="SELECT * FRO... ttre_client_part_adresses" />
+            <marker date="1503224336578" expanded="true" signature="51176:51243" ph="SELECT * FRO... ttre_villes_france" />
+            <marker date="1503224336578" expanded="true" signature="51279:51992" ph="..." />
+            <marker date="1503224336578" expanded="true" signature="52086:52258" ph="..." />
+            <marker date="1503224336578" expanded="true" signature="52335:52384" ph="SELECT * FRO... ttre_client_part_adresses" />
+            <marker date="1503224336578" expanded="true" signature="52695:52763" ph="SELECT * FRO... ttre_villes_france" />
+            <marker date="1503224336578" expanded="true" signature="52962:53391" ph="..." />
+            <marker date="1503224336578" expanded="true" signature="52973:53376" ph="..." />
+            <marker date="1503224336578" expanded="true" signature="53021:53356" ph="..." />
+            <marker date="1503224336578" expanded="true" signature="53445:53637" ph="..." />
+            <marker date="1503224336578" expanded="true" signature="53814:54259" ph="..." />
+            <marker date="1503224336578" expanded="true" signature="53855:54247" ph="..." />
+            <marker date="1503224336578" expanded="true" signature="53890:54234" ph="..." />
+            <marker date="1503224336578" expanded="true" signature="54305:54336" ph="..." />
+            <marker date="1503224336578" expanded="true" signature="54450:54499" ph="SELECT * FRO... ttre_client_part_adresses" />
+            <marker date="1503224336578" expanded="true" signature="54805:54873" ph="SELECT * FRO... ttre_villes_france" />
+            <marker date="1503224336578" expanded="true" signature="55067:55484" ph="..." />
+            <marker date="1503224336578" expanded="true" signature="55077:55470" ph="..." />
+            <marker date="1503224336578" expanded="true" signature="55123:55451" ph="..." />
+            <marker date="1503224336578" expanded="true" signature="55814:55856" ph="SELECT * FRO... ttre_categories" />
+            <marker date="1503224336578" expanded="true" signature="56004:56023" ph="..." />
+            <marker date="1503224336578" expanded="true" signature="56024:56079" ph="..." />
+            <marker date="1503224336578" expanded="true" signature="56280:57985" ph="..." />
+            <marker date="1503224336578" expanded="true" signature="56350:56464" ph="..." />
+            <marker date="1503224336578" expanded="true" signature="56376:56430" ph="..." />
+            <marker date="1503224336578" expanded="true" signature="56604:57973" ph="..." />
+            <marker date="1503224336578" expanded="true" signature="56626:57601" ph="..." />
+            <marker date="1503224336578" expanded="true" signature="56682:56806" ph="..." />
+            <marker date="1503224336578" expanded="true" signature="56817:56941" ph="..." />
+            <marker date="1503224336578" expanded="true" signature="56952:57076" ph="..." />
+            <marker date="1503224336578" expanded="true" signature="57087:57211" ph="..." />
+            <marker date="1503224336578" expanded="true" signature="57222:57346" ph="..." />
+            <marker date="1503224336578" expanded="true" signature="57357:57583" ph="..." />
+            <marker date="1503224336578" expanded="true" signature="57636:57960" ph="..." />
+            <marker date="1503224336578" expanded="true" signature="58157:58651" ph="..." />
+            <marker date="1503224336578" expanded="true" signature="58197:58640" ph="..." />
+            <marker date="1503224336578" expanded="true" signature="58231:58628" ph="..." />
+            <marker date="1503224336578" expanded="true" signature="58701:58730" ph="..." />
+            <marker date="1503224336578" expanded="true" signature="59250:59292" ph="SELECT * FRO... ttre_categories" />
+            <marker date="1503224336578" expanded="true" signature="59430:59449" ph="..." />
+            <marker date="1503224336578" expanded="true" signature="59450:59501" ph="..." />
+            <marker date="1503224336578" expanded="true" signature="60173:60472" ph="..." />
+            <marker date="1503224336578" expanded="true" signature="60211:60463" ph="..." />
+            <marker date="1503224336578" expanded="true" signature="60243:60453" ph="..." />
+            <marker date="1503224336578" expanded="true" signature="60512:61085" ph="..." />
+            <marker date="1503224336578" expanded="true" signature="60577:61076" ph="..." />
+            <marker date="1503224336578" expanded="true" signature="60650:60769" ph="..." />
+            <marker date="1503224336578" expanded="true" signature="60674:60739" ph="..." />
+            <marker date="1503224336578" expanded="true" signature="60796:61066" ph="..." />
+            <marker date="1503224336578" expanded="true" signature="61623:61651" ph="SELECT * FRO... ttre_diaporama" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api_rest/category_quote_manager.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="918">
+          <caret line="54" column="0" selection-start-line="38" selection-start-column="3" selection-end-line="54" selection-end-column="0" />
+          <folding>
+            <marker date="1503765571870" expanded="true" signature="607:661" ph="select * fro... ttre_categories" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api_rest/devis_achat_manager.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" column="10" selection-start-line="29" selection-start-column="10" selection-end-line="29" selection-end-column="84" />
+          <folding>
+            <marker date="1503858530364" expanded="true" signature="688:839" ph="SELECT id as... ttre_achat_devis" />
+            <marker date="1503858530364" expanded="true" signature="1140:1185" ph="SELECT * FRO... ttre_achat_devis" />
+            <marker date="1503858530364" expanded="true" signature="1451:1574" ph="SELECT * FRO... ttre_client_pro_commandes_contenu" />
+            <marker date="1503858530364" expanded="true" signature="1451:1600" ph="SELECT * FRO... ttre_client_pro_commandes_contenu" />
+            <marker date="1503858530364" expanded="true" signature="1451:1601" ph="SELECT * FRO... ttre_achat_devis" />
+            <marker date="1503858530364" expanded="true" signature="3082:3141" ph="SELECT * FRO... ttre_achat_devis_details" />
+            <marker date="1503858530364" expanded="true" signature="3583:3637" ph="SELECT * FRO... ttre_client_part_adresses" />
+            <marker date="1503858530364" expanded="true" signature="4121:4174" ph="SELECT * FRO... ttre_villes_france" />
+            <marker date="1503858530364" expanded="true" signature="4620:4667" ph="select * fro... ttre_achat_devis" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api_rest/user_manager.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="35" column="77" selection-start-line="35" selection-start-column="77" selection-end-line="35" selection-end-column="92" />
+          <folding>
+            <marker date="1503855129414" expanded="true" signature="917:930" ph="select * fro... " />
+            <marker date="1503855129414" expanded="true" signature="917:931" ph="select * fro... ${ttre_client_part}" />
+            <marker date="1503855129414" expanded="true" signature="917:948" ph="select * fro... ttre_client_part" />
+            <marker date="1503855129414" expanded="true" signature="917:958" ph="select * fro... ${$table}" />
+            <marker date="1503855129414" expanded="true" signature="1925:2018" ph="select * fro... ttre_client_part" />
+            <marker date="1503855129414" expanded="true" signature="2110:2185" ph="select * fro... ttre_client_pro" />
+            <marker date="1503855129414" expanded="true" signature="8723:9215" ph="INSERT INTO `${$table}`... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/recherche.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5185">
+          <caret line="305" column="89" selection-start-line="305" selection-start-column="89" selection-end-line="305" selection-end-column="89" />
+          <folding>
+            <marker date="1503827036470" expanded="true" signature="840:886" ph="SELECT * FRO... ttre_formulaire" />
+            <marker date="1503827036470" expanded="true" signature="3809:3843" ph="SELECT * FRO... ttre_devis" />
+            <marker date="1503827036470" expanded="true" signature="4022:4305" ph="..." />
+            <marker date="1503827036470" expanded="true" signature="4035:4297" ph="..." />
+            <marker date="1503827036470" expanded="true" signature="4090:4283" ph="..." />
+            <marker date="1503827036470" expanded="true" signature="4330:4379" ph="SELECT * FRO... ttre_client_part_adresses" />
+            <marker date="1503827036470" expanded="true" signature="4668:4736" ph="SELECT * FRO... ttre_villes_france" />
+            <marker date="1503827036470" expanded="true" signature="4885:5036" ph="..." />
+            <marker date="1503827036470" expanded="true" signature="4935:5023" ph="..." />
+            <marker date="1503827036470" expanded="true" signature="5134:5330" ph="..." />
+            <marker date="1503827036470" expanded="true" signature="5162:5322" ph="..." />
+            <marker date="1503827036470" expanded="true" signature="5365:5460" ph="SELECT * FRO... ttre_devis_details" />
+            <marker date="1503827036470" expanded="true" signature="5613:5632" ph="..." />
+            <marker date="1503827036470" expanded="true" signature="5633:5692" ph="..." />
+            <marker date="1503827036470" expanded="true" signature="5857:6201" ph="..." />
+            <marker date="1503827036470" expanded="true" signature="5920:5939" ph="..." />
+            <marker date="1503827036470" expanded="true" signature="6234:6272" ph="SELECT * FRO... ttre_tva" />
+            <marker date="1503827036470" expanded="true" signature="6336:6448" ph="SELECT SUM(v... ttre_devis_details" />
+            <marker date="1503827036470" expanded="true" signature="6542:6728" ph="..." />
+            <marker date="1503827036470" expanded="true" signature="6781:6914" ph="..." />
+            <marker date="1503827036470" expanded="true" signature="7011:7026" ph="..." />
+            <marker date="1503827036470" expanded="true" signature="7407:7439" ph="..." />
+            <marker date="1503827036470" expanded="true" signature="7556:7596" ph="SELECT * FRO... ttre_achat_devis" />
+            <marker date="1503827036470" expanded="true" signature="7671:7954" ph="..." />
+            <marker date="1503827036470" expanded="true" signature="7684:7946" ph="..." />
+            <marker date="1503827036470" expanded="true" signature="7739:7932" ph="..." />
+            <marker date="1503827036470" expanded="true" signature="7979:8028" ph="SELECT * FRO... ttre_client_part_adresses" />
+            <marker date="1503827036470" expanded="true" signature="8317:8385" ph="SELECT * FRO... ttre_villes_france" />
+            <marker date="1503827036470" expanded="true" signature="8534:8685" ph="..." />
+            <marker date="1503827036470" expanded="true" signature="8584:8672" ph="..." />
+            <marker date="1503827036470" expanded="true" signature="8783:8863" ph="..." />
+            <marker date="1503827036470" expanded="true" signature="8811:8855" ph="..." />
+            <marker date="1503827036470" expanded="true" signature="8910:9011" ph="SELECT * FRO... ttre_achat_devis_details" />
+            <marker date="1503827036470" expanded="true" signature="9164:9183" ph="..." />
+            <marker date="1503827036470" expanded="true" signature="9184:9243" ph="..." />
+            <marker date="1503827036470" expanded="true" signature="9286:9365" ph="..." />
+            <marker date="1503827036470" expanded="true" signature="9308:9327" ph="..." />
+            <marker date="1503827036470" expanded="true" signature="9440:9500" ph="SELECT * FRO... ttre_achat_devis_fichier_suite" />
+            <marker date="1503827036470" expanded="true" signature="10199:10232" ph="..." />
+            <marker date="1503827036470" expanded="true" signature="10814:10846" ph="..." />
+            <marker date="1503827036470" expanded="true" signature="15024:15128" ph="SELECT id as... ttre_achat_devis" />
+            <marker date="1503827036470" expanded="true" signature="15188:15445" ph="SELECT * FRO... ttre_achat_devis" />
+            <marker date="1503827036470" expanded="true" signature="15516:15854" ph="SELECT D.id ttre_achat_devis" />
+            <marker date="1503827036470" expanded="true" signature="15927:16190" ph="SELECT D.id ttre_achat_devis" />
+            <marker date="1503827036470" expanded="true" signature="16263:16688" ph="SELECT * FRO... ttre_achat_devis" />
+            <marker date="1503827036470" expanded="true" signature="16759:17107" ph="SELECT * FRO... ttre_achat_devis" />
+            <marker date="1503827036470" expanded="true" signature="17199:17239" ph="SELECT * FRO... ttre_achat_devis" />
+            <marker date="1503827036470" expanded="true" signature="17280:17440" ph="SELECT * FRO... ttre_client_pro_commandes_contenu" />
+            <marker date="1503827036470" expanded="true" signature="17537:17591" ph="SELECT * FRO... ttre_achat_devis_details" />
+            <marker date="1503827036470" expanded="true" signature="17715:17755" ph="SELECT * FRO... ttre_achat_devis" />
+            <marker date="1503827036470" expanded="true" signature="17804:17853" ph="SELECT * FRO... ttre_client_part_adresses" />
+            <marker date="1503827036470" expanded="true" signature="17952:18020" ph="SELECT * FRO... ttre_villes_france" />
+            <marker date="1503827036470" expanded="true" signature="18260:18318" ph="..." />
+            <marker date="1503827036470" expanded="true" signature="18319:18741" ph="..." />
+            <marker date="1503827036470" expanded="true" signature="18349:18729" ph="..." />
+            <marker date="1503827036470" expanded="true" signature="18374:18716" ph="..." />
+            <marker date="1503827036470" expanded="true" signature="18423:18710" ph="..." />
+            <marker date="1503827036470" expanded="true" signature="18846:18909" ph="SELECT * FRO... ttre_categories" />
+            <marker date="1503827036470" expanded="true" signature="19381:19447" ph="SELECT * FRO... ttre_departement_france" />
+            <marker date="1503827036470" expanded="true" signature="20552:21290" ph="..." />
+            <marker date="1503827036470" expanded="true" signature="20580:21280" ph="..." />
+            <marker date="1503827036470" expanded="true" signature="20602:21270" ph="..." />
+            <marker date="1503827036470" expanded="true" signature="20631:21259" ph="..." />
+            <marker date="1503827036470" expanded="true" signature="20668:21247" ph="..." />
+            <marker date="1503827036470" expanded="true" signature="20750:20846" ph="..." />
+            <marker date="1503827036470" expanded="true" signature="20857:20950" ph="..." />
+            <marker date="1503827036470" expanded="true" signature="20961:21097" ph="..." />
+            <marker date="1503827036470" expanded="true" signature="21058:21093" ph="..." />
+            <marker date="1503827036470" expanded="true" signature="21144:21234" ph="..." />
+            <marker date="1503827036470" expanded="true" signature="21442:21546" ph="SELECT id as... ttre_achat_devis" />
+            <marker date="1503827036470" expanded="true" signature="21663:21703" ph="SELECT * FRO... ttre_achat_devis" />
+            <marker date="1503827036470" expanded="true" signature="21744:21902" ph="SELECT * FRO... ttre_client_pro_commandes_contenu" />
+            <marker date="1503827036470" expanded="true" signature="22000:22054" ph="SELECT * FRO... ttre_achat_devis_details" />
+            <marker date="1503827036470" expanded="true" signature="22178:22218" ph="SELECT * FRO... ttre_achat_devis" />
+            <marker date="1503827036470" expanded="true" signature="22267:22316" ph="SELECT * FRO... ttre_client_part_adresses" />
+            <marker date="1503827036470" expanded="true" signature="22415:22483" ph="SELECT * FRO... ttre_villes_france" />
+            <marker date="1503827036470" expanded="true" signature="22724:22782" ph="..." />
+            <marker date="1503827036470" expanded="true" signature="22783:23205" ph="..." />
+            <marker date="1503827036470" expanded="true" signature="22813:23193" ph="..." />
+            <marker date="1503827036470" expanded="true" signature="22838:23180" ph="..." />
+            <marker date="1503827036470" expanded="true" signature="22887:23174" ph="..." />
+            <marker date="1503827036470" expanded="true" signature="25130:25158" ph="SELECT * FRO... ttre_diaporama" />
+            <marker date="1503827036470" expanded="true" signature="25806:25845" ph="SELECT * FRO... ttre_conseil" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api_rest/adresse_manager.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="2" selection-start-line="0" selection-start-column="5" selection-end-line="1" selection-end-column="2" />
+          <folding>
+            <marker date="1503163109992" expanded="true" signature="775:840" ph="select * fro... ${$table}" />
+            <marker date="1503163109992" expanded="true" signature="1545:1768" ph="INSERT INTO `vols`... " />
+            <marker date="1503163109992" expanded="true" signature="2719:2959" ph="UPDATE `ttre... " />
+            <marker date="1503163109992" expanded="true" signature="3839:3895" ph="DELETE FROM " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

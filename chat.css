@@ -1,0 +1,128 @@
+
+
+
+.chat {
+    width: 500px;
+}
+.chat .chat-conversation{
+    border:1px solid #BBB;
+    padding:8px 18px;
+    height: 440px;
+    width: 500px;
+    overflow: auto;
+}
+
+.chat .chat-input{
+    border:1px solid #BBB;
+    padding:8px 5px;
+    height: 60px;
+    margin-top:10px;
+}
+
+.chat .chat-input input{
+    width:100%;
+}
+
+.chat .chat-input input[type="text"]{
+    height:42px;
+    border-top:0;
+    border-bottom:0;
+    border-left: 0;
+    border-right: 1px solid #E2E2E2;
+    padding:2px 10px;
+}
+
+.chat .chat-input form>div{
+    padding:0 5px;
+}
+
+.chat .chat-conversation p{
+    margin-bottom: 5px;
+}
+
+.chat .chat-conversation .header {
+    /*border-bottom:1px solid #BBB;*/
+}
+
+.chat .chat-conversation .line {
+    position:relative;
+    lien-height:16px;
+    margin:35px 0;
+}
+
+.chat .chat-conversation .line .message {
+    padding:10px;
+}
+
+.chat .chat-conversation .client .message {
+    background:#6BB9F0;
+    border-radius:6px 6px 0 6px;
+    float:left;
+    margin-right:80px;
+}
+
+.chat .chat-conversation .client .photo {
+    right:0px;
+}
+
+.chat .chat-conversation .client .time {
+    margin-right:80px;
+    text-align:right;
+}
+
+.chat .chat-conversation .cons .message {
+    background:#EEE;
+    border-radius:6px 6px 6px 0;
+    float:right;
+    margin-left:80px;
+}
+
+.chat .chat-conversation .cons .photo {
+    left:0px;
+}
+
+.chat .chat-conversation .cons .time {
+    margin-left:80px;
+}
+.chat .chat-conversation .photo{
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    background-repeat: no-repeat;
+    /*box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+    -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+    -moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);*/
+    background-position:center;
+    background-size: cover;
+    position:absolute;
+    bottom:20px;
+}
+
+.chat .chat-conversation .message {
+    color:#000;
+}
+
+.chat .time>span{
+    font-size:14px;
+}
+
+.chat .chat-input input[type="button"] {
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: 0;
+}
+
+.chat .icon-plane{
+    /*background-image:url('../images/send-message.png');*/
+    background-image:url('https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRQyZaUnLpxIS5hbOEDoZMIkF_oSGEYIGGTT56jKmaVRC9UxF1Q');
+    margin-top:5px;
+}
+/
+#chatbox
+{
+    height:440px;
+    overflow:auto; 
+}

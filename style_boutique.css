@@ -1,0 +1,233 @@
+
+/***** Styles personnalisables *****/
+
+div#espace_compte a { /* Couleur des liens */ color:#000; text-decoration:underline; }	
+div#espace_compte a:hover { /* Couleur des liens au survol */ text-decoration:none; }	
+
+div#espace_compte form fieldset { /* Conteneur du formulaire */ padding:0 20px; padding-bottom:10px; border:1px solid #333; float: right;}
+div#espace_compte form legend { /* Titres dans les formulaires */ font-size:105%; padding:0 5px; margin-left:-5px; font-weight:bold;color:#000; }
+
+div#espace_compte ul#compte_details_com li h4 { /* Détails commande couleur du trait de séparation */ border-bottom: 0; font-size: 28px; text-transform: uppercase; font-weight: bold;}
+
+	/* Boutons fashions */
+
+div#espace_compte .boutons_persos_1 { 
+	padding: 15px 20px !important;
+	background: #00acf0;
+	border: 2px solid #00acf0 !important;
+	color: #fff;
+	font-weight: 900;
+	text-transform: uppercase;
+	border-radius: 2px;
+	float: right;
+	text-decoration: none;
+	letter-spacing: 1px;
+	transition: all .30s linear; }	
+div#espace_compte .boutons_persos_1:hover {
+	border-color: #00acf0;
+	color: #00acf0;
+	background: none; }	
+	
+	/* Fil d'ariane des commandes */
+
+div#espace_compte ul#compte_ariane_cmd li.ariane_cmd_fil { /* Couleur du trait */ border-bottom:1px solid #999 !important; }
+div#espace_compte ul#compte_ariane_cmd li { /* Etapes en mode "repos" */ -moz-border-radius:2px; -webkit-border-radius:2px; border-radius:2px; /* <= Arrondi */ background:#333; margin-left:3px; padding:10px 20px;; border:none; color:#fff; font-size:95%; }
+div#espace_compte ul#compte_ariane_cmd li.done { /* Etape passée */ background:#666; color:#fff; }
+div#espace_compte ul#compte_ariane_cmd li.done a { /* Lien étapes déjà passées */ color:#fff; text-decoration: none; }
+div#espace_compte ul#compte_ariane_cmd li.courant { /* Etape "courante" */ font-weight:bold; border-color:#000; color:#fff; background:#00acf0; }
+div#espace_compte ul#compte_ariane_cmd li.courant a { /* Lien étape en cours */ color:#fff; text-decoration: none; }
+	
+	/* Panier */
+
+div#espace_compte td.prix_final { /* Montant total à payer */ font-weight:bold; font-size:105% !important; }
+div#espace_compte p#panier_boutons input {
+	padding: 15px 20px !important;
+	background: #00acf0;
+	border: 2px solid #00acf0 !important;
+	color: #fff;
+	font-weight: 900;
+	text-transform: uppercase;
+	border-radius: 2px;
+	float: right;
+	transition: all .30s linear;
+}
+div#espace_compte p#panier_boutons input:hover{
+	border-color: #00acf0;
+	color: #00acf0;
+	background: none;
+}
+
+
+
+	/* Styles des tableaux */
+
+div#espace_compte table.tpl_table_defaut td { /* Couleur des bordures du tableau */ border-bottom: 1px solid #333; }
+div#espace_compte table.tpl_table_defaut td input { /* Couleur des bordures du tableau */ border-radius: 2px; border: 1px solid #d4d4d4; text-align: center;}
+div#espace_compte table.tpl_table_defaut tr.entete { /* Couleurs dans l'entete du tableau */ background:#333; color:#fff; }
+	/* Tableau de bord */
+
+div#espace_compte ul#tableau_bord li dl dt { /* Couleur trait de séparation */ border-bottom:0; }
+
+/***** 
+
+		/!\	/!\	/!\	/!\	/!\	/!\	/!\	/!\	/!\	/!\	/!\	/!\	/!\	/!\	/!\	/!\	/!\	/!\	
+		/!\	MODIFIEZ LES BOUTS DE CODE CI-DESSOUS A VOS RISQUES ET PERILS ! /!\	
+		/!\	/!\	/!\	/!\	/!\	/!\	/!\	/!\	/!\	/!\	/!\	/!\	/!\	/!\	/!\	/!\	/!\	/!\	
+		
+		Reset *****/
+	
+div#espace_compte div, div#espace_compte span, div#espace_compte p, 
+div#espace_compte a, div#espace_compte img, div#espace_compte strong, 
+div#espace_compte dl, div#espace_compte dt, div#espace_compte dd, div#espace_compte ol, div#espace_compte ul, div#espace_compte li,
+div#espace_compte fieldset, div#espace_compte form, div#espace_compte label, div#espace_compte legend, 
+div#espace_compte table, div#espace_compte tr, div#espace_compte td { font-family: 'Open sans', sans-serif; border:1; margin:0; padding:0; list-style:none; outline:none; font-size:100%;}
+
+/* Ancient Reset
+div#espace_compte *,
+div#espace_compte { border:0; margin:0; padding:0; list-style:none; outline:none; } */
+
+div#espace_compte { /*margin:0 0 0 50px;*/ text-align:left; font-family:Verdana; overflow:hidden; line-height:1.3em; font-size:12px; color:#333; width: 100%;/*margin-left:15px;*/}
+
+div#espace_compte input, 
+textarea, 
+select {padding:5px 10px !important; vertical-align:middle; }
+
+div#espace_compte input[type=submit],
+input[type=button] { cursor:pointer; padding: 5px 10px !important; color: #fff; background:#00acf0; border-radius: 2px; border: none !important; text-transform: uppercase; }
+select option { padding-right:5px !important; }
+	
+div#espace_compte .padding_top_5 { padding-top:5px; }
+div#espace_compte .padding_tb_20 { padding:20px 0; }
+div#espace_compte .padding_bottom_20 { padding-bottom:20px; }
+div#espace_compte .margin_top_20 { margin-top:20px; }
+div#espace_compte .align_center { text-align:center; }
+div#espace_compte .align_left { text-align:left; }
+
+div#espace_compte .overflow_hidden { overflow:hidden; }
+div#espace_compte .float_left { float:left; }
+div#espace_compte .float_right { float:right; }
+div#espace_compte .note { color:red; font-size:90%; }
+
+/***** Formulaires *****/
+
+/***** Tableaux *****/
+
+div#espace_compte table.tpl_table_defaut { font-size:105%;  background: #f8f8f8; border: 2px solid #ffffff; text-align:left; position:relative; left:1px; border-collapse:collapse; width:99%; font-size:95%; }
+div#espace_compte table.tpl_table_defaut td { height:50px;padding:3px 5px 3px 10px; border-left: 2px solid #ffffff; border-bottom: 2px solid #ffffff;}
+div#espace_compte table.tpl_table_defaut td img { vertical-align:middle; }
+div#espace_compte table.tpl_table_defaut td.width_60 { width:60px;  }
+div#espace_compte table.tpl_table_defaut td.photo img { max-width:50px; max-height:50px; }
+div#espace_compte table.tpl_table_defaut td.width_80 { width:80px; }
+div#espace_compte table.tpl_table_defaut td.width_40 { width:40px; }
+div#espace_compte table.tpl_table_defaut td.width_20 { width:20px; text-align: center; }
+div#espace_compte table.tpl_table_defaut tr.entete { height:40px;  background: #1e1e1e; border-left: 2px solid #fff; }
+div#espace_compte table.tpl_table_defaut tr.total td { border:2px solid #fff; }
+div#espace_compte table.tpl_table_defaut tr.total td[colspan] { font-size:105%; text-align:right; padding-right: 10px;}
+div#espace_compte table.tpl_table_defaut td.mnt-total{ text-align: right; padding-right: 10px;}
+div#espace_compte table.tpl_table_defaut tr.entete td { border-right:2px solid #fff; padding:3px 5px 3px 10px; font-size:11px; font-weight:bold; color:#fff; text-transform: uppercase; }
+
+/***** Fil d'ariane *****/
+
+div#espace_compte p#compte_ariane { font-size:95%; padding-bottom:30px; }
+
+/***** Fil d'ariane commandes *****/
+
+div#espace_compte div.conteneur_ariane_cmd { text-align:center; padding-bottom:20px; }
+div#espace_compte ul#compte_ariane_cmd { position:relative; display:inline-block; }
+div#espace_compte ul#compte_ariane_cmd li.ariane_cmd_fil { z-index:1; display:block; margin:0; padding:0; position:absolute; top:50%; left:0; border:none; width:100%; }
+div#espace_compte ul#compte_ariane_cmd li { position:relative; z-index:2; display:inline-block; text-align:center; }
+div#espace_compte ul#compte_ariane_cmd li:first-child { margin-left:0; }
+
+/***** Tableau de bord *****/
+
+div#espace_compte ul#tableau_bord { overflow:hidden; }
+div#espace_compte ul#tableau_bord li {  float:left; padding: 20px; margin-left: 70px; }
+div#espace_compte ul#tableau_bord li dl { padding-right:0px; }
+div#espace_compte ul#tableau_bord li.droite dl { padding-left:0px; padding-right:0; }
+div#espace_compte ul#tableau_bord li dl dt { height:;; padding-left:0px; padding-bottom:5px; margin-bottom:5px;color:#333; font-size: 14px }
+div#espace_compte ul#tableau_bord li dl dd { font-size:95%; }
+div#espace_compte ul#tableau_bord li dl dd.description { overflow:hidden; height:45px; text-align: justify; }
+div#espace_compte ul#tableau_bord li dl dd.lien { padding-top: 0px; text-align:right; }
+
+/***** Détails de la commande *****/
+
+
+div#espace_compte ul#compte_details_com { margin-bottom: 30px; overflow:hidden; padding-bottom: 0px; width: 100%; height: auto;}
+div#espace_compte ul#compte_details_com li { height: auto; display: inline-block; padding: 10px;}
+div#espace_compte ul#compte_details_com ul{ margin: 0; padding: 0;}
+div#espace_compte ul#compte_details_com li h4 { margin-bottom:10px; font-size:100%; /* Correctif IE7*/ }
+div#espace_compte ul#compte_details_com li dl { padding:0; font-size:95%; }
+div#espace_compte ul#compte_details_com li dl dt { font-weight:bold; }
+
+div#espace_compte ul#compte_details_com.livraison li dl { padding-left:0; }
+div#espace_compte ul#compte_details_com.livraison li:first-child { width:49.9%; }
+div#espace_compte ul#compte_details_com.livraison li:first-child dl dt { float:none; margin-right:0; }
+div#espace_compte ul#compte_details_com li:first-child {margin: 0;}
+div#espace_compte ul#compte_details_com li:last-child {text-align: right;}
+div#espace_compte ul#compte_details_com .centeral { text-align: center;}
+div#espace_compte ul#compte_details_com li:first-child dl { padding-left:0; }
+div#espace_compte ul#compte_details_com li:first-child dl dt { float:left; margin-right:5px; }
+
+
+/***** Panier *****/
+
+div#espace_compte input.panier_qte { width:30px; text-align:center; font-size:95%; 	border-radius: 2px; border: 1px solid #d4d4d4; }
+div#espace_compte p#panier_boutons span.panier_actions { float:left; }
+div#espace_compte p#panier_boutons span.panier_actions a { margin:0 5px; padding:5px 0; padding-left:22px; }
+div#espace_compte p#panier_boutons span.panier_actions a.panier_modifier { background:transparent url(stockage_img/cart_edit.png) no-repeat left center; }
+div#espace_compte p#panier_boutons span.panier_actions a.panier_vider { background:transparent url(stockage_img/delete.png) no-repeat left center;color: #000000; }
+div#espace_compte p#panier_boutons span.panier_actions a.panier_enregistrer { background:transparent url(stockage_img/disk.png) no-repeat left center; }
+div#espace_compte p#panier_boutons span.droit_actions { float:left; }
+div#espace_compte p#panier_boutons span.droit_actions a { margin:0 5px; padding:5px 0; padding-left:22px; }
+div#espace_compte p#panier_boutons span.droit_actions a.panier_modifier { background:transparent url(stockage_img/user.png) no-repeat left center; }
+div#espace_compte p#panier_boutons { padding:20px 0; text-align:right; overflow:hidden; }
+/***** Page authentification *****/
+
+div#espace_compte ul#compte_authentification { overflow:hidden; }
+div#espace_compte ul#compte_authentification li { border:1px solid #333; width:48%; float:right; }
+div#espace_compte ul#compte_authentification li.compte_inscription div { font-size:95%; }
+div#espace_compte ul#compte_authentification li:first-child { float:left; color: rgb(0, 0, 0); }
+div#espace_compte ul#compte_authentification li p.titre { padding:5px 10px; background:#333; color:#FFFFFF; }
+div#espace_compte ul#compte_authentification .boutons_persos_1 { position:absolute; bottom:10px; left:10px; }
+div#espace_compte ul#compte_authentification li div { position:relative; padding:5px 10px; height:90px; padding-bottom:90px; background:#fff; color: rgb(0, 0, 0);}
+
+#style_paypal
+{
+	border:none;
+	width:213px;
+	height:37px;
+	background-image:url(img/img_paypal.gif);	
+}
+
+
+
+
+/***** Page paiement *****/
+
+.payment_module {
+    display: block;margin:0 0 10px;
+}
+.payment_module a {
+    border: 1px solid #595A5E;
+    display: block;
+    padding: 0.6em;
+    text-decoration: none;
+}
+.payment_module img {
+    margin-right: 1em;
+    vertical-align: middle;
+}
+.payment_module a:hover, .payment_module a:focus, .payment_module a:active {
+    background-color: #E5E6E7;
+    border: 1px solid #000;
+    color: #374853;
+}
+.bold {
+    font-weight: bold;
+}
+.price, .price-shipping, .price-wrapping {
+    color: #DA0F00;
+    font-size: 1.1em;
+    font-weight: bold;
+    white-space: nowrap;
+}

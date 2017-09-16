@@ -1,0 +1,48 @@
++++++status autre : mayzidech le flous au admin ajout
+
+-newsletter : le client peut repondre sur la newsletter directement "demandes@tousrenov.fr"
+
++++++atribuer -> attribuer
+ Projet abondonné -> Projet abandonné
+ Pas de traveaux -> Pas de travaux
+ Déjà trouvé un artisan -> Déjà trouver un artisan
+ autre twali derniere fi choix
+
++++++user zone ne peut pas modifier le compte de client pro 
+ ajout commentaire s'il y a des modifs
+
++++++devis a attribuer - liste de client pro : affichage tous la liste de client pro 
+        et ajouter une loupe pour le detail de client pro 
+	reactiver le devis 
+
++++++ajout client pro
+
+-fichier exel par achat imediat et ajouter par l'admin
+
+-recherche par user zone dans tous les pages : devis attende de traitement ... 
+
++++++a rappeler : distinguer par 2 tableau 
+    affichage dans user ajout - affichage dans user zone 
+
++++++imprimer devis -> devis a attribuer et devis signé
+
++++++admin zone maychofech devis avec enchere et devis avec achat immédiat
+
++++++activer desactiver user zone si je desavtive et il est connecter il va sortir autmatiquement
+
++++++fi recherche nchof kan devis avec achat immediat et avec enchere et ajuter la date
+
++++++fi simulateur lorsque je clique sur le lien elle ouvrir dans une nouvelle fenetre
+
+-historique de client pro : combien de devis signé et devis refusé
+
+-espace affillé : nom prenom tel email nom societe
+  on fait  tous comme l'user ajout
+
++++++ajouter un autre admin super admin et tu choisit les departments meme role comme user zone
+ 
+-ajouter panier il peut ajouter beaucoup devis
+
++++++recherche global : par nom et prenom et tel et email du client pro
+
+

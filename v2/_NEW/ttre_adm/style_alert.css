@@ -1,0 +1,60 @@
+	
+	/* Error / Success / Notice 
+------------------------------------------------------------- */
+
+.notes		{ background:#f0f0f0; border:1px solid #b8b8b8; }
+.success	{ background:#ccfcd1; border:1px solid #60a400; }
+.error		{ background:#f9e3e3; border:1px solid #e79e9e; }
+.notice		{ background:#fcf0cc; border:1px solid #ecc735; }
+
+.success,.error
+			{
+				font-size:100%;
+				color:#000;
+				padding:10px;
+				width:80%;
+				margin:0 0 5px 0px;
+				text-align:left;
+				margin-left:auto;
+				margin-right:auto;
+				margin-left: auto;
+				text-align:center;
+			}
+.notes,.notice
+			{
+				font-size:100%;
+				color:#000;
+				padding:10px;
+				width:80%;
+				margin:0 0 5px 0px;
+				text-align:left;
+				margin-left:auto;
+				margin-right:auto;
+				margin-left: auto;
+				text-align:center;
+			}
+
+.notes span,.notice span,.success span,.error span 
+			{
+				font-weight:bold;
+				font-size:1em;
+				padding:10px;
+				color: #FF0000;
+			}
+
+.notes p,.success p,.error p,.notice p
+			{
+				margin:0px;
+				padding:0px;
+				font-style: oblique;
+}
+.notification_ok
+	{
+	border: 1px #567397 solid;
+	height: auto;
+	width: 90%;
+	padding: 8px;
+	background: #f5f9fd;
+	text-align: center;
+	-moz-border-radius: 5px;
+	}

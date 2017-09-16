@@ -1,0 +1,118 @@
+
+@media (max-width: 480px){
+
+	  #slider{
+		display: none;
+	  }
+	  
+	.menu{
+		width: 100%;
+	}
+	
+	.menu ul li a {
+		width: 100% !important;
+		background: #1E1E1E;
+		border-bottom: 1px solid #fff;
+		color: #fff;
+		padding: 0px 10px;
+		border-bottom: none;
+
+	}
+
+	.menu a:hover{
+		border-bottom: none;
+	}
+    
+/*
+	.menu a:hover{
+		color: #f2f2f2;
+		border-left: 5px solid #fff;
+	}
+	
+	.menu ul li:last-child{
+		border-bottom: none;
+	}
+	
+	.menu li ul{
+		width: 100%;
+	}
+
+	.nav-toggle {
+	  position: fixed;
+	  -webkit-font-smoothing: antialiased;
+	  -moz-osx-font-smoothing: grayscale;
+	  -webkit-touch-callout: none;
+	  -webkit-user-select: none;
+	  -moz-user-select: none;
+	  -ms-user-select: none;
+	  user-select: none;
+	  text-decoration: none;
+	  text-indent: -999px;
+	  position: relative;
+	  overflow: hidden;
+	  width: 70px;
+	  height: 55px;
+	  float: right;
+	}
+
+	.nav-toggle:before {
+
+	}
+
+	.nav-toggle.active::before {
+	  font-size: 14px;
+	  content:"Menu";
+	}*/
+
+	
+	.section1{
+		padding-top: 20px;
+	}
+
+	.particulier{
+		margin-bottom: 20px;
+	}
+
+	.sim-box{
+		margin-bottom: 10px;
+	}
+
+	footer{
+		background: #1E1E1E;
+	}
+
+	.formulaire{
+		width: 100%;
+		margin-right: 0;
+	}
+
+	.header-page-part h2,
+	.header-page h2,
+	.header-page-activite h2,
+	.header-page-conseil h2,
+	.header-page-propos h2,
+	.header-page-contact h2
+	{
+		position: relative;
+	}
+
+	.hed{
+		position: none;
+	}
+
+	.bttn-devis ul{
+		position: relative;
+	}
+}
+
+@media (max-width: 768px) {
+
+}
+
+@media (min-width: 992px) {
+
+}
+
+@media (min-width: 1200px) {
+
+}

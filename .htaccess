@@ -1,0 +1,62 @@
+
+Options +FollowSymlinks
+RewriteEngine on
+
+
+RewriteCond %{HTTP_HOST} !^tousrenov\.dev [NC]
+RewriteRule (.*) .tousrenov.dev/$1 [QSA,R=301,L]
+
+RewriteRule ^(.*)/auth.php$ espace_particulier/espace_particulier.php
+
+RewriteRule ^ttre_adm/$ ttre_adm/ [L]
+RewriteRule ^ttre_adm/AjaxConnectAdmin.php$ ttre_adm/AjaxConnectAdmin.php [L]
+RewriteRule ^ttre_adm/AjaxFichChat.php$ ttre_adm/AjaxFichChat.php [L]
+RewriteRule ^ttre_adm/AjaxVerifChat.php$ ttre_adm/AjaxVerifChat.php [L]
+RewriteRule ^ttre_adm/AjaxVille.php$ ttre_adm/AjaxVille.php [L]
+RewriteRule ^ttre_adm/AjaxVille2.php$ ttre_adm/AjaxVille2.php [L]
+RewriteRule ^ttre_adm/chat.php$ ttre_adm/chat.php [L]
+RewriteRule ^ttre_adm/index.php$ ttre_adm/index.php [L]
+
+
+RewriteRule ^api_rest/espace_particulier.php$ api_rest/espace_particulier.php [L]
+
+
+
+RewriteRule ^(.*)/$ zone/
+RewriteRule ^(.*)/AjaxConnectAdmin.php$ zone/AjaxConnectAdmin.php
+RewriteRule ^(.*)/AjaxFichChat.php$ zone/AjaxFichChat.php
+RewriteRule ^(.*)/AjaxVerifChat.php$ zone/AjaxVerifChat.php
+RewriteRule ^(.*)/AjaxVille.php$ zone/AjaxVille.php
+RewriteRule ^(.*)/AjaxVille2.php$ zone/AjaxVille2.php
+RewriteRule ^(.*)/chat.php$ zone/chat.php
+RewriteRule ^(.*)/annonces.php$ zone/annonces.php
+RewriteRule ^(.*)/panier.php$ zone/panier.php
+RewriteRule ^(.*)/espace_affilier.php$ zone/espace_affilier.php
+RewriteRule ^(.*)/espace_particulier.php$ zone/espace_particulier.php
+RewriteRule ^(.*)/espace_professionnel.php$ zone/espace_professionnel.php
+RewriteRule ^(.*)/espace_pro.php$ zone/espace_pro.php
+RewriteRule ^(.*)/index.php$ zone/index.php
+RewriteRule ^(.*)/services.php$ zone/services.php
+RewriteRule ^(.*)/activites.php$ zone/activites.php
+RewriteRule ^(.*)/recherche.php$ zone/recherche.php
+RewriteRule ^(.*)/conseils.php$ zone/conseils.php
+RewriteRule ^(.*)/simulateur.php$ zone/simulateur.php
+RewriteRule ^(.*)/propos.php$ zone/propos.php
+RewriteRule ^(.*)/contact.php$ zone/contact.php
+RewriteRule ^(.*)/devis.php$ zone/devis.php
+RewriteRule ^(.*)/faq.php$ zone/faq.php
+RewriteRule ^(.*)/fonctionnement.php$ zone/fonctionnement.php
+RewriteRule ^(.*)/formulaires.php$ zone/formulaires.php
+RewriteRule ^(.*)/mention.php$ zone/mention.php
+RewriteRule ^(.*)/presentation.php$ zone/presentation.php
+RewriteRule ^(.*)/price.php$ zone/price.php
+RewriteRule ^(.*)/prix-travaux.php$ zone/prix-travaux.php
+RewriteRule ^(.*)/single.php$ zone/single.php
+
+
+
+
+
+
+ErrorDocument 404 tousrenov.dev
+Options -Indexes

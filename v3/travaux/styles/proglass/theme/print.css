@@ -1,0 +1,35 @@
+/* Print Style Sheet
+-------------------------------------------------*/
+
+/* General markup styles */
+body {font-family:Verdana,serif;font-size:10pt}
+img {display:none}
+td {font-family:Verdana,serif;font-size:10pt;line-height:150%}
+.code,.quote,{font-size:smaller;border:black solid 1px}
+.forum {font-family:Arial,Helvetica,sans-serif;font-weight:bold;font-size:18pt}
+.topic {font-family:Arial,Helvetica,sans-serif;font-weight:bold;font-size:14pt}
+.gensmall {font-size:8pt}
+.nowrap {white-space:nowrap}
+.clear {clear:both}
+.center {margin:0 auto 0 auto}
+.box {border:1px #000 solid}
+hr {color:#888;height: 3px;border-style:solid}
+hr.sep {color:#aaa;height:1px;border-style:dashed}
+.quotetitle,.codetitle,.quotecontent,.codecontent
+{margin-left:.75em;margin-right:5px;padding-left:5px;border:1px 0 0 1px;border-color:#000;border-style:solid}
+.quotetitle,.codetitle {font-weight:bold;border-bottom:none}
+.quotecontent .quotetitle {margin-top:5px}
+.quotecontent .quotetitle,.quotecontent .quotecontent {margin-left:.75em;margin-right:5px}
+/* CSS2 Print tip from: http://www.alistapart.com/articles/goingtoprint/ */
+.postbody a:link, .postbody a:visited, .postbody a:active, .postbody a:hover 
+{text-decoration: underline;padding: 0.1em 0.2em;margin: -0.1em -0.2em;color: #666;background: none;font-size: 100%}
+html>body .postbody a:link:after, html>body .postbody a:visited:after 
+{content: " (" attr(href) ") ";font-size: 90%;text-decoration: none}
+/* Dont want to print url for names or titles in content area */
+.postbody .author a:link, .postbody .author a:visited, 
+html>body .postbody .author a:link:after, 
+html>body .postbody .author a:visited:after,
+.postquote .quote-by a:link, .postquote .quote-by a:visited, 
+html>body .postquote .quote-by a:link:after, 
+html>body .postquote .quote-by a:visited:after,
+html>body .postbody h1 a:link:after, html>body .postbody h2 a:link:after {text-decoration: none;content: ""}

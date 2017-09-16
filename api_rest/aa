@@ -1,0 +1,2 @@
+INSERT INTO `ttre_client_pro` (`juridique`,`raison`,`taille`,`num_voie`,`cadresse`,`code_postal`,`ville`,`pays`,`num_sireen`,`civ`,`nom`,`prenom`,`telephone`, `fax`,`email`,`fichier1`,`fichier2`,`fichier3`, `newsletter`,`stat_valid_zone`,`stat_valid_general`) values 
+                                                    (null ,null,null,null ,null ,null ,null ,null ,null ,null ,null ,null , null,null ,null ,null , null ,null ,null,null,null) 

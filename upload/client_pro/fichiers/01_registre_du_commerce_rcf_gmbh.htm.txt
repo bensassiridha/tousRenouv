@@ -1,0 +1,578 @@
+<!--?xml version="1.0" encoding="iso-8859-1"?-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+    <meta http-equiv="Content-type" content="text/html; charset=windows-1252">
+    <link rel="stylesheet" type="text/css" href="01%20registre%20du%20commerce%20rcf%20gmbh_fichiers/test2.css">
+    
+    <title>Registre du commerce du canton de Berne</title>
+    <script type="text/javascript">	
+function modalWin(amt,ChangeLanguage,description,pdfFile) {
+
+     url = 'http://www.powernet.ch/webservices/inet/payweb/Belege.aspx';
+     url += '?amt='+amt;
+     url += '&amp;ChangeLanguage='+ChangeLanguage;
+     url += '&amp;description='+escape(description);
+     url += '&amp;pdfFile='+pdfFile;
+     url  = url.replace(/amp;/g, '');
+  window.open(url,'Belege','height=380,width=360,toolbar=no,directories=no,status=no, menubar=no,scrollbars=no,resizable=no ,modal=yes');
+
+  }
+		
+			</script>
+  </head>
+  <body class="police">
+    <br>
+    <div class="titel-links">
+      <img alt="Logo" src="01%20registre%20du%20commerce%20rcf%20gmbh_fichiers/flg_BE.gif">
+    </div>
+    <div class="titel-rechts">
+      <h1>Extrait complet Internet - Registre du commerce du canton de Berne</h1>
+    </div>
+    <div class="clear">&nbsp;</div>
+    <br>
+    <form method="post" target="_blank" action="http://www.powernet.ch/hrweb/ger/bestellBE.jsp">
+      <fieldset style="border: 1px solid rgb(200, 217, 233); padding: 0pt 5px 5px;">
+        <legend style="font-weight: bold;">Commandes</legend>
+        <input style="margin: 4px 4px 2px 8px;" value="Commander" type="submit">
+        Commande d'extraits légalisé, de statuts, ou d'autres actes (contre facture, envoi par la poste)<input name="SENDTO" value="Bestellung@hraBE.ch" type="hidden"><input name="MSGTITLE" value="Bestellung" type="hidden"><input name="SENDFROM" value="gm@powernet.ch" type="hidden"><input name="DESCRIPTION" value="CHE-386.033.420   RCF GmbH" type="hidden"></fieldset>
+    </form>
+    <div id="Caddie">
+      <fieldset style="border: 1px solid rgb(200, 217, 233); padding: 0pt 5px 5px;">
+        <legend style="font-weight: bold;">
+          <a href="#" onclick="showiPayweb()">
+            <span style="font-weight:bold">Commande d'extraits légalisés (Annonce au système de paiement par carte de crédit)</span>
+          </a>
+        </legend>
+        <iframe id="iPayweb" src="01%20registre%20du%20commerce%20rcf%20gmbh_fichiers/Summary.htm" style="display:none" height="210PX" width="100%" frameborder="0">
+        </iframe>
+        <script type="text/javascript">
+    
+
+    var url = "http://www.powernet.ch/webservices/inet/payweb/Summary.aspx?" ;
+    url += "ChangeLanguage="+escape("2");
+    url += "&amp;action="+escape("add");
+      url += "&amp;chnr="+escape("0364060315");
+      url += "&amp;sufix="+escape("_");
+      url += "&amp;amt="+escape("036");
+      url += "&amp;product="+escape("EXTRACT");
+      url += "&amp;param="+escape("hrg_opt=1100");
+      url += "&amp;certified="+escape("1");
+      url += "&amp;quantity="+escape("1");
+			url += "&amp;description="+escape("036 CH-036.4.060.315-8 RCF GmbH");
+	  	url += "&amp;dispatch="+escape(window.location.href);    
+     url  = url.replace(/amp;/g, '');
+    var obj = document.getElementById("iPayweb");
+    if (obj != null)
+    {
+        obj.src = url ;
+     }    
+    
+
+
+function showiPayweb()
+{
+
+	var obj = document.getElementById("iPayweb");
+
+	if (obj != null)
+	{
+		if (obj.style.display == "none")
+			obj.style.display = "";
+		else 
+			obj.style.display = "none";
+			
+	}
+}
+
+</script>
+        <br>
+        <div class="hr-links">Prix d'un extrait complet certifié: CHF 40</div>
+        <div class="hr-rechts">
+        </div>
+        <div class="clear">&nbsp;</div>
+      </fieldset>
+    </div>
+    <div id="Titel">
+      <table class="ligne" id="header" width="100%" cellspacing="0">
+        <tbody>
+          <tr align="left" valign="top">
+            <th class="thb twenty" align="left">Numéro de registre<br><br><font color="#800000">CHE-386.033.420</font></th>
+            <th class="thb" align="left" width="34%">Nature juridique<br><br><font color="#800000">Société à responsabilité limitée (Sàrl)</font></th>
+            <th class="thb ten" align="left">Inscription<br><br><font color="#800000">07.05.2014</font></th>
+            <th class="thb ten" align="left">Radiation<br><br></th>
+            <th align="left" width="24%">Report&nbsp;CH-036.4.060.315-8<br>de: <br>sur: </th>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <br>
+    <br>
+    <div class="content">
+      <div class="hr-links">
+        <table class="ligne" align="left" cellspacing="0">
+          <thead>
+            <tr>
+              <th class="thh five">In</th>
+              <th class="thh five">Ra</th>
+              <th class="thhf ninty">Raison sociale</th>
+            </tr>
+          </thead>
+          <tbody align="left">
+            <tr class="colored">
+              <td class="thb" align="right" valign="top">
+                <font color="#000000">1</font>
+              </td>
+              <td class="thb" align="right" valign="top">&nbsp;</td>
+              <td align="left">
+                <span style="COLOR:#800000;font-weight:bold">
+                  <span class="hidden">Raison sociale:&nbsp;</span>RCF GmbH</span>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="hr-rechts">
+        <table class="ligne" cellspacing="0">
+          <thead>
+            <tr>
+              <th class="thh ten">Réf</th>
+              <th class="thhf ninty">Siège</th>
+            </tr>
+          </thead>
+          <tbody align="left">
+            <tr class="colored">
+              <td class="thb" align="right" valign="top">
+                <font color="#000000">1</font>
+              </td>
+              <td align="left">
+                <span style="COLOR:#800000;font-weight:bold">
+                  <span class="hidden">Siège:&nbsp;</span>Brügg</span>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="clear">&nbsp;</div>
+      <div class="hr-links">
+        <div class="hr-middle-left">
+          <table class="ligne" align="left" cellspacing="0">
+            <thead>
+              <tr>
+                <th class="thh five">Réf</th>
+                <th class="thhf ninty">Capital</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="colored">
+                <td class="thb" align="right" valign="top">
+                  <font color="#000000">1</font>
+                </td>
+                <td align="right" valign="top">
+                  <span style="COLOR:#000000">20'000.00</span>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="hr-middle-right">
+          <table class="ligne" cellspacing="0">
+            <thead>
+              <tr>
+                <th class="thh five">In</th>
+                <th class="thh five">Mo</th>
+                <th class="thh five">Ra</th>
+                <th class="thh twenty">Parts sociales</th>
+                <th class="thhf">Associés (voir indications personnelles)</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr bgcolor="#d9d9d9">
+                <td class="thb" align="right" valign="top">
+                  <font color="#000000">1</font>
+                </td>
+                <td class="thb" align="right" valign="top">
+                  <font color="#000000">&nbsp;</font>
+                </td>
+                <td class="thb" align="right" valign="top">&nbsp;</td>
+                <td class="thb" align="right" valign="top">
+                  <span style="COLOR:#000000">19x1'000.00</span>&nbsp;</td>
+                <td align="left" valign="top">
+                  <span style="COLOR:#000000">Blondé, Ralph Paul Edouard&nbsp;</span>
+                </td>
+              </tr>
+              <tr bgcolor="">
+                <td class="thb" align="right" valign="top">
+                  <font color="#000000">1</font>
+                </td>
+                <td class="thb" align="right" valign="top">
+                  <font color="#000000">&nbsp;</font>
+                </td>
+                <td class="thb" align="right" valign="top">&nbsp;</td>
+                <td class="thb" align="right" valign="top">
+                  <span style="COLOR:#000000">1x1'000.00</span>&nbsp;</td>
+                <td align="left" valign="top">
+                  <span style="COLOR:#000000">Froté-Chaboudez, Nadia Astrid&nbsp;</span>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <div class="hr-rechts">
+        <table class="ligne" width="100%" cellspacing="0">
+          <thead>
+            <tr>
+              <th class="thh five">In</th>
+              <th class="thh five">Ra</th>
+              <th class="thhf ninty">Adresse</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="colored" align="left">
+              <td class="thb" align="right" valign="top">
+                <font color="#000000">1</font>
+              </td>
+              <td class="thb" align="right" valign="top">
+                <font color="#000000">&nbsp;</font>
+              </td>
+              <td align="left" valign="top">
+                <span style="COLOR:#000000">Bernstrasse 10<br>2555 Brügg bei Biel</span>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="clear">&nbsp;</div>
+      <div class="hr-links">
+        <table class="ligne" align="left" cellspacing="0">
+          <thead>
+            <tr>
+              <th class="thh five">In</th>
+              <th class="thh five">Ra</th>
+              <th class="thhf ninty">But</th>
+            </tr>
+          </thead>
+          <tbody align="left">
+            <tr class="colored">
+              <td class="thb" align="right" valign="top">
+                <font color="#000000">1</font>
+              </td>
+              <td class="thb" align="right" valign="top">
+                <font color="#000000">&nbsp;</font>
+              </td>
+              <td align="left">
+                <span style="COLOR:#000000">Die Gesellschaft bezweckt 
+die Erbringung und Vermittlung von Dienstleistungen im Baubereich sowie 
+den Handel mit Baumaterialien. Die Gesellschaft kann im In- und Ausland 
+Zweigniederlassungen errichten, sich an anderen Unternehmungen 
+beteiligen oder solche übernehmen sowie alles vorkehren, was ihrem 
+Zwecke dient. Sie kann im In- und Ausland Liegenschaften und Grundstücke
+ erwerben, verwalten und veräussern.</span>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="hr-rechts">
+        <table class="ligne" cellspacing="0">
+          <thead>
+            <tr>
+              <th class="thh five">In</th>
+              <th class="thh five">Ra</th>
+              <th class="thhf ninty">Adresse postale</th>
+            </tr>
+          </thead>
+          <tbody align="left">
+            <tr>
+              <td class="thb">&nbsp;</td>
+              <td class="thb">&nbsp;</td>
+              <td>&nbsp;</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="clear">&nbsp;</div>
+      <div class="hr-links">
+        <table class="ligne" align="left" width="100%" cellspacing="0">
+          <thead>
+            <tr>
+              <th class="thh five" width="5%">In</th>
+              <th class="thh five" width="5%">Ra</th>
+              <th class="thhf ninty">Observations</th>
+            </tr>
+          </thead>
+          <tbody align="left">
+            <tr class="colored">
+              <td class="thb" align="right" valign="top">
+                <font color="#000000">1</font>
+              </td>
+              <td class="thb" align="right" valign="top">&nbsp;</td>
+              <td align="left">
+                <span style="COLOR:#000000">Mitteilungen an die Gesellschafter: schriftlich oder per E-Mail.</span>
+              </td>
+            </tr>
+            <tr>
+              <td class="thb" align="right" valign="top">
+                <font color="#000000">1</font>
+              </td>
+              <td class="thb" align="right" valign="top">&nbsp;</td>
+              <td align="left">
+                <span style="COLOR:#000000">Gemäss Erklärung vom 05.05.2014 wurde auf die eingeschränkte Revision verzichtet.</span>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="hr-rechts">
+        <table class="ligne" width="100%" cellspacing="0">
+          <thead>
+            <tr>
+              <th class="thh ten">Réf</th>
+              <th class="thhf ninty">Date des statuts</th>
+            </tr>
+          </thead>
+          <tbody align="left">
+            <tr class="colored">
+              <td class="thb" align="right" valign="top">
+                <font color="#000000">1&nbsp;</font>
+              </td>
+              <td align="left">
+                <span style="COLOR:#000000">22.04.2014</span>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="clear">&nbsp;</div>
+      <div class="hr-links">
+        <table class="ligne" align="left" width="100%" cellspacing="0">
+          <thead>
+            <tr>
+              <th class="thh five">In</th>
+              <th class="thh five">Ra</th>
+              <th class="thhf ninty">Faits particuliers</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="thb">&nbsp;</td>
+              <td class="thb">&nbsp;</td>
+              <td>&nbsp;</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="hr-links">
+        <table class="ligne" width="100%" cellspacing="0">
+          <thead>
+            <tr>
+              <th class="thh ten">Réf</th>
+              <th class="thhf ninty">Organe de publication</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="colored" align="left">
+              <td class="thb" align="right">
+                <font color="#000000">1&nbsp;</font>
+              </td>
+              <td align="left">
+                <span style="COLOR:#000000">SHAB</span>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <br>
+      <div class="clear">&nbsp;</div>
+      <div class="hr-links">
+        <table class="ligne" align="left" width="100%" cellspacing="0">
+          <thead>
+            <tr>
+              <th class="thh five">In</th>
+              <th class="thh five">Ra</th>
+              <th class="thhf ninty">Prestations supplémentaires et prestations statutaires accessoires</th>
+            </tr>
+          </thead>
+          <tbody align="left">
+            <tr class="colored" align="left">
+              <td class="thb" align="right">
+                <font color="#000000">1&nbsp;</font>
+              </td>
+              <td class="thb" align="right">&nbsp;</td>
+              <td align="left">
+                <font color="#000000">Pflichten: Nebenleistungspflichten, Vorhand-, Vorkaufs- oder Kaufsrechte: gemäss näherer Umschreibung in den Statuten.&nbsp;</font>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="hr-rechts">
+        <table class="ligne" align="left" width="100%" cellspacing="0">
+          <thead>
+            <tr>
+              <th class="thh five">In</th>
+              <th class="thh five">Ra</th>
+              <th class="thhf ninty">Succursale (s)</th>
+            </tr>
+          </thead>
+          <tbody align="left">
+            <tr>
+              <td class="thb">&nbsp;</td>
+              <td class="thb">&nbsp;</td>
+              <td>&nbsp;</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="clear">&nbsp;</div>
+      <div class="zweispalten">
+        <table class="ligne" align="left" width="100%" cellspacing="0">
+          <thead>
+            <tr>
+              <th class="thh five">S</th>
+              <th class="thh five">Réf</th>
+              <th colspan="1" class="thh twenty">No journal</th>
+              <th class="thh">Date journal</th>
+              <th colspan="1" class="thh">FOSC</th>
+              <th class="thh">Date FOSC</th>
+              <th class="thhf twenty">Page / Id</th>
+            </tr>
+          </thead>
+          <tbody align="right">
+            <tr class="colored">
+              <td class="thb" align="right">
+                <font color="#000000">BE&nbsp;</font>
+              </td>
+              <td class="thb" align="right">
+                <font color="#000000">1</font>
+              </td>
+              <td class="thb" align="right">
+                <span style="COLOR:#000000">6428&nbsp;</span>
+              </td>
+              <td class="thb" align="right">
+                <font color="#000000">07.05.2014</font>
+              </td>
+              <td class="thb" align="right">
+                <font color="#000000">&nbsp;&nbsp;90&nbsp;</font>
+              </td>
+              <td class="thb" align="right">
+                <font color="#000000">12.05.2014</font>
+              </td>
+              <td align="right">
+                <font color="#000000">
+                  <a title="1494631" href="http://www.shab.ch/shabforms/servlet/Search?EID=7&amp;DOCID=1494631">1494631</a>&nbsp;</font>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="zweispalten rechts">
+        <table class="ligne" width="100%" cellspacing="0">
+          <thead>
+            <tr>
+              <th class="thh five">S</th>
+              <th class="thh five">Réf</th>
+              <th colspan="1" class="thh twenty">No journal</th>
+              <th class="thh twenty">Date journal</th>
+              <th class="thh">FOSC</th>
+              <th class="thh">Date FOSC</th>
+              <th class="thhf twenty">Page / Id</th>
+            </tr>
+          </thead>
+          <tbody align="right">
+            <tr>
+              <td class="thb">&nbsp;</td>
+              <td class="thb">&nbsp;</td>
+              <td class="thb">&nbsp;</td>
+              <td class="thb">&nbsp;</td>
+              <td class="thb">&nbsp;</td>
+              <td class="thb">&nbsp;</td>
+              <td>&nbsp;</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="clear">&nbsp;</div>
+      <table class="ligne" width="100%" cellspacing="0">
+        <thead>
+          <tr>
+            <th class="thh three">In</th>
+            <th class="thh three">Mo</th>
+            <th class="thh tree">Ra</th>
+            <th class="thh">Indications personnelles</th>
+            <th class="thh">Fonction</th>
+            <th class="thhf twenty">Mode de signature</th>
+          </tr>
+        </thead>
+        <tbody align="left">
+          <tr class="colored">
+            <td class="thb" align="right" valign="top">
+              <font color="#000000">1&nbsp;</font>
+            </td>
+            <td class="thb" align="right" valign="top">
+              <font color="#000000">&nbsp;</font>
+            </td>
+            <td class="thb" align="right" valign="top">
+              <font color="#000000">&nbsp;</font>
+            </td>
+            <td class="thb" align="left" valign="top">
+              <span style="COLOR:#000000">Blondé, Ralph Paul Edouard, französischer Staatsangehöriger, in Lucelle (Pleigne)</span>
+            </td>
+            <td class="thb" align="left" valign="top">
+              <span style="COLOR:#000000">associé et président des gérants&nbsp;</span>
+            </td>
+            <td align="left" valign="top">
+              <span style="COLOR:#000000">signature individuelle &nbsp;</span>
+            </td>
+          </tr>
+          <tr>
+            <td class="thb" align="right" valign="top">
+              <font color="#000000">1&nbsp;</font>
+            </td>
+            <td class="thb" align="right" valign="top">
+              <font color="#000000">&nbsp;</font>
+            </td>
+            <td class="thb" align="right" valign="top">
+              <font color="#000000">&nbsp;</font>
+            </td>
+            <td class="thb" align="left" valign="top">
+              <span style="COLOR:#000000">Froté-Chaboudez, Nadia Astrid, von La Baroche, in Lucelle (Pleigne)</span>
+            </td>
+            <td class="thb" align="left" valign="top">
+              <span style="COLOR:#000000">associée et gérante&nbsp;</span>
+            </td>
+            <td align="left" valign="top">
+              <span style="COLOR:#000000">signature individuelle &nbsp;</span>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <div class="clear">&nbsp;</div>
+    </div>
+    <fieldset style="border: 1px solid rgb(200, 217, 233); padding: 0pt 5px 5px;">
+      <legend style="font-weight: bold;">XML</legend>
+      <a href="http://be.powernet.ch/webservices/inet/hrg/hrg.asmx/getExcerpt?Chnr=CH-036.4.060.315-8&amp;Amt=36&amp;Lang=2&amp;Code=567b349e7862647215a64981371c9a9c">&lt;Excerpt&gt;</a>
+    </fieldset>
+    <div class="clear">&nbsp;</div>
+    <div style="font-family: arial;padding: 20px 0px">
+			
+				Les informations ci-dessus sont de nature purement informelle; elles
+ sont fournies sans garantie et n'entraînent pas l'effet de publicité. 
+Celui-ci revient à l'extrait certifié conforme
+					 et
+   établi par le préposé compétent ainsi qu'au texte de la publication 
+dans la Feuille officielle suisse du commerce (FOSC). 
+			
+			
+				Remarque: Il est possible que certains éléments graphiques (p.ex. 
+radiations) ne soient pas représentés correctement par certains 
+explorateurs.
+			
+		</div>
+    <div style="font-family: arial;padding: 0px 0px">
+      <text xml:lang="fr" xmlns="">
+			<p>Si vous avez un problème avec notre serveur vous pouvez nous <a href="mailto:info@powernet.ch">envoyer un message électronique</a></p>
+		</text>
+    </div>
+  
+</body></html>

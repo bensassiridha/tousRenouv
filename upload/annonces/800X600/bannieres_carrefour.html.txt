@@ -1,0 +1,1462 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<!-- saved from url=(0078)http://publisher.affili.net/Creatives/showCreatives.aspx?lcid=115264&pid=12765 -->
+<html xmlns="http://www.w3.org/1999/xhtml"><head id="Head2"><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+
+<!-- Copyright (c) 2000-2014 etracker GmbH. All rights reserved. -->
+<!-- This material may not be reproduced, displayed, modified or distributed -->
+<!-- without the express prior written permission of the copyright holder. -->
+<!-- etracker tracklet 4.0 -->
+<script type="text/javascript">
+    var et_pagename = "ProgramInfoShowCreatives";
+    var et_areas = "Publisher/Programs";
+    var et_url = "http%3a%2f%2fpublisher.affili.net%2fCreatives%2fshowCreatives.aspx%3fpid%3d12765";
+    //var et_target = "";
+    //var et_ilevel = 0;
+    //var et_tval = "";
+    //var et_cust = 0;
+    //var et_tonr = "";
+    //var et_tsale = 0;
+    //var et_basket = "";
+    //var et_lpage = "";
+    //var et_trig = "";
+    //var et_sub = "";
+    //var et_se = "";
+    var et_tag = "language=FR;PlattformID=FR;BusinesModel=Price comparison;SpecialPermission=true;LoginIntervall=1J;AdminSession=false;customer=1";
+</script>
+<script id="_etLoader" type="text/javascript" charset="UTF-8" data-secure-code="0YmWEK" src="./bannieres carrefour_files/e.js"></script><script async="" type="text/javascript" charset="UTF-8" id="_etCode" src="./bannieres carrefour_files/t.js"></script>
+<noscript>&lt;link rel="stylesheet" media="all" href="//www.etracker.de/cnt_css.php?et=0YmWEK&amp;amp;v=4.0&amp;amp;java=n&amp;amp;et_easy=0&amp;amp;et_pagename=ProgramInfoShowCreatives&amp;amp;et_areas=Publisher%2fPrograms&amp;amp;et_ilevel=0&amp;amp;et_target=,0,0,0&amp;amp;et_lpage=0&amp;amp;et_trig=0&amp;amp;et_se=0&amp;amp;et_basket=&amp;amp;et_url=http%3a%2f%2fpublisher.affili.net%2fCreatives%2fshowCreatives.aspx%3fpid%3d12765&amp;amp;et_tag=language%3dFR%3bPlattformID%3dFR%3bBusinesModel%3dPrice+comparison%3bSpecialPermission%3dtrue%3bLoginIntervall%3d1J%3bAdminSession%3dfalse%3bcustomer%3d1&amp;amp;et_sub=&amp;amp;et_organisation=&amp;amp;et_demographic=" /&gt;</noscript>
+<!-- etracker tracklet 4.0 end -->
+
+<script type="text/javascript">
+
+    function AddETrackerEvent(eventName, path, actionName) {
+        alert("eTracker-event: \n\n" + eventName + "\n" + path + "\n" + actionName);
+    }
+
+    
+</script>
+
+
+    <title>
+	affilinet Publisher Portal
+</title><meta http-equiv="content-type" content="text/html; charset=UNICODE-1-1"><meta http-equiv="Cache-Control" content="no-cache"><link href="./bannieres carrefour_files/jquery-ui-1.8.24.custom.css" rel="stylesheet" type="text/css"><link rel="stylesheet" media="screen and (min-width: 1px) and (max-width: 1085px)" href="./bannieres carrefour_files/SmallWindow.css"><link rel="stylesheet" media="screen and (min-width: 1px) and (max-width: 1009px)" href="./bannieres carrefour_files/TinyWindow.css"><link rel="stylesheet" type="text/css" href="./bannieres carrefour_files/font-awesome.min.css">
+    
+    <!-- Mimic Internet Explorer 9 -->
+    <meta http-equiv="X-UA-Compatible" content="IE=EDGE"><link rel="shortcut icon" type="image/x-icon" href="http://publisher.affili.net/favicon.ico">
+    <script type="text/javascript">
+        if (top.location != location) {
+            top.location.href = document.location.href;
+        }
+
+        function ShowNotifications() {
+            $(document).ready(function () {
+
+                var notifications = $("[class*=-notification]").filter(function() {
+                    var element = $(this);
+                                            
+                    if(typeof element.attr("style") != "undefined")
+                    { 
+                        //alert(element.attr("style"));
+                        if(element.attr('style').indexOf("none") >= 0)
+                        {
+                            return false;
+                        }                                             
+                    }
+                    return true;
+                });
+
+                if(notifications.length > 0)
+                {
+                    RemoveNotifications();
+                }
+                for (var i = 0; i < notifications.length; i++) {
+                        
+                    var notificationContent = $(notifications[i]);
+                    var text = notificationContent.text();
+                    var hide = true;
+                    var type = "";
+                    var title = "";
+                    var close = true;
+                    var delay = 10000;
+                        
+                    if (text.trim().length > 1) {
+
+                        if (notificationContent.hasClass("stay")) {
+                            hide = false;
+                        }
+                        if (notificationContent.hasClass("noclose")) {
+                            close = false;
+                        }
+                        if (notificationContent.hasClass("html")) {
+                            text = notificationContent.html();
+                        }
+
+                        if (notificationContent.hasClass("success-notification")) {
+                            type = "success";
+                            title = "Enregistrement validé";
+                            delay = 3000;
+                        }
+                        if (notificationContent.hasClass("error-notification")) {
+                            type = "error";
+                            title = "Une erreur est survenue";
+                        }
+                        if (notificationContent.hasClass("info-notification")) {
+                            type = "info";
+                            title = "Information";
+                        }
+
+//                            if (window.console)
+//                            {
+//                                console.log(type + ": " + title + ": " + text);
+//                            }                                                       
+
+                        if(!notificationContent.hasClass("already-shown")){
+                            $.pnotify({
+                                text: text,
+                                type: type,
+                                hide: hide,
+                                closer: close,
+                                closer_hover: false,
+                                animation: 'fade',
+                                title: title, 
+                                delay: delay
+                            });
+                        }
+
+                        // Mark last success message as shown
+                        if (notificationContent.hasClass("success-notification")) {
+                           
+                            notificationContent.addClass("already-shown");
+                        }
+                    }
+                }
+            });
+            return true;
+        }
+            
+        function RemoveNotifications(){
+            $.pnotify_remove_all();
+        }
+
+        function Notify(text, type, hide, closeIcon, title) {    
+                   
+            $.pnotify_remove_all();        
+            var newTitle = "";       
+            type = typeof type !== 'undefined' ? type : 'info';   
+            hide = typeof hide !== 'undefined' ? hide : true;   
+            closeIcon = typeof closeIcon !== 'undefined' ? closeIcon : true;   
+            var delay = 10000;
+            if(type == "error")
+            {
+                newTitle = "Une erreur est survenue";
+            }
+            if(type == "success")
+            {
+                newTitle = "Enregistrement validé";
+                delay = 3000;
+            }
+            if(type == "info")
+            {
+                newTitle = "Information";                        
+            }
+
+            title = typeof title !== 'undefined' ? title : newTitle;  
+               
+            $.pnotify({
+                text: text,
+                type: type,
+                hide: hide,
+                closer: closeIcon,
+                closer_hover: false,
+                animation: 'fade',
+                title: title,
+                delay: delay
+            });
+        }
+            
+        function NotifyMatchMasterInvitations(count)
+        {
+            if(count > 0)
+            {
+                var title =  "$count$ nouvelles invitations".replace("$count$", count);
+
+                var text = "<p>" + decodeURIComponent("Un%20ou%20plusieurs%20annonceurs%20vous%20ont%20invit%e9%20%e0%20devenir%20un%20partenaire.%20Cliquez%20sur%20%22Afficher%20les%20invitations%22%20pour%20r%e9pondre%20%e0%20leurs%20invitations.") + "</p> <a href=\"../Programs/Invitations.aspx\" class=\" fr\">Afficher les invitations</a>";                
+
+                setTimeout(function(){
+                    $.pnotify({
+                        text: text,
+                        type: "info",
+                        hide: false,                            
+                        closer: true,
+                        closer_hover: false,
+                        animation: 'fade',
+                        title: title,
+                        animate_speed: 1000,
+                        icon: 'fa fa-info-circle',
+                        addclass: "invitation-alert"
+                    });
+                },1500);
+            }
+        }
+
+
+    </script>
+    <link href="./bannieres carrefour_files/Fonts.css" type="text/css" rel="stylesheet"><link href="./bannieres carrefour_files/Alerts.css" type="text/css" rel="stylesheet"><link href="./bannieres carrefour_files/Basics.css" type="text/css" rel="stylesheet"><link href="./bannieres carrefour_files/CommonTable.css" type="text/css" rel="stylesheet"><link href="./bannieres carrefour_files/Controls.css" type="text/css" rel="stylesheet"><link href="./bannieres carrefour_files/Filter.css" type="text/css" rel="stylesheet"><link href="./bannieres carrefour_files/Grid.css" type="text/css" rel="stylesheet"><link href="./bannieres carrefour_files/MasterPage.css" type="text/css" rel="stylesheet"><link href="./bannieres carrefour_files/MiniPopUp.css" type="text/css" rel="stylesheet"><link href="./bannieres carrefour_files/Navigation.css" type="text/css" rel="stylesheet"><link href="./bannieres carrefour_files/Pages.css" type="text/css" rel="stylesheet"><link href="./bannieres carrefour_files/TabBar.css" type="text/css" rel="stylesheet"><link href="./bannieres carrefour_files/Wizard.css" type="text/css" rel="stylesheet"><link href="./bannieres carrefour_files/Telerik.Web.UI.WebResource.axd" type="text/css" rel="stylesheet"><style type="text/css">
+	.ucPageHeaderBar_ctlAccountList_tvAccounts_0 { text-decoration:none; }
+	.ucPageHeaderBar_ctlAccountList_tvAccounts_1 { border-style:none; }
+	.ucPageHeaderBar_ctlAccountList_tvAccounts_2 {  }
+	.ucPageHeaderBar_ctlAccountList_tvAccounts_3 { border-style:none; }
+	.ucPageHeaderBar_ctlAccountList_tvAccounts_4 {  }
+
+</style><script type="text/javascript" src="./bannieres carrefour_files/cnt_js.php"></script><script type="text/javascript" src="./bannieres carrefour_files/cntcc"></script></head>
+<body id="PartnerStatisticBody" class="PAGE_CREATIVES_SHOWCREATIVES" data-pinterest-extension-installed="cr1.39.1">
+    <form method="post" action="http://publisher.affili.net/Creatives/showCreatives.aspx?lcid=115264&amp;pid=12765" id="Form1">
+<div class="aspNetHidden">
+<input type="hidden" name="RadStyleSheetManager1_TSSM" id="RadStyleSheetManager1_TSSM" value=";Telerik.Web.UI, Version=2012.3.1016.40, Culture=neutral, PublicKeyToken=121fae78165ba3d4:fr-FR:eedc0a8d-48b8-46b8-a699-de66b4bdef1e:53e1db5a:d126a8ef:92753c09:45085116;Telerik.Web.UI.Skins, Version=2012.3.1016.40, Culture=neutral, PublicKeyToken=121fae78165ba3d4:fr-FR:ad8247f5-bfa4-411f-8f02-a4a9c3cb5ca9:bf721433:70970e8a">
+<input type="hidden" name="ucPageHeaderBar_ctlAccountList_tvAccounts_ExpandState" id="ucPageHeaderBar_ctlAccountList_tvAccounts_ExpandState" value="en">
+<input type="hidden" name="ucPageHeaderBar_ctlAccountList_tvAccounts_SelectedNode" id="ucPageHeaderBar_ctlAccountList_tvAccounts_SelectedNode" value="ucPageHeaderBar_ctlAccountList_tvAccountsn1">
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="">
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="">
+<input type="hidden" name="ucPageHeaderBar_ctlAccountList_tvAccounts_PopulateLog" id="ucPageHeaderBar_ctlAccountList_tvAccounts_PopulateLog" value="">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwULLTEwMTk5OTQ1NTEPFgIeE1ZhbGlkYXRlUmVxdWVzdE1vZGUCARYCZg9kFgJmD2QWBAIBD2QWAgICD2QWAmYPFgIeBFRleHQFGmFmZmlsaW5ldCBQdWJsaXNoZXIgUG9ydGFsZAIDDxYCHgVjbGFzcwUcUEFHRV9DUkVBVElWRVNfU0hPV0NSRUFUSVZFUxYEZg9kFhACAg8UKwACZGRkAgMPFCsAA2RkZGQCBA8UKwADZGRkZAIMD2QWBGYPZBYQAgMPDxYEHwEFHEJpZW52ZW51ZSBpbWVkIGpsYXNzaSBtb3Vzc2EeB1Rvb2xUaXAFHEJpZW52ZW51ZSBpbWVkIGpsYXNzaSBtb3Vzc2FkZAIFDw8WAh8BBRBBdWN1bmUgY29ubmV4aW9uZGQCBw8PFggfAQUMRMOpY29ubmV4aW9uHghDc3NDbGFzcwUGYnV0dG9uHgtOYXZpZ2F0ZVVybAUSL0xvZ2luL0xvZ291dC5hc3B4HgRfIVNCAgJkZAILDw8WAh8BBWI8aW1nIGNsYXNzPSdsYW5ndWFnZUZsYWdJbWFnZScgc3JjPScvQXBwX1RoZW1lcy9QYXNzaW9uL0ltYWdlcy9GbGFnXzEweDE3XzMucG5nJyAvPiZuYnNwO2ZyYW7Dp2Fpc2RkAg0PFgIeCWlubmVyaHRtbAWvBjxsaSBvbmNsaWNrPSJqYXZhc2NyaXB0OlBhZ2VIZWFkZXJCYXJfQ2hvb3NlTGFuZ3VhZ2UoJ2RlJykiPjxhIGhyZWY9IiMiPjxzcGFuPiZuYnNwOyZuYnNwOzxpbWcgY2xhc3M9J2xhbmd1YWdlRmxhZ0ltYWdlJyBzcmM9Jy9BcHBfVGhlbWVzL1Bhc3Npb24vSW1hZ2VzL0ZsYWdfMTB4MTdfMS5wbmcnIC8+Jm5ic3A7YWxsZW1hbmQ8L3NwYW4+PC9hPjwvbGk+PGxpIG9uY2xpY2s9ImphdmFzY3JpcHQ6UGFnZUhlYWRlckJhcl9DaG9vc2VMYW5ndWFnZSgnZW4nKSI+PGEgaHJlZj0iIyI+PHNwYW4+Jm5ic3A7Jm5ic3A7PGltZyBjbGFzcz0nbGFuZ3VhZ2VGbGFnSW1hZ2UnIHNyYz0nL0FwcF9UaGVtZXMvUGFzc2lvbi9JbWFnZXMvRmxhZ18xMHgxN18yLnBuZycgLz4mbmJzcDthbmdsYWlzPC9zcGFuPjwvYT48L2xpPjxsaSBvbmNsaWNrPSJqYXZhc2NyaXB0OlBhZ2VIZWFkZXJCYXJfQ2hvb3NlTGFuZ3VhZ2UoJ25sJykiPjxhIGhyZWY9IiMiPjxzcGFuPiZuYnNwOyZuYnNwOzxpbWcgY2xhc3M9J2xhbmd1YWdlRmxhZ0ltYWdlJyBzcmM9Jy9BcHBfVGhlbWVzL1Bhc3Npb24vSW1hZ2VzL0ZsYWdfMTB4MTdfNC5wbmcnIC8+Jm5ic3A7bsOpZXJsYW5kYWlzPC9zcGFuPjwvYT48L2xpPjxsaSBvbmNsaWNrPSJqYXZhc2NyaXB0OlBhZ2VIZWFkZXJCYXJfQ2hvb3NlTGFuZ3VhZ2UoJ2VzJykiPjxhIGhyZWY9IiMiPjxzcGFuPiZuYnNwOyZuYnNwOzxpbWcgY2xhc3M9J2xhbmd1YWdlRmxhZ0ltYWdlJyBzcmM9Jy9BcHBfVGhlbWVzL1Bhc3Npb24vSW1hZ2VzL0ZsYWdfMTB4MTdfNS5wbmcnIC8+Jm5ic3A7ZXNwYWdub2w8L3NwYW4+PC9hPjwvbGk+ZAIPDxYCHgdWaXNpYmxlaBYCAgEPDxYEHwMFDFRvcCBhZmZpbGnDqR4ISW1hZ2VVcmwFLC9BcHBfVGhlbWVzL1Bhc3Npb24vSW1hZ2VzL3RvcF9wdWJsaXNoZXIucG5nFgYeB29uY2xpY2sFImphdmFzY3JpcHQ6T3BlblRvcFB1Ymxpc2hlclBvcHVwKCkeBXRpdGxlBQxUb3AgYWZmaWxpw6keBXN0eWxlBQ9jdXJzb3I6cG9pbnRlcjtkAhEPZBYGAgEPDxYCHwEFGzxiPjc2MjE1MDogdG91c3Jlbm92LmZyPC9iPmRkAgMPDxYCHwEFFENob2lzaXNzZXogdW4gY29tcHRlZGQCBQ88KwAJAgAPFgYeDU5ldmVyRXhwYW5kZWRkHgxTZWxlY3RlZE5vZGUFK3VjUGFnZUhlYWRlckJhcl9jdGxBY2NvdW50TGlzdF90dkFjY291bnRzbjEeCUxhc3RJbmRleAICZAgUKwACBQMwOjAUKwACFggfAQVMPGltZyBzcmM9Ii4uL2ltYWdlcy9GbGFncy9GbGFnXzEweDE3XzMuZ2lmIiAvPiZuYnNwO0dyb3VwZSBkZSBjb21wdGVzIDc2MjE1MB4FVmFsdWUFDW1hc3Rlcl83NjIxNTAfBQUTamF2YXNjcmlwdDp2b2lkKDApOx4IRXhwYW5kZWRnFCsAAgUDMDowFCsAAhYKHwEFFDc2MjE1MDogdG91c3Jlbm92LmZyHxAFEHB1Ymxpc2hlcl83NjIxNTAeCFNlbGVjdGVkZx8FBRNqYXZhc2NyaXB0OnZvaWQoMCk7HxFnZGQCEw8PFgIfAQULUGFyYW3DqHRyZXNkZAIBDxYCHwhoFgQCAQ8QDxYCHgdDaGVja2VkaGRkZGQCBQ8PFgIfAQUPQWRtaW4gU2Vzc2lvbiAhZGQCDQ8PFgIfBQUUfi9TdGFydC9EZWZhdWx0LmFzcHhkFgJmDw8WAh4NQWx0ZXJuYXRlVGV4dAUaT1VSIE1JU1NJT04gOiBZT1VSIFNVQ0NFU1NkZAIPD2QWBAIDDw8WAh8IaGRkAgUPDxYCHwhoZGQCEA9kFgICDw9kFgRmDxQrAANkZGRkAgEPZBYCZg9kFgJmD2QWBgIBDxYCHwEFNTxzcGFuIGNsYXNzPSJDYXRlZ29yeUhlYWRlciI+QmFubmnDqHJlcyBNb3RldXI8L3NwYW4+ZAIDD2QWBgIBD2QWBgIDD2QWAgIBDxBkZBYBZmQCDQ9kFgQCAQ9kFgQCAQ8PFgIfAQUVQXNzaWduZXIgw6AgdW4gQXNwYWNlZGQCAw9kFgICAQ9kFgRmDxYCHwwFDWRpc3BsYXk6bm9uZTsWFAIRDw8WAh8BBTtDb250ZW50UGxhY2VIb2xkZXJDb250ZW50X0ZyYW1lMUNvbnRlbnRXaXRoTmF2aWdhdGlvbl9jdGwwMGRkAhMPDxYCHwEFsQFBY3R1ZWxsZW1lbnQsIGxlIHZpc3VlbCAjY3VycmVudGx5VXNlZENyZWF0aXZlVGl0bGUjICgjcHJvZ3JhbVRpdGxlIykgcydhZmZpY2hlIGRhbnMgY2V0IEFkc3BhY2UuIExvcnNxdWUgdm91cyBlbnJlZ2lzdHJleiBsZXMgbW9kaWZpY2F0aW9ucywgbGVzIG5vdXZlYXV4IHZpc3VlbHMgcydhZmZpY2hlcm9udC5kZAIVDw8WAh8BBWRMZSB2aXN1ZWwgZXN0IGFzc2lnbsOpIMOgIGNldCBhZHNwYWNlLiBVdGlsaXNleiBsZSBjb2RlIHBvdXIgYWZmaWNoZXIgbGUgdmlzdWVsIGRhbnMgdm90cmUgc2l0ZSB3ZWIuZGQCFw8PFgIfAQUiU2Fpc2lzc2V6IHVuIG5vbSBkJ2Fkc3BhY2UgdmFsaWRlLmRkAhkPDxYCHwEFYUxlIHdpZGdldCBuJ2EgcGFzIHB1IMOqdHJlIHNhdXZlZ2FyZMOpLiBWZXVpbGxleiB2w6lyaWZpZXIgdm9zIHBhcmFtw6h0cmVzIGV0IGVzc2F5ZXogZGUgbm91dmVhdS5kZAIbDw8WAh8BBSdDcsOpZXIgdW4gYWRzcGFjZSBldCBhc3NpZ25lciBsZSB2aXN1ZWxkZAIdDw8WAh8BBQtTYXV2ZWdhcmRlcmRkAh8PDxYCHwEFNEEgbm90ZXIgOiBMZSB2aXN1ZWwgYSDDqXTDqSBhc3NpZ27DqSDDoCBjZXQgYWRzcGFjZS5kZAIhDw8WAh8BBQ1WaXN1ZWwgYWN0dWVsZGQCIw8PFgIfAQUYTW9kaWZpZXIgbGVzIHBhcmFtw6h0cmVzZGQCAg9kFghmD2QWBmYPZBYCAgEPDxYCHwEFB0Fkc3BhY2VkZAIBD2QWAgIBDxAPZBYCHghvbmNoYW5nZQWFAUFkc3BhY2VBc3NpZ25tZW50Q29udHJvbC5kZGxBZHNwYWNlc19PbkNoYW5nZSgnQ29udGVudFBsYWNlSG9sZGVyQ29udGVudF9GcmFtZTFDb250ZW50V2l0aE5hdmlnYXRpb25fY3RsMDBfdWNBZHNwYWNlQXNzaWdubWVudCcsdHJ1ZSlkFgBkAgIPZBYCAgEPDxYEHwkFJi9BcHBfVGhlbWVzL1Bhc3Npb24vSW1hZ2VzL3ByZXZpZXcucG5nHwMFHEFmZmljaGVyIGxlcyB2aXN1ZWxzIGFjdHVlbHMWAh8KBYYBcmV0dXJuIEFkc3BhY2VBc3NpZ25tZW50Q29udHJvbC5TaG93Q3JlYXRpdmVQcmV2aWV3KCdDb250ZW50UGxhY2VIb2xkZXJDb250ZW50X0ZyYW1lMUNvbnRlbnRXaXRoTmF2aWdhdGlvbl9jdGwwMF91Y0Fkc3BhY2VBc3NpZ25tZW50JylkAgIPZBYCZg9kFgICAQ8PFgIfAQUQTm9tIGRlIGwnYWRzcGFjZWRkAgMPZBYCZg9kFgICAQ8PFgIfAQUnQ3LDqWVyIHVuIGFkc3BhY2UgZXQgYXNzaWduZXIgbGUgdmlzdWVsFgIfCgWLAXJldHVybiBBZHNwYWNlQXNzaWdubWVudENvbnRyb2wuYnRuU2F2ZUFzc2lnbm1lbnRPbkNsaWNrKCdDb250ZW50UGxhY2VIb2xkZXJDb250ZW50X0ZyYW1lMUNvbnRlbnRXaXRoTmF2aWdhdGlvbl9jdGwwMF91Y0Fkc3BhY2VBc3NpZ25tZW50JylkAgUPZBYCZg9kFgICAQ9kFgQCAQ8PFgIfAQUTQ29kZSBIVE1MIGR1IHZpc3VlbGRkAgMPD2QWAh8KBQ10aGlzLnNlbGVjdCgpZAIDDw8WAh8BBR5BZmZpY2hlciBsZSBjb2RlIEhUTUwgc3RhdGlxdWVkZAIPDxYEHwoFWWNscFNldCgnY3RsMDAkY3RsMDAkQ29udGVudFBsYWNlSG9sZGVyQ29udGVudCRGcmFtZTFDb250ZW50V2l0aE5hdmlnYXRpb24kY3RsMDAkY29kZUJveCcpHgV2YWx1ZQUiQ29waWVyIGNvZGUgZGFucyBsZSBwcmVzc2UtcGFwaWVyc2QCAg9kFgYCAw9kFgICAQ8QZGQWAWZkAg0PZBYEAgEPZBYEAgEPDxYCHwEFFUFzc2lnbmVyIMOgIHVuIEFzcGFjZWRkAgMPZBYCAgEPZBYEZg8WAh8MBQ1kaXNwbGF5Om5vbmU7FhQCEQ8PFgIfAQU7Q29udGVudFBsYWNlSG9sZGVyQ29udGVudF9GcmFtZTFDb250ZW50V2l0aE5hdmlnYXRpb25fY3RsMDFkZAITDw8WAh8BBbEBQWN0dWVsbGVtZW50LCBsZSB2aXN1ZWwgI2N1cnJlbnRseVVzZWRDcmVhdGl2ZVRpdGxlIyAoI3Byb2dyYW1UaXRsZSMpIHMnYWZmaWNoZSBkYW5zIGNldCBBZHNwYWNlLiBMb3JzcXVlIHZvdXMgZW5yZWdpc3RyZXogbGVzIG1vZGlmaWNhdGlvbnMsIGxlcyBub3V2ZWF1eCB2aXN1ZWxzIHMnYWZmaWNoZXJvbnQuZGQCFQ8PFgIfAQVkTGUgdmlzdWVsIGVzdCBhc3NpZ27DqSDDoCBjZXQgYWRzcGFjZS4gVXRpbGlzZXogbGUgY29kZSBwb3VyIGFmZmljaGVyIGxlIHZpc3VlbCBkYW5zIHZvdHJlIHNpdGUgd2ViLmRkAhcPDxYCHwEFIlNhaXNpc3NleiB1biBub20gZCdhZHNwYWNlIHZhbGlkZS5kZAIZDw8WAh8BBWFMZSB3aWRnZXQgbidhIHBhcyBwdSDDqnRyZSBzYXV2ZWdhcmTDqS4gVmV1aWxsZXogdsOpcmlmaWVyIHZvcyBwYXJhbcOodHJlcyBldCBlc3NheWV6IGRlIG5vdXZlYXUuZGQCGw8PFgIfAQUnQ3LDqWVyIHVuIGFkc3BhY2UgZXQgYXNzaWduZXIgbGUgdmlzdWVsZGQCHQ8PFgIfAQULU2F1dmVnYXJkZXJkZAIfDw8WAh8BBTRBIG5vdGVyIDogTGUgdmlzdWVsIGEgw6l0w6kgYXNzaWduw6kgw6AgY2V0IGFkc3BhY2UuZGQCIQ8PFgIfAQUNVmlzdWVsIGFjdHVlbGRkAiMPDxYCHwEFGE1vZGlmaWVyIGxlcyBwYXJhbcOodHJlc2RkAgIPZBYIZg9kFgZmD2QWAgIBDw8WAh8BBQdBZHNwYWNlZGQCAQ9kFgICAQ8QD2QWAh8VBYUBQWRzcGFjZUFzc2lnbm1lbnRDb250cm9sLmRkbEFkc3BhY2VzX09uQ2hhbmdlKCdDb250ZW50UGxhY2VIb2xkZXJDb250ZW50X0ZyYW1lMUNvbnRlbnRXaXRoTmF2aWdhdGlvbl9jdGwwMV91Y0Fkc3BhY2VBc3NpZ25tZW50Jyx0cnVlKWQWAGQCAg9kFgICAQ8PFgQfCQUmL0FwcF9UaGVtZXMvUGFzc2lvbi9JbWFnZXMvcHJldmlldy5wbmcfAwUcQWZmaWNoZXIgbGVzIHZpc3VlbHMgYWN0dWVscxYCHwoFhgFyZXR1cm4gQWRzcGFjZUFzc2lnbm1lbnRDb250cm9sLlNob3dDcmVhdGl2ZVByZXZpZXcoJ0NvbnRlbnRQbGFjZUhvbGRlckNvbnRlbnRfRnJhbWUxQ29udGVudFdpdGhOYXZpZ2F0aW9uX2N0bDAxX3VjQWRzcGFjZUFzc2lnbm1lbnQnKWQCAg9kFgJmD2QWAgIBDw8WAh8BBRBOb20gZGUgbCdhZHNwYWNlZGQCAw9kFgJmD2QWAgIBDw8WAh8BBSdDcsOpZXIgdW4gYWRzcGFjZSBldCBhc3NpZ25lciBsZSB2aXN1ZWwWAh8KBYsBcmV0dXJuIEFkc3BhY2VBc3NpZ25tZW50Q29udHJvbC5idG5TYXZlQXNzaWdubWVudE9uQ2xpY2soJ0NvbnRlbnRQbGFjZUhvbGRlckNvbnRlbnRfRnJhbWUxQ29udGVudFdpdGhOYXZpZ2F0aW9uX2N0bDAxX3VjQWRzcGFjZUFzc2lnbm1lbnQnKWQCBQ9kFgJmD2QWAgIBD2QWBAIBDw8WAh8BBRNDb2RlIEhUTUwgZHUgdmlzdWVsZGQCAw8PZBYCHwoFDXRoaXMuc2VsZWN0KClkAgMPDxYCHwEFHkFmZmljaGVyIGxlIGNvZGUgSFRNTCBzdGF0aXF1ZWRkAg8PFgQfCgVZY2xwU2V0KCdjdGwwMCRjdGwwMCRDb250ZW50UGxhY2VIb2xkZXJDb250ZW50JEZyYW1lMUNvbnRlbnRXaXRoTmF2aWdhdGlvbiRjdGwwMSRjb2RlQm94JykfFgUiQ29waWVyIGNvZGUgZGFucyBsZSBwcmVzc2UtcGFwaWVyc2QCAw9kFgYCAw9kFgICAQ8QZGQWAWZkAg0PZBYEAgEPZBYEAgEPDxYCHwEFFUFzc2lnbmVyIMOgIHVuIEFzcGFjZWRkAgMPZBYCAgEPZBYEZg8WAh8MBQ1kaXNwbGF5Om5vbmU7FhQCEQ8PFgIfAQU7Q29udGVudFBsYWNlSG9sZGVyQ29udGVudF9GcmFtZTFDb250ZW50V2l0aE5hdmlnYXRpb25fY3RsMDJkZAITDw8WAh8BBbEBQWN0dWVsbGVtZW50LCBsZSB2aXN1ZWwgI2N1cnJlbnRseVVzZWRDcmVhdGl2ZVRpdGxlIyAoI3Byb2dyYW1UaXRsZSMpIHMnYWZmaWNoZSBkYW5zIGNldCBBZHNwYWNlLiBMb3JzcXVlIHZvdXMgZW5yZWdpc3RyZXogbGVzIG1vZGlmaWNhdGlvbnMsIGxlcyBub3V2ZWF1eCB2aXN1ZWxzIHMnYWZmaWNoZXJvbnQuZGQCFQ8PFgIfAQVkTGUgdmlzdWVsIGVzdCBhc3NpZ27DqSDDoCBjZXQgYWRzcGFjZS4gVXRpbGlzZXogbGUgY29kZSBwb3VyIGFmZmljaGVyIGxlIHZpc3VlbCBkYW5zIHZvdHJlIHNpdGUgd2ViLmRkAhcPDxYCHwEFIlNhaXNpc3NleiB1biBub20gZCdhZHNwYWNlIHZhbGlkZS5kZAIZDw8WAh8BBWFMZSB3aWRnZXQgbidhIHBhcyBwdSDDqnRyZSBzYXV2ZWdhcmTDqS4gVmV1aWxsZXogdsOpcmlmaWVyIHZvcyBwYXJhbcOodHJlcyBldCBlc3NheWV6IGRlIG5vdXZlYXUuZGQCGw8PFgIfAQUnQ3LDqWVyIHVuIGFkc3BhY2UgZXQgYXNzaWduZXIgbGUgdmlzdWVsZGQCHQ8PFgIfAQULU2F1dmVnYXJkZXJkZAIfDw8WAh8BBTRBIG5vdGVyIDogTGUgdmlzdWVsIGEgw6l0w6kgYXNzaWduw6kgw6AgY2V0IGFkc3BhY2UuZGQCIQ8PFgIfAQUNVmlzdWVsIGFjdHVlbGRkAiMPDxYCHwEFGE1vZGlmaWVyIGxlcyBwYXJhbcOodHJlc2RkAgIPZBYIZg9kFgZmD2QWAgIBDw8WAh8BBQdBZHNwYWNlZGQCAQ9kFgICAQ8QD2QWAh8VBYUBQWRzcGFjZUFzc2lnbm1lbnRDb250cm9sLmRkbEFkc3BhY2VzX09uQ2hhbmdlKCdDb250ZW50UGxhY2VIb2xkZXJDb250ZW50X0ZyYW1lMUNvbnRlbnRXaXRoTmF2aWdhdGlvbl9jdGwwMl91Y0Fkc3BhY2VBc3NpZ25tZW50Jyx0cnVlKWQWAGQCAg9kFgICAQ8PFgQfCQUmL0FwcF9UaGVtZXMvUGFzc2lvbi9JbWFnZXMvcHJldmlldy5wbmcfAwUcQWZmaWNoZXIgbGVzIHZpc3VlbHMgYWN0dWVscxYCHwoFhgFyZXR1cm4gQWRzcGFjZUFzc2lnbm1lbnRDb250cm9sLlNob3dDcmVhdGl2ZVByZXZpZXcoJ0NvbnRlbnRQbGFjZUhvbGRlckNvbnRlbnRfRnJhbWUxQ29udGVudFdpdGhOYXZpZ2F0aW9uX2N0bDAyX3VjQWRzcGFjZUFzc2lnbm1lbnQnKWQCAg9kFgJmD2QWAgIBDw8WAh8BBRBOb20gZGUgbCdhZHNwYWNlZGQCAw9kFgJmD2QWAgIBDw8WAh8BBSdDcsOpZXIgdW4gYWRzcGFjZSBldCBhc3NpZ25lciBsZSB2aXN1ZWwWAh8KBYsBcmV0dXJuIEFkc3BhY2VBc3NpZ25tZW50Q29udHJvbC5idG5TYXZlQXNzaWdubWVudE9uQ2xpY2soJ0NvbnRlbnRQbGFjZUhvbGRlckNvbnRlbnRfRnJhbWUxQ29udGVudFdpdGhOYXZpZ2F0aW9uX2N0bDAyX3VjQWRzcGFjZUFzc2lnbm1lbnQnKWQCBQ9kFgJmD2QWAgIBD2QWBAIBDw8WAh8BBRNDb2RlIEhUTUwgZHUgdmlzdWVsZGQCAw8PZBYCHwoFDXRoaXMuc2VsZWN0KClkAgMPDxYCHwEFHkFmZmljaGVyIGxlIGNvZGUgSFRNTCBzdGF0aXF1ZWRkAg8PFgQfCgVZY2xwU2V0KCdjdGwwMCRjdGwwMCRDb250ZW50UGxhY2VIb2xkZXJDb250ZW50JEZyYW1lMUNvbnRlbnRXaXRoTmF2aWdhdGlvbiRjdGwwMiRjb2RlQm94JykfFgUiQ29waWVyIGNvZGUgZGFucyBsZSBwcmVzc2UtcGFwaWVyc2QCBA9kFgICAg9kFgICBQ88KwAPAQ5oFgJmD2QWAgIBD2QWAmYPZBYCZg9kFgYCAQ9kFgICAQ9kFhoCAQ9kFgICAQ8QZGQWAGQCBQ8QZGQWAGQCCQ9kFgICAQ8QZGQWAGQCFQ8QZGQWAGQCFw8QZGQWAGQCGQ8QZGQWAGQCGw8QZGQWAGQCHQ8QZGQWAGQCHw8QZGQWAGQCIQ8QZGQWAGQCIw8QZGQWAGQCJQ8QZGQWAGQCJw9kFgICAw9kFgICAQ8QZGQWAGQCAg9kFgICAQ9kFggCAQ8QZGQWAGQCAw8QZGQWAGQCBQ8QZGQWAGQCIw8QZGQWAGQCBA9kFgICAQ9kFgICAw8QZGQWAGQCEQ9kFgJmD2QWBGYPZBYKAgEPDxYGHwMFBEFpZGUfAQUEQWlkZR8FBRB+L0hlbHAvSGVscC5hc3B4ZGQCBQ8PFggeBlRhcmdldAUGX2JsYW5rHwMFB0NvbnRhY3QfAQUHQ29udGFjdB8FBQ9+L0hlbHAvRkFRLmFzcHhkZAIHDw8WCB8XBQZfYmxhbmsfAwUUVGVybWVzIGV0IGNvbmRpdGlvbnMfAQUUVGVybWVzIGV0IGNvbmRpdGlvbnMfBQVsaHR0cDovL3d3dy5hZmZpbGkubmV0L0FGRkkvbWVkaWEvQUZGSU1lZGlhTGlicmFyaWVzL0RvY3VtZW50cy9mci1GUi9Gb290ZXIvQ29uZGl0aW9ucy1nZW5lcmFsZXNfZWRpdGV1cnMucGRmZGQCCQ8PFggfFwUGX2JsYW5rHwMFEENvbmZpZGVudGlhbGl0w6kfAQUQQ29uZmlkZW50aWFsaXTDqR8FBTJodHRwOi8vd3d3LmFmZmlsaS5uZXQvZnIvSW5mb3JtYXRpb25zLWxlZ2FsZXMuYXNweGRkAgsPDxYCHwEFNENvcHlyaWdodCZuYnNwOyZjb3B5OyZuYnNwOzIwMTYsJm5ic3A7YWZmaWxpbmV0IEdtYkhkZAIBD2QWAgIBDw8WAh8JBS4vQXBwX1RoZW1lcy9QYXNzaW9uL0ltYWdlcy91bml0ZWRfaW50ZXJuZXQucG5nZGQCAQ9kFgJmDxYCHwEFnAE8Yj5Wb3VzIGRldmV6IGNvbXBsw6l0ZXIgbGVzIGluZm9ybWF0aW9ucyBtYW5xdWFudGVzIGFmaW4gZGUgcG91dm9pciBwb3N0dWxlciBhdXggcHJvZ3JhbW1lcyBldCBxdWUgdm9zIGNhbmRpZGF0dXJlcyBzb2llbnQgdmlzaWJsZXMgcGFyIGxlcyBhbm5vbmNldXJzLjwvYj5kGAQFHl9fQ29udHJvbHNSZXF1aXJlUG9zdEJhY2tLZXlfXxYHBVxjdGwwMCRjdGwwMCRDb250ZW50UGxhY2VIb2xkZXJDb250ZW50JEZyYW1lMUNvbnRlbnRXaXRoTmF2aWdhdGlvbiRNb2JpbGVXaXphcmQkUmFkQWpheFBhbmVsMQVcY3RsMDAkY3RsMDAkQ29udGVudFBsYWNlSG9sZGVyQ29udGVudCRGcmFtZTFDb250ZW50V2l0aE5hdmlnYXRpb24kTW9iaWxlV2l6YXJkJFJhZEFqYXhQYW5lbDIFHmN0bDAwJGN0bDAwJFJhZFRvb2xUaXBNYW5hZ2VyMQUVY3RsMDAkY3RsMDAkcndNYWluVXJsBR5jdGwwMCRjdGwwMCRyd0FjY2VwdEludml0YXRpb24FNWN0bDAwJGN0bDAwJHVjUGFnZUhlYWRlckJhciRjdGxBY2NvdW50TGlzdCR0dkFjY291bnRzBV1jdGwwMCRjdGwwMCRDb250ZW50UGxhY2VIb2xkZXJDb250ZW50JEZyYW1lMUNvbnRlbnRXaXRoTmF2aWdhdGlvbiRyYWRXaW5kb3dUZXJtc0FuZENvbmRpdGlvbnMFVmN0bDAwJGN0bDAwJENvbnRlbnRQbGFjZUhvbGRlckNvbnRlbnQkRnJhbWUxQ29udGVudFdpdGhOYXZpZ2F0aW9uJE1vYmlsZVdpemFyZCRXaXphcmQyDxBkFCsBAWZmZAVmY3RsMDAkY3RsMDAkQ29udGVudFBsYWNlSG9sZGVyQ29udGVudCRGcmFtZTFDb250ZW50V2l0aE5hdmlnYXRpb24kTW9iaWxlV2l6YXJkJFdpemFyZDIkV2l6YXJkTXVsdGlWaWV3Dw9kZmQFJmN0bDAwJGN0bDAwJE5ld01haW5OYXZpZ2F0aW9uJE1haW5NZW51Dw9kBSNQcm9ncmFtc0FuZENyZWF0aXZlc1xDcmVhdGl2ZVNlYXJjaGTvBtsTW7k3ZuhJfb9FIk0C/MfXY1cKW3rpKUZ9LvvLNw==">
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['Form1'];
+if (!theForm) {
+    theForm = document.Form1;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<script src="./bannieres carrefour_files/WebResource.axd" type="text/javascript"></script>
+
+
+<script type="text/javascript">
+//<![CDATA[
+var partnerID = 762150;
+//]]>
+</script>
+
+<script src="./bannieres carrefour_files/AdspaceAssignmentControl.js" type="text/javascript"></script>
+<script src="./bannieres carrefour_files/ControlsLibrary.js" type="text/javascript"></script>
+<script src="./bannieres carrefour_files/StringLibrary.js" type="text/javascript"></script>
+<script src="./bannieres carrefour_files/ScriptResource.axd" type="text/javascript"></script>
+<script type="text/javascript">
+//<![CDATA[
+
+    function TreeView_PopulateNodeDoCallBack(context,param) {
+        WebForm_DoCallback(context.data.treeViewID,param,TreeView_ProcessNodeData,context,TreeView_ProcessNodeData,false);
+    }
+var ucPageHeaderBar_ctlAccountList_tvAccounts_Data = null;//]]>
+</script>
+
+<script src="./bannieres carrefour_files/ScriptResource(1).axd" type="text/javascript"></script>
+<script src="./bannieres carrefour_files/ScriptResource(2).axd" type="text/javascript"></script>
+<script src="./bannieres carrefour_files/ScriptResource(3).axd" type="text/javascript"></script>
+<script src="./bannieres carrefour_files/ScriptResource(4).axd" type="text/javascript"></script>
+<script src="./bannieres carrefour_files/ScriptResource(5).axd" type="text/javascript"></script>
+<script src="./bannieres carrefour_files/ScriptResource(6).axd" type="text/javascript"></script>
+<script src="./bannieres carrefour_files/json2.js" type="text/javascript"></script>
+<script src="./bannieres carrefour_files/jquery.json-2.3.min.js" type="text/javascript"></script>
+<script src="./bannieres carrefour_files/jquery.pnotify.min.js" type="text/javascript"></script>
+<script src="./bannieres carrefour_files/crypt.js" type="text/javascript"></script>
+<script src="./bannieres carrefour_files/StringLibrary(1).js" type="text/javascript"></script>
+<script src="./bannieres carrefour_files/AuthenticationLibrary.js" type="text/javascript"></script>
+<script src="./bannieres carrefour_files/ScriptResource(7).axd" type="text/javascript"></script>
+<script src="./bannieres carrefour_files/ScriptResource(8).axd" type="text/javascript"></script>
+<script src="./bannieres carrefour_files/ScriptResource(9).axd" type="text/javascript"></script>
+<script src="./bannieres carrefour_files/ScriptResource(10).axd" type="text/javascript"></script>
+<script src="./bannieres carrefour_files/ScriptResource(11).axd" type="text/javascript"></script>
+<script src="./bannieres carrefour_files/ScriptResource(12).axd" type="text/javascript"></script>
+<script src="./bannieres carrefour_files/ScriptResource(13).axd" type="text/javascript"></script>
+<script src="./bannieres carrefour_files/ScriptResource(14).axd" type="text/javascript"></script>
+<div class="aspNetHidden">
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="B9B6E79A">
+</div>
+    
+    <script type="text/javascript">
+//<![CDATA[
+Sys.WebForms.PageRequestManager._initialize('ctl00$ctl00$ScriptManager1', 'Form1', ['tctl00$ctl00$RadToolTipManager1RTMPanel','','tctl00$ctl00$ContentPlaceHolderContent$RadAjaxManager2SU','ContentPlaceHolderContent_RadAjaxManager2SU'], [], [], 90, 'ctl00$ctl00');
+//]]>
+</script>
+
+    
+    <script src="./bannieres carrefour_files/jquery.tools.min.js" type="text/javascript"></script>
+    <script src="./bannieres carrefour_files/jquery-ui-1.8.24.custom.min.js" type="text/javascript"></script>
+    <script src="./bannieres carrefour_files/DataBinding.js" type="text/javascript"></script>
+    <script src="./bannieres carrefour_files/DateTimeBinding.js" type="text/javascript"></script>
+    <script src="./bannieres carrefour_files/Helper.js" type="text/javascript"></script>
+    <script src="./bannieres carrefour_files/Moment.js" type="text/javascript"></script>
+    <script src="./bannieres carrefour_files/Effects.js" type="text/javascript"></script>
+    <script src="./bannieres carrefour_files/Validation.js" type="text/javascript"></script>
+    <script src="./bannieres carrefour_files/Resources.js" type="text/javascript"></script>
+    <script src="./bannieres carrefour_files/jquery.scrollTo-min.js" type="text/javascript"></script>
+    
+    <div id="ctl00_ctl00_RadToolTipManager1" style="display:none;position:absolute;">
+	<!-- 2012.3.1016.40 --><div id="ctl00_ctl00_RadToolTipManager1RTMPanel" style="display: block;">
+
+	</div><input id="ctl00_ctl00_RadToolTipManager1_ClientState" name="ctl00_ctl00_RadToolTipManager1_ClientState" type="hidden">
+</div>
+    <div id="ctl00_ctl00_rwMainUrl" style="display:none;">
+	<div id="ctl00_ctl00_rwMainUrl_C">
+
+	</div><input id="ctl00_ctl00_rwMainUrl_ClientState" name="ctl00_ctl00_rwMainUrl_ClientState" type="hidden" autocomplete="off">
+</div>
+    <div id="ctl00_ctl00_rwAcceptInvitation" style="display:none;">
+	<div id="ctl00_ctl00_rwAcceptInvitation_C">
+
+	</div><input id="ctl00_ctl00_rwAcceptInvitation_ClientState" name="ctl00_ctl00_rwAcceptInvitation_ClientState" type="hidden" autocomplete="off">
+</div>
+    
+    <script src="./bannieres carrefour_files/MasterPage.js" type="text/javascript"></script>
+    <div id="divMasterPopup" style="display: none; overflow: hidden">
+        <iframe id="ifrmMasterPopup" src="javascript:void(0);" frameborder="0" scrolling="no">
+        </iframe>
+    </div>
+
+    <div id="authDialogWrapper">
+        <div id="auth-dialog-modal" title="Authenticate" style="overflow: hidden; width: 0;
+            height: 0;">
+            <div>
+                <span><b>
+                    Identification nécessaire.</b></span>
+                <br>
+                <br>
+                <span>
+                    Veuillez saisir votre mot de passe affilinet. Vous vous êtes connecté via un login réseau social et vous souhaitez modifier des données sensibles. Cette authentification est obligatoire pour des raisons de sécurité.</span><br>
+                <br>
+                <span>
+                    Mot de passe affilinet</span>:
+                <input onkeydown="return radwindowprompt_detectenter(&#39;{0}&#39;, event, this);" id="PasswordEdit" type="password" class="dialoginput" value="" autocomplete="off">
+                <script type="text/javascript">
+                    $('#PasswordEdit').attr("autocomplete", "off");
+                    function radwindowprompt_detectenter(id, ev, input) {
+                        if (!ev) ev = window.event;
+
+                        // remove error class
+                        $(input).removeClass("error");
+
+                        if (ev.which == 13) {
+                            ev.preventDefault();
+                            $("#auth-dialog-ok").click();
+                            return false;
+                        }
+                        //if (ev.keyCode == 13) {
+                        //    var but = $("#auth-dialog-ok")
+                        //    if (but) {
+                        //        if (but.click) but.click();
+                        //        else if (but.onclick) {
+                        //            but.focus(); var click = but.onclick; but.onclick = null; if (click) click.call(but);
+                        //        }
+                        //    }
+                        //    return false;
+                        //}
+                        else return true;
+                    }
+
+                    $("#auth-dialog-ok").click(function () {
+                        AuthenticationLibrary.PromptCallBackFn($("#PasswordEdit").val(), function () { $("#auth-dialog-modal").dialog("close") });
+                    });
+                    $("#auth-dialog-cancel").click(function () {
+                        $("#auth-dialog-modal").dialog("close");
+                    });
+                
+                </script>
+            </div>
+            <div style="padding: 10px; text-align: center;">
+                <input id="auth-dialog-ok" class="Button" type="button" value="Ok">&nbsp;&nbsp;<input id="auth-dialog-cancel" type="button" class="Button" value="Annuler">
+            </div>
+        </div>
+    </div>
+    
+        <script type="text/javascript">
+            function jAlert(title, message, onClose) {
+                $(document).ready(function () {
+                    $("#jAlertText").html(message);
+                    $("#jAlertWrapper").dialog({
+                        modal: true,
+                        draggable: true,
+                        resizable: false,
+                        title: title,
+                        buttons: {
+                            Ok: function () {
+                                $(this).dialog("close");
+                            }
+                        },
+                        close: onClose ? function (event, ui) {
+                            eval(onClose.indexOf('(') != -1 ? onClose : onClose + "()")
+                        } : null
+                    });
+                });
+            }
+
+            function LoadMasterPopup(title, url, width, height) {
+                GetMasterPopUp().dialog("option", "autoOpen", false);
+                if (typeof title == "undefined") title = null;
+                if (typeof url == "undefined") url = null;
+                if (typeof width == "undefined") width = null;
+                if (typeof height == "undefined") height = null;
+
+                if (title != null) GetMasterPopUp().dialog({ title: title, autoOpen: false });
+                if (url != null) document.getElementById("ifrmMasterPopup").src = url;
+                ResizeMasterPopup(width, height);
+            }
+
+            function GetMasterPopupUrl() {
+                return document.getElementById("ifrmMasterPopup").src;
+            }
+
+            function ResizeMasterPopup(width, height) {
+                if (width != null) {
+                    $("#ifrmMasterPopup").css("width", width + "px");
+                    width += 32 + 4; //+4 for chrome, otherwise chrome displays scrollbars
+                    GetMasterPopUp().dialog({ width: width, autoOpen: false });
+                }
+                if (height != null) {
+                    $("#ifrmMasterPopup").css("height", height + "px");
+                    height += 33 + 4; //+4 for chrome, otherwise chrome displays scrollbars
+                    GetMasterPopUp().dialog({ height: height, autoOpen: false });
+                }
+            }
+
+            function ShowMasterPopup(modal) {
+                GetMasterPopUp().dialog({ modal: modal, resizable: false });
+                GetMasterPopUp().dialog("open");
+            }
+
+            function CloseMasterPopup() {
+                GetMasterPopUp().dialog("close");
+            }
+
+            function GetMasterPopUp() {
+                return $("#divMasterPopup");
+            }
+
+            function OnAcceptInvitationClose(success) {
+                var wnd = $find("ctl00_ctl00_rwAcceptInvitation");
+                wnd.close();
+
+                if (wnd.argument != null && success == "success") {
+                    var row = $("tr[class='InvitationRow-" + wnd.argument + "']");
+                    row.find("input").hide();
+                    row.find(".success-message").removeClass("invisible").show();
+                    row.find(".success-message").css('display', 'inline-block');
+                    row.addClass("edited");
+
+                    //reload if programinfo.aspx
+                    if ($(".divInvitation").length > 0) {
+                        window.location = window.location;
+                    } else {
+                        UpdateInvitationCount();
+                    }
+                }
+            }            
+        </script>
+        <script type="text/javascript">
+            
+            // Base URl for Page Method calls
+            AuthenticationLibrary.PageMethodPath = '/';
+            /* 
+             Social media auth
+            */
+            function userNeedsExtraAuthentication() {
+                ///<summary> Checks wether the current user needs extra authentication. No limitations</summary>
+                return eval(false);
+            }
+            function isSocialNetWorkUserAuthenticated() {
+                ///<summary> Checks wether the current user is authenticated. Uses hidden field!</summary>
+                return $('#hidIsAuthenticated').val() == "true";
+            }
+            function setSocialNetWorkUserIsAuthenticated(isAuthenticated) {
+                var value = isAuthenticated ? "true" : "false";
+                return $('#hidIsAuthenticated').val(value);
+            } 
+            function isUnauthorizedSocialMediaLoginSession() {
+                ///<summary> Checks wether the current user has to authenticated and is authenticated. Uses rendered code. Does not change on client side auth, thus needs postback to refresh.<br/>
+                ///Use userNeedsExtraAuthentication and isSocialNetWorkUserAuthenticated in pure JS-scenarios.
+                ///</summary>
+                return false;
+            }
+
+            function getPublisherId() {
+                return $('#hidPublisherId').val() + "";
+            }
+            function getAjaxManager() {
+                return $find('ctl00_ctl00_ContentPlaceHolderContent_RadAjaxManager2');
+            }
+
+            function MyClientShowing(sender, args) {
+                args.set_cancelNativeDisplay(true);
+                var viewport = GetScreenBounds();
+                var off = GetScrollOffset();
+
+                $('.ALPanel').find('img').css("margin-top", (viewport.height / 2) - 35 + off.y + "px");
+                $('.ALPanel').find('img').css("margin-left", "0px");
+                $telerik.$(args.get_loadingElement()).css("display", "block");
+                $('.ALPanel').find('img').animate({ "margin-left": (viewport.width / 2 - 35 + off.x) + "px" }, 250, "swing");
+            }
+
+            var loader;
+            function MyClientHiding(sender, args) {
+                args.set_cancelNativeDisplay(true);
+                var viewport = GetScreenBounds();
+                loader = args.get_loadingElement();
+                $('.ALPanel').find('img').animate({ "margin-left": (viewport.width + 70) + "px" }, 250, "swing", new function () {
+                    setTimeout('$telerik.$(loader).css("display", "none");', 350);
+                });
+            }
+
+            function GetScreenBounds() {
+                var bounds = new Object();
+                bounds.width =
+                    parseInt(window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth || 0);
+                bounds.height =
+                    parseInt(window.innerHeight || document.documentElement.clientHeight || document.body.clientHeight || 0);
+                return bounds;
+            }
+            function GetScrollOffset() {
+                var bounds = new Object();
+
+                bounds.y = parseInt(window.pageYOffset || document.body.scrollTop || document.documentElement.scrollTop || 0);
+                bounds.x = parseInt(window.pageXOffset || document.body.scrollLeft || document.documentElement.scrollLeft || 0);
+
+                return bounds;
+            }
+        </script>
+        <script type="text/javascript">
+            var initializeArgs = {
+                RootPath: "",
+                DecimalSeparator: ",",
+                CurrentPlatformId: "3",
+                CurrentPublisherId: 762150,
+                SessionTimeoutText: "Session Timeout! Please refresh page."
+            }
+            MasterPage.Initialize(initializeArgs);
+            
+            var currentCookieLoginInformation = null;
+
+            var pauseProgramsSlider = false;
+            var disableProgramsSlider = false;
+
+            String.prototype.replaceAll = function(str1, str2, ignore) 
+            {
+                return this.replace(new RegExp(str1.replace(/([\/\,\!\\\^\$\{\}\[\]\(\)\.\*\+\?\|\<\>\-\&])/g,"\\$&"),(ignore?"gi":"g")),(typeof(str2)=="string")?str2.replace(/\$/g,"$$$$"):str2);
+            } 
+
+            function CheckIfSessionChanged() 
+            {
+                var isLoginPage = (typeof(isAffilinetLoginPage) != "undefined");
+                if (!isLoginPage) 
+                {
+                    var cookieInfo = GetCookieInfo();
+                    if (cookieInfo != "") 
+                    {
+                        if (currentCookieLoginInformation == null) 
+                        {
+                            currentCookieLoginInformation = cookieInfo;
+                        }
+			
+                        if (currentCookieLoginInformation != null && currentCookieLoginInformation != cookieInfo) 
+                        {
+                            // alert("Cookie-Daten beim Oeffnen der Seite: \n" + currentCookieLoginInformation + "\n\nCookiedaten jetzt:\n" + cookieInfo);
+
+                            var parameters = cookieInfo.split('&');
+                            var publisherId = parameters[0].split('=')[1];
+                            var name = parameters[1].split('=')[1];
+                            var infoText = "\n\n" + publisherId + " - " + name + "\n\n";
+                            var warningMessage = "ATTENTION : Vous vous êtes loggué sur le compte #AccountInfo# dans une autre fenêtre du même navigateur. Pour des raisons de sécurité, nous avons fermé la session de cette fenêtre et basculé sur le compte, sur lequel vous venez de vous logguer.\nVous allez maintenant être redirigé sur la page d'accueil.".replace(/#AccountInfo#/g, infoText);
+				
+                            alert(unescape(warningMessage));
+                            window.location = MasterPage.RootPath + "/Start/default.aspx";
+                        }
+                        else 
+                        {
+                            sessionCheckTimer = window.setTimeout("CheckIfSessionChanged()", 1000);
+                        }
+                    }
+                    else 
+                    {
+                        sessionCheckTimer = window.setTimeout("CheckIfSessionChanged()", 1000);
+                    }
+                }    
+            }
+
+            var sessionCheckTimer = window.setTimeout("CheckIfSessionChanged()", 1);
+
+            // unsused!
+            function ResetAndRestartSessionCheck() {
+                // Important: Session Check needs to be resetted, after partner updates, that don't cause a page reload
+                window.clearTimeout(sessionCheckTimer);
+                currentCookieLoginInformation = null;
+                sessionCheckTimer = window.setTimeout("CheckIfSessionChanged()", 1000);
+            }
+
+            function GetCookieInfo() 
+            {
+                var cookieInfo = "";
+                if (document.cookie != null && document.cookie != "") 
+                {
+                    var pos = document.cookie.indexOf("affilinetPublisherLoginInformation_bjzeiglw0pu0e1gzl1ytp03h") + 60;
+                    cookieInfo = document.cookie.substring(pos);
+
+                    pos = cookieInfo.indexOf("affilinetPublisherLoginInformation_");
+                    if (pos > 3) 
+                    {
+                        cookieInfo = cookieInfo.substring(0, pos - 1);
+                    }
+		
+                    pos = cookieInfo.indexOf("&dummy=");
+                    if (pos > 0) {
+                        cookieInfo = cookieInfo.substring(0, pos + 6);
+                    }
+		
+                    if (cookieInfo.indexOf("&Name") == "-1") 
+                    {
+                        cookieInfo = "";
+                    }
+                }
+                return cookieInfo;
+            }
+            function LoadTablePage(gotoPage)
+            {
+                document.forms[0].ctl00$ctl00$AffilinetpShift.value = gotoPage;
+                document.forms[0].submit(); 
+            }
+            function SetTablePageSize(pageSize)
+            {
+                document.forms[0].ctl00$ctl00$AffilinetpSize.value = pageSize;
+                document.forms[0].submit(); 
+            }
+            function OpenTopPublisherPopup()
+            {
+                var URL = '../Start/TopPublisherPopUp.aspx';   
+                var WIN = window.open(URL,'','status=no,toolbar=no,menubar=no,resizable=yes,scrollbars=no,width=450,height=340');
+                WIN.focus(); 
+            }
+
+
+        </script>
+    
+    <input type="hidden" name="ctl00$ctl00$AffilinetpShift" id="AffilinetpShift" value="1">
+    <input type="hidden" name="ctl00$ctl00$AffilinetpSize" id="AffilinetpSize" value="30">
+    <input type="hidden" name="ctl00$ctl00$AffilinetParameter" id="AffilinetParameter">
+    <input type="hidden" name="ctl00$ctl00$hidIsAuthenticated" id="hidIsAuthenticated" value="false">
+    <input type="hidden" name="ctl00$ctl00$hidPublisherId" id="hidPublisherId" value="762150">
+    <input type="hidden" id="pauseProgramsSlider" value="false">
+    
+    
+<script language="javascript" type="text/javascript">
+    function PageHeaderBar_ChooseLanguage(language) {
+        var hidLanguage = document.getElementById("ucPageHeaderBar_hidLanguage");
+        hidLanguage.value = language;
+        document.forms[0].submit();
+
+    }
+</script>
+<div id="ucPageHeaderBar_divPageHeaderBar" class="pageHeaderBar">
+    <div class="innerPageHeaderBar">
+        <div class="pageHeaderBarLeft">
+            
+            <span id="ucPageHeaderBar_lblWelcome" title="Bienvenue imed jlassi moussa" class="welcome tooltip-bottom">Bienvenue imed jlassi moussa</span><br>
+            <span id="ucPageHeaderBar_lblLastLogin">Aucune connexion</span>
+        </div>
+        <div class="pageHeaderBarRight">
+            <a id="ucPageHeaderBar_lnkLogout" class="button" href="http://publisher.affili.net/Login/Logout.aspx">Déconnexion</a>
+            <input type="hidden" name="ctl00$ctl00$ucPageHeaderBar$hidLanguage" id="ucPageHeaderBar_hidLanguage" value="fr">
+            <ul class="link-list">
+                <li class="language-select has-dropdown">
+                    <a href="http://publisher.affili.net/Creatives/showCreatives.aspx?lcid=115264&amp;pid=12765#">
+                        &nbsp;
+                        <span id="ucPageHeaderBar_lblLanguage_Current"><img class="languageFlagImage" src="./bannieres carrefour_files/Flag_10x17_3.png">&nbsp;français</span>
+                    </a>
+                    <ul id="ucPageHeaderBar_ulLanguageEntries" class="dropdown"><li onclick="javascript:PageHeaderBar_ChooseLanguage(&#39;de&#39;)"><a href="http://publisher.affili.net/Creatives/showCreatives.aspx?lcid=115264&amp;pid=12765#"><span>&nbsp;&nbsp;<img class="languageFlagImage" src="./bannieres carrefour_files/Flag_10x17_1.png">&nbsp;allemand</span></a></li><li onclick="javascript:PageHeaderBar_ChooseLanguage(&#39;en&#39;)"><a href="http://publisher.affili.net/Creatives/showCreatives.aspx?lcid=115264&amp;pid=12765#"><span>&nbsp;&nbsp;<img class="languageFlagImage" src="./bannieres carrefour_files/Flag_10x17_2.png">&nbsp;anglais</span></a></li><li onclick="javascript:PageHeaderBar_ChooseLanguage(&#39;nl&#39;)"><a href="http://publisher.affili.net/Creatives/showCreatives.aspx?lcid=115264&amp;pid=12765#"><span>&nbsp;&nbsp;<img class="languageFlagImage" src="./bannieres carrefour_files/Flag_10x17_4.png">&nbsp;néerlandais</span></a></li><li onclick="javascript:PageHeaderBar_ChooseLanguage(&#39;es&#39;)"><a href="http://publisher.affili.net/Creatives/showCreatives.aspx?lcid=115264&amp;pid=12765#"><span>&nbsp;&nbsp;<img class="languageFlagImage" src="./bannieres carrefour_files/Flag_10x17_5.png">&nbsp;espagnol</span></a></li></ul>
+                </li>
+                
+                
+<li class="account-select has-dropdown"><span class="globe"></span>
+<span id="ucPageHeaderBar_ctlAccountList_lblActiveAccount"><b>762150: tousrenov.fr</b></span>
+    <div class="accountlist-popup">
+        <h2>
+            <span id="ucPageHeaderBar_ctlAccountList_lblChooseAccountPopupHeadline">Choisissez un compte</span></h2>
+        <a href="http://publisher.affili.net/Creatives/showCreatives.aspx?lcid=115264&amp;pid=12765#ucPageHeaderBar_ctlAccountList_tvAccounts_SkipLink"><img alt="Skip Navigation Links." src="./bannieres carrefour_files/WebResource(1).axd" width="0" height="0" style="border-width:0px;"></a><div id="ucPageHeaderBar_ctlAccountList_tvAccounts" class="AccountTreeView">
+	<table cellpadding="0" cellspacing="0" style="border-width:0;">
+		<tbody><tr>
+			<td class="account-node ucPageHeaderBar_ctlAccountList_tvAccounts_2" style="white-space:nowrap;"><a class="ucPageHeaderBar_ctlAccountList_tvAccounts_0 account-node ucPageHeaderBar_ctlAccountList_tvAccounts_1" href="javascript:void(0);" id="ucPageHeaderBar_ctlAccountList_tvAccountsn0" style="border-style:none;font-size:1em;"><img src="./bannieres carrefour_files/Flag_10x17_3.gif">&nbsp;Groupe de comptes 762150</a></td>
+		</tr>
+	</tbody></table><div id="ucPageHeaderBar_ctlAccountList_tvAccountsn0Nodes" style="display:block;">
+		<table cellpadding="0" cellspacing="0" style="border-width:0;">
+			<tbody><tr>
+				<td><div style="width:20px;height:1px"></div></td><td class="account-node ucPageHeaderBar_ctlAccountList_tvAccounts_2 selected ucPageHeaderBar_ctlAccountList_tvAccounts_4" style="white-space:nowrap;"><a class="ucPageHeaderBar_ctlAccountList_tvAccounts_0 account-node ucPageHeaderBar_ctlAccountList_tvAccounts_1 selected ucPageHeaderBar_ctlAccountList_tvAccounts_3" href="javascript:void(0);" id="ucPageHeaderBar_ctlAccountList_tvAccountsn1" style="border-style:none;font-size:1em;">762150: tousrenov.fr</a></td>
+			</tr>
+		</tbody></table>
+	</div>
+</div><a id="ucPageHeaderBar_ctlAccountList_tvAccounts_SkipLink"></a>
+    </div>
+</li>
+
+                <li>
+                    <a id="ucPageHeaderBar_hlAccountmanagement" href="http://publisher.affili.net/Account/Management.aspx" style="font-weight:bold;">Paramètres</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<div class="pageHeaderBarSpacer">
+</div>
+
+    <div class="PageHeader">
+        <div class="PageHeaderLeft">
+            <a id="hlLogo" href="http://publisher.affili.net/Start/Default.aspx" target="_top"><img id="imgLogo" src="./bannieres carrefour_files/logo.png" alt="OUR MISSION : YOUR SUCCESS"></a>
+        </div>
+        <div class="PageHeaderRight">
+            
+
+<div class="menuWrapper" style="">
+    <a href="http://publisher.affili.net/Creatives/showCreatives.aspx?lcid=115264&amp;pid=12765#NewMainNavigation_MainMenu_SkipLink"><img alt="Skip Navigation Links" src="./bannieres carrefour_files/WebResource(1).axd" width="0" height="0" style="border-width:0px;"></a><div class="pagenavigation" id="NewMainNavigation_MainMenu" style="float: left;">
+	<ul class="level1 static" tabindex="0" role="menubar" style="position: relative; width: auto; float: left;">
+		<li class="has-popup static" aria-haspopup="NewMainNavigation_MainMenu:submenu:2" role="menuitem" style="position: relative; float: left;"><a class="popout level1 static" href="http://publisher.affili.net/Start/default.aspx?nr=1&amp;pnp=0" tabindex="-1">Accueil</a><ul class="level2 dynamic" id="NewMainNavigation_MainMenu:submenu:2" style="display: none; position: absolute; top: 100%; left: 0px;">
+			<li role="menuitem" class="dynamic" style="position: relative;"><a class="level2 dynamic" href="http://publisher.affili.net/Start/Welcome.aspx?nr=1&amp;pnp=1" tabindex="-1">Démarrer rapidement !</a></li><li role="menuitem" class="dynamic" style="position: relative;"><a class="level2 dynamic" href="http://publisher.affili.net/Start/Default.aspx?nr=1&amp;pnp=1" tabindex="-1">Dashboard</a></li>
+		</ul></li><li class="has-popup static" aria-haspopup="NewMainNavigation_MainMenu:submenu:6" role="menuitem" style="position: relative; float: left;"><a class="popout level1 static selected" href="http://publisher.affili.net/Programs/ProgramSearch.aspx?nr=1&amp;pnp=3" tabindex="-1">Programmes et visuels</a><ul class="level2 dynamic" id="NewMainNavigation_MainMenu:submenu:6" style="display: none; position: absolute; top: 100%; left: 0px;">
+			<li role="menuitem" class="dynamic" style="position: relative;"><a class="level2 dynamic" href="http://publisher.affili.net/Programs/ProgramSearch.aspx?nr=1&amp;pnp=3" tabindex="-1">Recherche de programmes</a></li><li role="menuitem" class="dynamic" style="position: relative;"><a class="level2 dynamic" href="http://publisher.affili.net/Programs/CategoryBrowsing.aspx?nr=1&amp;pnp=3" tabindex="-1">Liste des programmes</a></li><li role="menuitem" class="dynamic" style="position: relative;"><a class="level2 dynamic" href="http://publisher.affili.net/Programs/Recommendation.aspx?nr=1&amp;pnp=3" tabindex="-1">Nouveaux programmes</a></li><li role="menuitem" class="dynamic" style="position: relative;"><a class="level2 dynamic" href="http://publisher.affili.net/Programs/Invitations.aspx?nr=1&amp;pnp=3" tabindex="-1">Invitations Match Master</a></li><li role="menuitem" class="dynamic" style="position: relative;"><a class="level2 selected dynamic" href="http://publisher.affili.net/Programs/CreativeSearch.aspx?nr=1&amp;pnp=3" tabindex="-1">Recherche de visuels</a></li><li class="has-popup dynamic" aria-haspopup="NewMainNavigation_MainMenu:submenu:12" role="menuitem" style="position: relative;"><a class="popout level2 dynamic" href="http://publisher.affili.net/VoucherCodes/Overview.aspx?pt=0&amp;nr=1&amp;pnp=11" tabindex="-1">Codes Promotion &amp; offres</a><ul class="level3 dynamic" id="NewMainNavigation_MainMenu:submenu:12" style="display: none; position: absolute; top: 0px; left: 100%;">
+				<li role="menuitem" class="dynamic" style="position: relative;"><a class="level3 dynamic" href="http://publisher.affili.net/VoucherCodes/Overview.aspx?pt=0&amp;nr=1&amp;pnp=11" tabindex="-1">Codes promotion</a></li><li role="menuitem" class="dynamic" style="position: relative;"><a class="level3 dynamic" href="http://publisher.affili.net/VoucherCodes/Overview.aspx?pt=1&amp;nr=1&amp;pnp=11" tabindex="-1">Offres commerciales</a></li>
+			</ul></li><li role="menuitem" class="dynamic" style="position: relative;"><a class="level2 dynamic" href="http://publisher.affili.net/Solutions/BannerRotationOverview.aspx?nr=1&amp;pnp=3" tabindex="-1">Bannière rotative</a></li><li role="menuitem" class="dynamic" style="position: relative;"><a class="level2 dynamic" href="http://publisher.affili.net/Start/Welcome.aspx?nr=1&amp;pnp=3" tabindex="-1">Performance Ads</a></li>
+		</ul></li><li class="has-popup static" aria-haspopup="NewMainNavigation_MainMenu:submenu:19" role="menuitem" style="position: relative; float: left;"><a class="popout level1 static" href="http://publisher.affili.net/Solutions/productData.aspx?nr=1&amp;pnp=51" tabindex="-1">Solutions</a><ul class="level2 dynamic" id="NewMainNavigation_MainMenu:submenu:19" style="display: none; position: absolute; top: 100%; left: 0px;">
+			<li class="has-popup dynamic" aria-haspopup="NewMainNavigation_MainMenu:submenu:20" role="menuitem" style="position: relative;"><a class="popout level2 dynamic" href="http://publisher.affili.net/Solutions/productData.aspx?nr=1&amp;pnp=53" tabindex="-1">Bases produits</a><ul class="level3 dynamic" id="NewMainNavigation_MainMenu:submenu:20" style="display: none; position: absolute; top: 0px; left: 100%;">
+				<li role="menuitem" class="dynamic" style="position: relative;"><a class="level3 dynamic" href="http://publisher.affili.net/Solutions/productData.aspx?nr=1&amp;pnp=53" tabindex="-1">Aperçu</a></li><li role="menuitem" class="dynamic" style="position: relative;"><a class="level3 dynamic" href="http://publisher.affili.net/Solutions/ProductList.aspx?nr=1&amp;pnp=53" tabindex="-1">Bases produits</a></li><li role="menuitem" class="dynamic" style="position: relative;"><a class="level3 dynamic" href="http://publisher.affili.net/Account/ProductFeedSettings.aspx?nr=1&amp;pnp=53" tabindex="-1">Paramètres</a></li><li role="menuitem" class="dynamic" style="position: relative;"><a class="level3 dynamic" href="http://publisher.affili.net/Account/ProductFeedPassword.aspx?nr=1&amp;pnp=53" tabindex="-1">Mot de passe Flux</a></li><li role="menuitem" class="dynamic" style="position: relative;"><a class="level3 dynamic" href="http://publisher.affili.net/Account/ProductFeedConfigurator.aspx?nr=1&amp;pnp=53" tabindex="-1">Générateur de flux</a></li>
+			</ul></li><li role="menuitem" class="dynamic" style="position: relative;"><a class="level2 dynamic" href="http://publisher.affili.net/Solutions/Applications.aspx?nr=1&amp;pnp=51" tabindex="-1">Applications</a></li><li class="has-popup dynamic" aria-haspopup="NewMainNavigation_MainMenu:submenu:28" role="menuitem" style="position: relative;"><a class="popout level2 dynamic" href="http://publisher.affili.net/Solutions/Webservices_Overview.aspx?nr=1&amp;pnp=58" tabindex="-1">Webservices</a><ul class="level3 dynamic" id="NewMainNavigation_MainMenu:submenu:28" style="display: none; position: absolute; top: 0px; left: 100%;">
+				<li role="menuitem" class="dynamic" style="position: relative;"><a class="level3 dynamic" href="http://publisher.affili.net/Solutions/Webservices_Overview.aspx?nr=1&amp;pnp=58" tabindex="-1">Aperçu</a></li><li role="menuitem" class="dynamic" style="position: relative;"><a class="level3 dynamic" href="http://publisher.affili.net/Account/techSettingsPublisherWS.aspx?nr=1&amp;pnp=58" tabindex="-1">Identifiants Webservices</a></li><li role="menuitem" class="dynamic" style="position: relative;"><a class="level3 dynamic" href="http://publisher.affili.net/Solutions/Webservices_Announcements.aspx?nr=1&amp;pnp=58" tabindex="-1">Informations</a></li><li role="menuitem" class="dynamic" style="position: relative;"><a class="level3 dynamic" href="http://publisher.affili.net/Solutions/Webservices_Webservices.aspx?nr=1&amp;pnp=58" tabindex="-1">Documentation</a></li>
+			</ul></li><li role="menuitem" class="dynamic" style="position: relative;"><a class="level2 dynamic" href="http://publisher.affili.net/ConsentWizard/ConsentWizard.aspx?nr=1&amp;pnp=51" tabindex="-1">Consent Wizard</a></li><li role="menuitem" class="dynamic" style="position: relative;"><a class="level2 dynamic" href="http://publisher.affili.net/Start/Welcome.aspx?nr=1&amp;pnp=51" tabindex="-1">Performance Ads</a></li>
+		</ul></li><li class="has-popup static" aria-haspopup="NewMainNavigation_MainMenu:submenu:37" role="menuitem" style="position: relative; float: left;"><a class="popout level1 static" href="http://publisher.affili.net/Statistics/detailsPerDay.aspx?nr=1&amp;pnp=19" tabindex="-1">Statistiques</a><ul class="level2 dynamic" id="NewMainNavigation_MainMenu:submenu:37" style="display: none; position: absolute; top: 100%; left: 0px;">
+			<li role="menuitem" class="dynamic" style="position: relative;"><a class="level2 dynamic" href="http://publisher.affili.net/Statistics/overview.aspx?nr=1&amp;pnp=19" tabindex="-1">Aperçu</a></li><li role="menuitem" class="dynamic" style="position: relative;"><a class="level2 dynamic" href="http://publisher.affili.net/Statistics/detailsPerDay.aspx?nr=1&amp;pnp=19" tabindex="-1">Par jour</a></li><li role="menuitem" class="dynamic" style="position: relative;"><a class="level2 dynamic" href="http://publisher.affili.net/Statistics/detailsPerProgram.aspx?nr=1&amp;pnp=19" tabindex="-1">Par programme</a></li><li role="menuitem" class="dynamic" style="position: relative;"><a class="level2 dynamic" href="http://publisher.affili.net/Statistics/OrderStatistics.aspx?nr=1&amp;pnp=19" tabindex="-1">Détail des Transactions</a></li><li role="menuitem" class="dynamic" style="position: relative;"><a class="level2 dynamic" href="http://publisher.affili.net/Statistics/detailsPerCreative.aspx?nr=1&amp;pnp=19" tabindex="-1">Par visuel</a></li><li role="menuitem" class="dynamic" style="position: relative;"><a class="level2 dynamic" href="http://publisher.affili.net/Statistics/clickAnalysis.aspx?nr=1&amp;pnp=19" tabindex="-1">Détail des clics</a></li><li role="menuitem" class="dynamic" style="position: relative;"><a class="level2 dynamic" href="http://publisher.affili.net/Statistics/DeviceStatistic.aspx?nr=1&amp;pnp=19" tabindex="-1">Par device</a></li><li class="has-popup dynamic" aria-haspopup="NewMainNavigation_MainMenu:submenu:45" role="menuitem" style="position: relative;"><a class="popout level2 dynamic" href="http://publisher.affili.net/Statistics/AssistOverview.aspx?nr=1&amp;pnp=29" tabindex="-1">affilinet Assist</a><ul class="level3 dynamic" id="NewMainNavigation_MainMenu:submenu:45" style="display: none; position: absolute; top: 0px; left: 100%;">
+				<li role="menuitem" class="dynamic" style="position: relative;"><a class="level3 dynamic" href="http://publisher.affili.net/Statistics/AssistOverview.aspx?nr=1&amp;pnp=29" tabindex="-1">Aperçu</a></li><li role="menuitem" class="dynamic" style="position: relative;"><a class="level3 dynamic" href="http://publisher.affili.net/Statistics/AssistDetails.aspx?nr=1&amp;pnp=29" tabindex="-1">Détails par programme</a></li>
+			</ul></li>
+		</ul></li><li class="has-popup static" aria-haspopup="NewMainNavigation_MainMenu:submenu:50" role="menuitem" style="position: relative; float: left;"><a class="popout level1 static" href="http://publisher.affili.net/Inbox/ProgramNotifications.aspx?nr=1&amp;pnp=63" tabindex="-1">Messagerie</a><ul class="level2 dynamic" id="NewMainNavigation_MainMenu:submenu:50" style="display: none; position: absolute; top: 100%; left: 0px;">
+			<li class="has-popup dynamic" aria-haspopup="NewMainNavigation_MainMenu:submenu:51" role="menuitem" style="position: relative;"><a class="popout level2 dynamic" href="http://publisher.affili.net/Inbox/ProgramNotifications.aspx?nr=1&amp;pnp=63" tabindex="-1">Actualités des programmes</a><ul class="level3 dynamic" id="NewMainNavigation_MainMenu:submenu:51" style="display: none; position: absolute; top: 0px; left: 100%;">
+				<li role="menuitem" class="dynamic" style="position: relative;"><a class="level3 dynamic" href="http://publisher.affili.net/Inbox/ProgramNotifications.aspx?nr=1&amp;pnp=63" tabindex="-1">Notifications</a></li><li role="menuitem" class="dynamic" style="position: relative;"><a class="level3 dynamic" href="http://publisher.affili.net/Inbox/programInfosSettings.aspx?nr=1&amp;pnp=63" tabindex="-1">Paramètres</a></li>
+			</ul></li><li role="menuitem" class="dynamic" style="position: relative;"><a class="level2 dynamic" href="http://publisher.affili.net/Inbox/programStatus.aspx?nr=1&amp;pnp=62" tabindex="-1">Vos partenariats</a></li><li role="menuitem" class="dynamic" style="position: relative;"><a class="level2 dynamic" href="http://publisher.affili.net/Inbox/rateChanges.aspx?nr=1&amp;pnp=62" tabindex="-1">Vos nouvelles rémunérations</a></li><li class="has-popup dynamic" aria-haspopup="NewMainNavigation_MainMenu:submenu:57" role="menuitem" style="position: relative;"><a class="popout level2 dynamic" href="http://publisher.affili.net/VoucherCodes/VoucherCodesHistory.aspx?pt=0&amp;nr=1&amp;pnp=68" tabindex="-1">Mises à jour des offres</a><ul class="level3 dynamic" id="NewMainNavigation_MainMenu:submenu:57" style="display: none; position: absolute; top: 0px; left: 100%;">
+				<li role="menuitem" class="dynamic" style="position: relative;"><a class="level3 dynamic" href="http://publisher.affili.net/VoucherCodes/VoucherCodesHistory.aspx?pt=0&amp;nr=1&amp;pnp=68" tabindex="-1">Codes promotion</a></li><li role="menuitem" class="dynamic" style="position: relative;"><a class="level3 dynamic" href="http://publisher.affili.net/VoucherCodes/VoucherCodesHistory.aspx?pt=1&amp;nr=1&amp;pnp=68" tabindex="-1">Offre commerciale</a></li>
+			</ul></li>
+		</ul></li><li class="has-popup static" aria-haspopup="NewMainNavigation_MainMenu:submenu:62" role="menuitem" style="position: relative; float: left;"><a class="popout level1 static" href="http://publisher.affili.net/Account/PublisherInformation.aspx?nr=1&amp;pnp=37" tabindex="-1">Compte</a><ul class="level2 dynamic" id="NewMainNavigation_MainMenu:submenu:62" style="display: none; position: absolute; top: 100%; left: 0px;">
+			<li role="menuitem" class="dynamic" style="position: relative;"><a class="level2 dynamic" href="http://publisher.affili.net/Account/PublisherInformation.aspx?nr=1&amp;pnp=37" tabindex="-1">Paramètres personnels</a></li><li role="menuitem" class="dynamic" style="position: relative;"><a class="level2 dynamic" href="http://publisher.affili.net/Account/Management.aspx?nr=1&amp;pnp=37" tabindex="-1">Comptes &amp; sources de trafic</a></li><li role="menuitem" class="dynamic" style="position: relative;"><a class="level2 dynamic" href="http://publisher.affili.net/Account/payments.aspx?nr=1&amp;pnp=37" tabindex="-1">Paiements</a></li><li role="menuitem" class="dynamic" style="position: relative;"><a class="level2 dynamic" href="http://publisher.affili.net/Download/DownloadCenter.aspx?nr=1&amp;pnp=37" tabindex="-1">Vos téléchargements</a></li><li class="has-popup dynamic" aria-haspopup="NewMainNavigation_MainMenu:submenu:67" role="menuitem" style="position: relative;"><a class="popout level2 dynamic" href="http://publisher.affili.net/Solutions/tracking.aspx?nr=1&amp;pnp=56" tabindex="-1">Tracking subIDs</a><ul class="level3 dynamic" id="NewMainNavigation_MainMenu:submenu:67" style="display: none; position: absolute; top: 0px; left: 100%;">
+				<li role="menuitem" class="dynamic" style="position: relative;"><a class="level3 dynamic" href="http://publisher.affili.net/Solutions/tracking.aspx?nr=1&amp;pnp=56" tabindex="-1">Tracking subIDs</a></li><li role="menuitem" class="dynamic" style="position: relative;"><a class="level3 dynamic" href="http://publisher.affili.net/Account/techSettingsSubIDs.aspx?nr=1&amp;pnp=56" tabindex="-1">Configurer les stats par SubIDs</a></li>
+			</ul></li>
+		</ul></li><li class="has-popup static" aria-haspopup="NewMainNavigation_MainMenu:submenu:72" role="menuitem" style="position: relative; float: left;"><a class="popout level1 static" href="http://publisher.affili.net/Start/help.aspx?nr=1&amp;pnp=75" tabindex="-1">Aide</a><ul class="level2 dynamic" id="NewMainNavigation_MainMenu:submenu:72" style="display: none; position: absolute; top: 100%; left: 0px;">
+			<li role="menuitem" class="dynamic" style="position: relative;"><a class="level2 dynamic" href="http://publisher.affili.net/Start/help.aspx?nr=1&amp;pnp=75" tabindex="-1">Aide</a></li><li role="menuitem" class="dynamic" style="position: relative;"><a class="level2 dynamic" href="http://publisher.affili.net/help/FAQ.aspx?nr=1&amp;pnp=75" target="_blank" tabindex="-1">FAQ</a></li>
+		</ul></li>
+	</ul>
+</div><div style="clear: left;"></div><a id="NewMainNavigation_MainMenu_SkipLink"></a>
+</div>
+
+<script type="text/javascript">
+
+    $(document).ready(function () {
+        var mainNavigation = $(".pagenavigation");
+        var selectedItem = mainNavigation.find(".selected").parent("li");
+
+        while (selectedItem.length > 0) {
+            selectedItem = selectedItem.parent("ul").parent("li");
+            selectedItem.children("a").addClass("selected");
+        }
+        $('a.popout', mainNavigation).on("touchstart", function (e) {
+            'use strict'; //satisfy the code inspectors
+
+            if ($(this).hasClass('highlighted')) {
+                return true;
+            }
+            else {
+                if ($(this).parent().parent().parent().prop("tagName").toLowerCase() == 'div') {
+                    $('a.popout').not(this).next().hide();
+                    $('a.popout').not(this).removeClass("highlighted");
+                    $(this).addClass("highlighted");
+                } else {
+                    $('ul.level3').hide();
+                }
+
+                $(this).next().show();
+                e.preventDefault();
+                return false;
+            }
+        });
+        
+        $(".menuWrapper").show();
+    });
+
+</script>
+        </div>
+    </div>
+    
+    <div id="PageContent" class="PageContent">
+        
+<div class="BreadCrumb">
+    
+    <a href="http://publisher.affili.net/Start/default.aspx"><img style="vertical-align:middle" src="./bannieres carrefour_files/HomeIcon.png"></a>&nbsp;»&nbsp;<a href="http://publisher.affili.net/Programs/ProgramSearch.aspx?pnp=3">Programmes et visuels</a>&nbsp;»&nbsp;<a href="http://publisher.affili.net/Programs/CreativeSearch.aspx?pnp=3">Recherche de visuels</a>&nbsp;»&nbsp;<b>Bannière (Carrefour Banque)</b>
+
+    <span class="AccountManagerInfo">
+        
+        
+    </span>
+</div>
+
+        
+    <div class="AjaxLoadingPanelOuterBox">
+        <div id="ContentPlaceHolderContent_RadAjaxManager2SU" style="display: block;">
+	<span id="ctl00_ctl00_ContentPlaceHolderContent_RadAjaxManager2" style="display:none;"></span>
+</div>
+        <div id="ContentPlaceHolderContent_AjaxLoadingPanel2" class="RadAjax RadAjax_Transparent" style="display:none;z-index: 10000;">
+	<div class="raDiv">
+		
+        
+	</div><div class="raColor raTransp">
+
+	</div>
+</div>
+    </div>
+    
+        <script type="text/javascript">
+            function deletepartnership(msg, url) {
+                if (confirm(msg)) {
+                    location.href = url;
+                }
+            }
+
+            function GetAjaxManager() {
+                var ajaxManager = $find("ctl00_ctl00_ContentPlaceHolderContent_RadAjaxManager2");
+                return ajaxManager;
+            }
+        </script>
+    
+    <!-- INHALT //-->
+    <div id="PageContentContainer container" class="PageContentContainer container">
+        <div id="divAllPurpose">
+        </div>
+        
+
+        
+
+        <table class="ProgramInfoPage">
+            <tbody>
+                <tr>
+                    <td width="250px">
+                        <div class="ProgramInfoNavigation">
+                            <div id="TreeView"><ul><li><img src="./bannieres carrefour_files/none.gif"><a title="Aperçu du programme" href="http://publisher.affili.net/Programs/programInfo.aspx?pid=12765">Aperçu du programme</a></li></ul><ul><li><img src="./bannieres carrefour_files/open.gif" onclick="CreativesPage.ToggleCreativeTreeNode(&#39;N1002895683&#39;,this)"><a title="Visuels" class="here" href="http://publisher.affili.net/Creatives/showCreatives.aspx?pid=12765">Visuels</a><ul id="N1002895683" style="display:"><li><img src="./bannieres carrefour_files/open.gif" onclick="CreativesPage.ToggleCreativeTreeNode(&#39;N787022267&#39;,this)"><a title="PRET PERSONNEL" class="here" href="http://publisher.affili.net/Creatives/showCreatives.aspx?lcid=102016&amp;pid=12765">PRET PERSONNEL</a><ul id="N787022267" style="display:"><li><img src="./bannieres carrefour_files/open.gif" onclick="CreativesPage.ToggleCreativeTreeNode(&#39;N1691923483&#39;,this)"><a title="Prêt Perso Taux" class="here" href="http://publisher.affili.net/Creatives/showCreatives.aspx?lcid=102017&amp;pid=12765">Prêt Perso Taux</a><ul id="N1691923483" style="display:"><li><img src="./bannieres carrefour_files/none.gif"><a title="Habillage" href="http://publisher.affili.net/Creatives/showCreatives.aspx?lcid=110364&amp;pid=12765">Habillage</a></li><li><img src="./bannieres carrefour_files/none.gif"><a title="Gif" href="http://publisher.affili.net/Creatives/showCreatives.aspx?lcid=102020&amp;pid=12765">Gif</a></li><li><img src="./bannieres carrefour_files/none.gif"><a title="Bannières Moteur" class="here" href="http://publisher.affili.net/Creatives/showCreatives.aspx?lcid=115264&amp;pid=12765">Bannières Moteur</a></li></ul></li><li><img src="./bannieres carrefour_files/open.gif" onclick="CreativesPage.ToggleCreativeTreeNode(&#39;N646519154&#39;,this)"><a title="Prêt Perso Auto" href="http://publisher.affili.net/Creatives/showCreatives.aspx?lcid=102018&amp;pid=12765">Prêt Perso Auto</a><ul id="N646519154" style="display:"><li><img src="./bannieres carrefour_files/none.gif"><a title="Gif" href="http://publisher.affili.net/Creatives/showCreatives.aspx?lcid=102024&amp;pid=12765">Gif</a></li></ul></li><li><img src="./bannieres carrefour_files/open.gif" onclick="CreativesPage.ToggleCreativeTreeNode(&#39;N481487981&#39;,this)"><a title="Prêt Perso Travaux" href="http://publisher.affili.net/Creatives/showCreatives.aspx?lcid=102019&amp;pid=12765">Prêt Perso Travaux</a><ul id="N481487981" style="display:"><li><img src="./bannieres carrefour_files/none.gif"><a title="Gif" href="http://publisher.affili.net/Creatives/showCreatives.aspx?lcid=102026&amp;pid=12765">Gif</a></li></ul></li></ul></li><li><img src="./bannieres carrefour_files/open.gif" onclick="CreativesPage.ToggleCreativeTreeNode(&#39;N37317663&#39;,this)"><a title="RACHAT DE CREDIT" href="http://publisher.affili.net/Creatives/showCreatives.aspx?lcid=119298&amp;pid=12765">RACHAT DE CREDIT</a><ul id="N37317663" style="display:"><li><img src="./bannieres carrefour_files/none.gif"><a title="Gif" href="http://publisher.affili.net/Creatives/showCreatives.aspx?lcid=119299&amp;pid=12765">Gif</a></li><li><img src="./bannieres carrefour_files/none.gif"><a title="Flash" href="http://publisher.affili.net/Creatives/showCreatives.aspx?lcid=119300&amp;pid=12765">Flash</a></li></ul></li><li><img src="./bannieres carrefour_files/open.gif" onclick="CreativesPage.ToggleCreativeTreeNode(&#39;N32259985&#39;,this)"><a title="ASSURANCE" href="http://publisher.affili.net/Creatives/showCreatives.aspx?lcid=102030&amp;pid=12765">ASSURANCE</a><ul id="N32259985" style="display:"><li><img src="./bannieres carrefour_files/open.gif" onclick="CreativesPage.ToggleCreativeTreeNode(&#39;N202158328&#39;,this)"><a title="Assurance Auto" href="http://publisher.affili.net/Creatives/showCreatives.aspx?lcid=102031&amp;pid=12765">Assurance Auto</a><ul id="N202158328" style="display:"><li><img src="./bannieres carrefour_files/none.gif"><a title="Gif" href="http://publisher.affili.net/Creatives/showCreatives.aspx?lcid=102036&amp;pid=12765">Gif</a></li></ul></li><li><img src="./bannieres carrefour_files/open.gif" onclick="CreativesPage.ToggleCreativeTreeNode(&#39;N317249933&#39;,this)"><a title="Assurance MRH" href="http://publisher.affili.net/Creatives/showCreatives.aspx?lcid=102034&amp;pid=12765">Assurance MRH</a><ul id="N317249933" style="display:"><li><img src="./bannieres carrefour_files/none.gif"><a title="Gif" href="http://publisher.affili.net/Creatives/showCreatives.aspx?lcid=102041&amp;pid=12765">Gif</a></li></ul></li></ul></li><li><img src="./bannieres carrefour_files/none.gif"><a title="Kits mails" href="http://publisher.affili.net/Creatives/showCreatives.aspx?lcid=102080&amp;pid=12765">Kits mails</a></li><li><img src="./bannieres carrefour_files/none.gif"><a title="OP AFFILIES" href="http://publisher.affili.net/Creatives/showCreatives.aspx?lcid=110334&amp;pid=12765">OP AFFILIES</a></li><li><img src="./bannieres carrefour_files/none.gif"><a title="EMULATION" href="http://publisher.affili.net/Creatives/showCreatives.aspx?lcid=117033&amp;pid=12765">EMULATION</a></li><li><img src="./bannieres carrefour_files/open.gif" onclick="CreativesPage.ToggleCreativeTreeNode(&#39;N381338207&#39;,this)"><a title="LIENS TEXTES" href="http://publisher.affili.net/Creatives/showCreatives.aspx?lcid=102078&amp;pid=12765">LIENS TEXTES</a><ul id="N381338207" style="display:"><li><img src="./bannieres carrefour_files/none.gif"><a title="Rachat de Crédits" href="http://publisher.affili.net/Creatives/showCreatives.aspx?lcid=119824&amp;pid=12765">Rachat de Crédits</a></li><li><img src="./bannieres carrefour_files/none.gif"><a title="Prêt Perso Taux" href="http://publisher.affili.net/Creatives/showCreatives.aspx?lcid=102082&amp;pid=12765">Prêt Perso Taux</a></li><li><img src="./bannieres carrefour_files/none.gif"><a title="Prêt Perso Auto" href="http://publisher.affili.net/Creatives/showCreatives.aspx?lcid=102081&amp;pid=12765">Prêt Perso Auto</a></li><li><img src="./bannieres carrefour_files/none.gif"><a title="Prêt Perso Travaux" href="http://publisher.affili.net/Creatives/showCreatives.aspx?lcid=102083&amp;pid=12765">Prêt Perso Travaux</a></li><li><img src="./bannieres carrefour_files/none.gif"><a title="Assu Auto" href="http://publisher.affili.net/Creatives/showCreatives.aspx?lcid=102085&amp;pid=12765">Assu Auto</a></li><li><img src="./bannieres carrefour_files/none.gif"><a title="Assu MRH" href="http://publisher.affili.net/Creatives/showCreatives.aspx?lcid=102086&amp;pid=12765">Assu MRH</a></li><li><img src="./bannieres carrefour_files/none.gif"><a title="Assu Auto et MRH" href="http://publisher.affili.net/Creatives/showCreatives.aspx?lcid=102087&amp;pid=12765">Assu Auto et MRH</a></li></ul></li><li><img src="./bannieres carrefour_files/none.gif"><a title="Logos" href="http://publisher.affili.net/Creatives/showCreatives.aspx?lcid=102079&amp;pid=12765">Logos</a></li><li><img src="./bannieres carrefour_files/none.gif"><a title="Corbeille" href="http://publisher.affili.net/Creatives/showCreatives.aspx?lcid=117790&amp;pid=12765">Corbeille</a></li></ul></li></ul><ul><li><img src="./bannieres carrefour_files/none.gif"><a title="Visiter le site" target="_blank" href="http://c4bq.eulerian.net/click/carrefour-banque/8lL.QlYVeQ7BL6AqQORYDe0RirhizXnjMyvpRWocGw--/">Visiter le site</a></li></ul><ul><li><img src="./bannieres carrefour_files/none.gif"><a title="T&amp;C annonceur" target="_blank" href="http://banners.contentfeed.net/12765/CGV_Carrefour_Banque.pdf">T&amp;C annonceur</a></li></ul><ul><li><img src="./bannieres carrefour_files/none.gif"><a title="Envoyer un email" href="mailto:cpfrunner@affili.net?subject=Postuler%20au%20programme%20d%27affiliation%20affilinet">Envoyer un email</a></li></ul><ul><li><img src="./bannieres carrefour_files/none.gif"><a title="Bloc-notes" href="javascript:window.open(&#39;/Programs/PopupNoticePartnerShip.aspx?pid=12765&#39;,&#39;popup&#39;,&#39;width=500,height=400,resizable=no,scrollbars=no,toolbar=no,location=no,directories=no,status=no,menubar=no,copyhistory=no&#39;,true);void(0);">Bloc-notes</a></li></ul><ul><li><img src="./bannieres carrefour_files/none.gif"><a title="Annuler le partenariat" href="javascript:deletepartnership(&quot;Veuillez SVP confirmer l\u0027annulation du partenariat&quot;,&quot;/Creatives/showCreatives.aspx?d=1&amp;pid=12765&quot;);void(0);">Annuler le partenariat</a></li></ul><ul><li><img src="./bannieres carrefour_files/none.gif"><a title="Historique des rémunérations" href="http://publisher.affili.net/Programs/ProvisionHistory.aspx?pid=12765">Historique des rémunérations</a></li></ul></div>
+                        </div>
+                        
+
+                    </td>
+                    <td>
+                        
+    <script type="text/javascript" src="./bannieres carrefour_files/CreativesPage.js"></script>
+    <script type="text/javascript" src="./bannieres carrefour_files/CreativesLibrary.js"></script>
+    <script type="text/javascript" src="./bannieres carrefour_files/ControlsLibrary.js"></script>
+    <!--[if gte IE 5.5000]>
+	    <![if lt IE 7]>
+            <style>
+            #CreativesButtons
+            {
+                display:block !important;
+            }
+
+            </style>
+        <![endif]>
+    <![endif]-->
+    <script type="text/javascript">
+
+        function ResizeIframeDimensions(height) {
+            //for widget type selection  
+            if (height < 842) {
+                height = 842;
+            }
+            $("#ProductWidgetsFrame").height(height + 'px');
+        }
+
+
+        function clpSet(uniqueName) {
+            sel = document.forms[0].elements[uniqueName].value;
+            window.clipboardData.setData("Text", sel);
+        }
+        function showSpinner(show) {
+            if (show) { $("#spinner").show(); } else { $("#spinner").hide(); }
+        }
+        /////////////////////////////////////////////////////
+        /// PerformanceAd-Program-Terms and Conditions
+        /////////////////////////////////////////////////////
+        function ShowTermsAndConditions(programid, publisherId) {
+            if (typeof publisherId == "undefined" || publisherId == null) publisherId = 0;
+
+            GetRadWindowTermsAndConditions().setUrl(MasterPage.RootPath + "/Programs/TermsAndConditions.aspx?pid=" + programid + "&pubid=" + publisherId);
+            GetRadWindowTermsAndConditions().show();
+            return false;
+        }
+
+        function TermsAndConditions_OnClientClose(sender, eventArgs) {
+            //GetRadWindowTermsAndConditions().window.frames["radWindowTermsAndConditions"].document.body.innerHTML = "";
+            GetRadWindowTermsAndConditions().close();
+        }
+
+        function GetRadWindowTermsAndConditions() {
+            var radWnd = $find("ctl00_ctl00_ContentPlaceHolderContent_Frame1ContentWithNavigation_radWindowTermsAndConditions");
+            return radWnd;
+        }
+    </script>
+    <div id="ctl00_ctl00_ContentPlaceHolderContent_Frame1ContentWithNavigation_radWindowTermsAndConditions" style="display:none;">
+	<div id="ctl00_ctl00_ContentPlaceHolderContent_Frame1ContentWithNavigation_radWindowTermsAndConditions_C">
+
+	</div><input id="ctl00_ctl00_ContentPlaceHolderContent_Frame1ContentWithNavigation_radWindowTermsAndConditions_ClientState" name="ctl00_ctl00_ContentPlaceHolderContent_Frame1ContentWithNavigation_radWindowTermsAndConditions_ClientState" type="hidden" autocomplete="off">
+</div>
+    <table id="ContentPlaceHolderContent_Frame1ContentWithNavigation_tblContent" class="creativeTable">
+	<tbody><tr>
+		<td>
+                <h2>
+                    <span class="CategoryHeader">Bannières Moteur</span></h2>
+                <br>
+<div class="CreativeContainer">
+    <div id="ContentPlaceHolderContent_Frame1ContentWithNavigation_ctl00_InfoBox" class="CreativeContainerHeader">
+        <h3>
+            <span id="ContentPlaceHolderContent_Frame1ContentWithNavigation_ctl00_lblBannerFormat" class="txt_blue_bold">Format de bannière :</span><span id="ContentPlaceHolderContent_Frame1ContentWithNavigation_ctl00_bannerFormat" class="txt_blue_bold">160x600</span>
+            <span class="creative_spacer">&nbsp;</span>
+            <span id="ContentPlaceHolderContent_Frame1ContentWithNavigation_ctl00_lblTitle" class="txt_blue_bold">Titre :</span><span id="ContentPlaceHolderContent_Frame1ContentWithNavigation_ctl00_title" class="txt_blue_bold">160x600</span>
+        </h3>
+    </div>
+    <div class="creative_box">
+        <div class="creative_box_inner">
+            
+            
+            <span id="ContentPlaceHolderContent_Frame1ContentWithNavigation_ctl00_showHtml"><iframe scrolling="no" src="./bannieres carrefour_files/showSingleCreativeWithoutHtmlStructure.html" width="176" height="616" hspace="0" vspace="0" frameborder="0">
+&lt;script language="javascript" type="text/javascript" src="http://banniere.reussissonsensemble.fr/view.asp?ref=762150&amp;site=12765&amp;type=html&amp;hnb=35&amp;js=1&amp;showlnk=1"&gt;&lt;/script&gt;
+&lt;noscript&gt;&lt;a href="http://clic.reussissonsensemble.fr/click.asp?ref=762150&amp;site=12765&amp;type=b1&amp;bnb=1" target="_blank"&gt;&lt;img src="http://banniere.reussissonsensemble.fr/view.asp?ref=762150&amp;site=12765&amp;b=1" border="0"/&gt;&lt;/a&gt;&lt;br&gt;&lt;/noscript&gt;</iframe></span>
+            <div id="ContentPlaceHolderContent_Frame1ContentWithNavigation_ctl00_showBannerOverwrite">
+                <span id="ContentPlaceHolderContent_Frame1ContentWithNavigation_ctl00_lblBannerOverwrite"></span><br>
+                <br>
+                
+            </div>
+            
+            <script type="text/javascript">
+                $(document).ready(function () {
+                    $(".AdspaceAssignmentAccordion").accordion({ header: 'h3', autoHeight: false });
+                });
+            </script>
+            <div id="ContentPlaceHolderContent_Frame1ContentWithNavigation_ctl00_BannerCode" class="AdspaceAssignmentAccordion ui-accordion ui-widget ui-helper-reset ui-accordion-icons" role="tablist">
+                
+                <div>
+                    <h3 class="ui-accordion-header ui-helper-reset ui-state-default ui-state-active ui-corner-top" role="tab" aria-expanded="true" aria-selected="true" tabindex="0"><span class="ui-icon ui-icon-triangle-1-s"></span>
+                        <span id="ContentPlaceHolderContent_Frame1ContentWithNavigation_ctl00_rbCreativeCode_UseStaticCode" style="display:none;">Afficher le code HTML statique</span>
+                        <span id="ContentPlaceHolderContent_Frame1ContentWithNavigation_ctl00_lblCreativeCodeForDisabledAdspaceManagement">Code HTML du visuel :</span>
+                    </h3>
+                    <div id="ContentPlaceHolderContent_Frame1ContentWithNavigation_ctl00_divStaticCode" style="height:130px;display:;" class="ui-accordion-content ui-helper-reset ui-widget-content ui-corner-bottom ui-accordion-content-active" role="tabpanel">
+                        <textarea name="ctl00$ctl00$ContentPlaceHolderContent$Frame1ContentWithNavigation$ctl00$codeBox" rows="4" cols="20" readonly="readonly" id="ContentPlaceHolderContent_Frame1ContentWithNavigation_ctl00_codeBox" onclick="this.select()">&lt;!-- BEGIN PARTNER PROGRAM - DO NOT CHANGE THE PARAMETERS OF THE HYPERLINK --&gt;
+&lt;script language="javascript" type="text/javascript" src="http://banniere.reussissonsensemble.fr/view.asp?ref=762150&amp;site=12765&amp;type=html&amp;hnb=35&amp;js=1"&gt;&lt;/script&gt;
+&lt;noscript&gt;&lt;a href="http://clic.reussissonsensemble.fr/click.asp?ref=762150&amp;site=12765&amp;type=b1&amp;bnb=1" target="_blank"&gt;
+&lt;img src="http://banniere.reussissonsensemble.fr/view.asp?ref=762150&amp;site=12765&amp;b=1" border="0" title="160x600" alt="160x600"/&gt;&lt;/a&gt;&lt;br /&gt;&lt;/noscript&gt;
+&lt;!-- END PARTNER PROGRAM --&gt;</textarea>
+                        <div class="right paddingTop1" style="padding-right:4px">
+                            <input type="submit" name="ctl00$ctl00$ContentPlaceHolderContent$Frame1ContentWithNavigation$ctl00$btnSendCreativeCode" value="Envoyer par email" onclick="javascript:return CreativesLibrary.SendCreativeCode(12765,&#39;160x600&#39;,&#39;%3C!--%20BEGIN%20PARTNER%20PROGRAM%20-%20DO%20NOT%20CHANGE%20THE%20PARAMETERS%20OF%20THE%20HYPERLINK%20--%3E%0D%0A%3Cscript%20language%3D%22javascript%22%20type%3D%22text%2Fjavascript%22%20src%3D%22http%3A%2F%2Fbanniere.reussissonsensemble.fr%2Fview.asp%3Fref%3D762150%26site%3D12765%26type%3Dhtml%26hnb%3D35%26js%3D1%22%3E%3C%2Fscript%3E%0A%3Cnoscript%3E%3Ca%20href%3D%22http%3A%2F%2Fclic.reussissonsensemble.fr%2Fclick.asp%3Fref%3D762150%26site%3D12765%26type%3Db1%26bnb%3D1%22%20target%3D%22_blank%22%3E%0D%0A%3Cimg%20src%3D%22http%3A%2F%2Fbanniere.reussissonsensemble.fr%2Fview.asp%3Fref%3D762150%26site%3D12765%26b%3D1%22%20border%3D%220%22%20title%3D%22160x600%22%20alt%3D%22160x600%22%2F%3E%3C%2Fa%3E%3Cbr%20%2F%3E%3C%2Fnoscript%3E%0D%0A%3C!--%20END%20PARTNER%20PROGRAM%20--%3E&#39;,160,600,&#39;Le%20code%20du%20visuel%20a%20bien%20%e9t%e9%20envoy%e9%20sur%20l%27adresse%20mail%20enregistr%e9e%20sur%20votre%20compte.&#39;,&#39;divStaticCode&#39;);WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$ctl00$ContentPlaceHolderContent$Frame1ContentWithNavigation$ctl00$btnSendCreativeCode&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, false))" id="ContentPlaceHolderContent_Frame1ContentWithNavigation_ctl00_btnSendCreativeCode" class="button">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="CreativesButtons">
+                <input name="ctl00$ctl00$ContentPlaceHolderContent$Frame1ContentWithNavigation$ctl00$clpb" type="button" id="ContentPlaceHolderContent_Frame1ContentWithNavigation_ctl00_clpb" onclick="clpSet(&#39;ctl00$ctl00$ContentPlaceHolderContent$Frame1ContentWithNavigation$ctl00$codeBox&#39;)" value="Copier code dans le presse-papiers">
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="CreativeContainer">
+    <div id="ContentPlaceHolderContent_Frame1ContentWithNavigation_ctl01_InfoBox" class="CreativeContainerHeader">
+        <h3>
+            <span id="ContentPlaceHolderContent_Frame1ContentWithNavigation_ctl01_lblBannerFormat" class="txt_blue_bold">Format de bannière :</span><span id="ContentPlaceHolderContent_Frame1ContentWithNavigation_ctl01_bannerFormat" class="txt_blue_bold">300x250</span>
+            <span class="creative_spacer">&nbsp;</span>
+            <span id="ContentPlaceHolderContent_Frame1ContentWithNavigation_ctl01_lblTitle" class="txt_blue_bold">Titre :</span><span id="ContentPlaceHolderContent_Frame1ContentWithNavigation_ctl01_title" class="txt_blue_bold">300x250</span>
+        </h3>
+    </div>
+    <div class="creative_box">
+        <div class="creative_box_inner">
+            
+            
+            <span id="ContentPlaceHolderContent_Frame1ContentWithNavigation_ctl01_showHtml"><iframe scrolling="no" src="./bannieres carrefour_files/showSingleCreativeWithoutHtmlStructure(1).html" width="316" height="266" hspace="0" vspace="0" frameborder="0">
+&lt;script language="javascript" type="text/javascript" src="http://banniere.reussissonsensemble.fr/view.asp?ref=762150&amp;site=12765&amp;type=html&amp;hnb=36&amp;js=1&amp;showlnk=1"&gt;&lt;/script&gt;
+&lt;noscript&gt;&lt;a href="http://clic.reussissonsensemble.fr/click.asp?ref=762150&amp;site=12765&amp;type=b1&amp;bnb=1" target="_blank"&gt;&lt;img src="http://banniere.reussissonsensemble.fr/view.asp?ref=762150&amp;site=12765&amp;b=1" border="0"/&gt;&lt;/a&gt;&lt;br&gt;&lt;/noscript&gt;</iframe></span>
+            <div id="ContentPlaceHolderContent_Frame1ContentWithNavigation_ctl01_showBannerOverwrite">
+                <span id="ContentPlaceHolderContent_Frame1ContentWithNavigation_ctl01_lblBannerOverwrite"></span><br>
+                <br>
+                
+            </div>
+            
+            <script type="text/javascript">
+                $(document).ready(function () {
+                    $(".AdspaceAssignmentAccordion").accordion({ header: 'h3', autoHeight: false });
+                });
+            </script>
+            <div id="ContentPlaceHolderContent_Frame1ContentWithNavigation_ctl01_BannerCode" class="AdspaceAssignmentAccordion ui-accordion ui-widget ui-helper-reset ui-accordion-icons" role="tablist">
+                
+                <div>
+                    <h3 class="ui-accordion-header ui-helper-reset ui-state-default ui-state-active ui-corner-top" role="tab" aria-expanded="true" aria-selected="true" tabindex="0"><span class="ui-icon ui-icon-triangle-1-s"></span>
+                        <span id="ContentPlaceHolderContent_Frame1ContentWithNavigation_ctl01_rbCreativeCode_UseStaticCode" style="display:none;">Afficher le code HTML statique</span>
+                        <span id="ContentPlaceHolderContent_Frame1ContentWithNavigation_ctl01_lblCreativeCodeForDisabledAdspaceManagement">Code HTML du visuel :</span>
+                    </h3>
+                    <div id="ContentPlaceHolderContent_Frame1ContentWithNavigation_ctl01_divStaticCode" style="height:130px;display:;" class="ui-accordion-content ui-helper-reset ui-widget-content ui-corner-bottom ui-accordion-content-active" role="tabpanel">
+                        <textarea name="ctl00$ctl00$ContentPlaceHolderContent$Frame1ContentWithNavigation$ctl01$codeBox" rows="4" cols="20" readonly="readonly" id="ContentPlaceHolderContent_Frame1ContentWithNavigation_ctl01_codeBox" onclick="this.select()">&lt;!-- BEGIN PARTNER PROGRAM - DO NOT CHANGE THE PARAMETERS OF THE HYPERLINK --&gt;
+&lt;script language="javascript" type="text/javascript" src="http://banniere.reussissonsensemble.fr/view.asp?ref=762150&amp;site=12765&amp;type=html&amp;hnb=36&amp;js=1"&gt;&lt;/script&gt;
+&lt;noscript&gt;&lt;a href="http://clic.reussissonsensemble.fr/click.asp?ref=762150&amp;site=12765&amp;type=b1&amp;bnb=1" target="_blank"&gt;
+&lt;img src="http://banniere.reussissonsensemble.fr/view.asp?ref=762150&amp;site=12765&amp;b=1" border="0" title="300x250" alt="300x250"/&gt;&lt;/a&gt;&lt;br /&gt;&lt;/noscript&gt;
+&lt;!-- END PARTNER PROGRAM --&gt;</textarea>
+                        <div class="right paddingTop1" style="padding-right:4px">
+                            <input type="submit" name="ctl00$ctl00$ContentPlaceHolderContent$Frame1ContentWithNavigation$ctl01$btnSendCreativeCode" value="Envoyer par email" onclick="javascript:return CreativesLibrary.SendCreativeCode(12765,&#39;300x250&#39;,&#39;%3C!--%20BEGIN%20PARTNER%20PROGRAM%20-%20DO%20NOT%20CHANGE%20THE%20PARAMETERS%20OF%20THE%20HYPERLINK%20--%3E%0D%0A%3Cscript%20language%3D%22javascript%22%20type%3D%22text%2Fjavascript%22%20src%3D%22http%3A%2F%2Fbanniere.reussissonsensemble.fr%2Fview.asp%3Fref%3D762150%26site%3D12765%26type%3Dhtml%26hnb%3D36%26js%3D1%22%3E%3C%2Fscript%3E%0A%3Cnoscript%3E%3Ca%20href%3D%22http%3A%2F%2Fclic.reussissonsensemble.fr%2Fclick.asp%3Fref%3D762150%26site%3D12765%26type%3Db1%26bnb%3D1%22%20target%3D%22_blank%22%3E%0D%0A%3Cimg%20src%3D%22http%3A%2F%2Fbanniere.reussissonsensemble.fr%2Fview.asp%3Fref%3D762150%26site%3D12765%26b%3D1%22%20border%3D%220%22%20title%3D%22300x250%22%20alt%3D%22300x250%22%2F%3E%3C%2Fa%3E%3Cbr%20%2F%3E%3C%2Fnoscript%3E%0D%0A%3C!--%20END%20PARTNER%20PROGRAM%20--%3E&#39;,300,250,&#39;Le%20code%20du%20visuel%20a%20bien%20%e9t%e9%20envoy%e9%20sur%20l%27adresse%20mail%20enregistr%e9e%20sur%20votre%20compte.&#39;,&#39;divStaticCode&#39;);WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$ctl00$ContentPlaceHolderContent$Frame1ContentWithNavigation$ctl01$btnSendCreativeCode&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, false))" id="ContentPlaceHolderContent_Frame1ContentWithNavigation_ctl01_btnSendCreativeCode" class="button">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="CreativesButtons">
+                <input name="ctl00$ctl00$ContentPlaceHolderContent$Frame1ContentWithNavigation$ctl01$clpb" type="button" id="ContentPlaceHolderContent_Frame1ContentWithNavigation_ctl01_clpb" onclick="clpSet(&#39;ctl00$ctl00$ContentPlaceHolderContent$Frame1ContentWithNavigation$ctl01$codeBox&#39;)" value="Copier code dans le presse-papiers">
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="CreativeContainer">
+    <div id="ContentPlaceHolderContent_Frame1ContentWithNavigation_ctl02_InfoBox" class="CreativeContainerHeader">
+        <h3>
+            <span id="ContentPlaceHolderContent_Frame1ContentWithNavigation_ctl02_lblBannerFormat" class="txt_blue_bold">Format de bannière :</span><span id="ContentPlaceHolderContent_Frame1ContentWithNavigation_ctl02_bannerFormat" class="txt_blue_bold">728x90</span>
+            <span class="creative_spacer">&nbsp;</span>
+            <span id="ContentPlaceHolderContent_Frame1ContentWithNavigation_ctl02_lblTitle" class="txt_blue_bold">Titre :</span><span id="ContentPlaceHolderContent_Frame1ContentWithNavigation_ctl02_title" class="txt_blue_bold">728x90</span>
+        </h3>
+    </div>
+    <div class="creative_box">
+        <div class="creative_box_inner">
+            
+            
+            <span id="ContentPlaceHolderContent_Frame1ContentWithNavigation_ctl02_showHtml"><iframe scrolling="no" src="./bannieres carrefour_files/showSingleCreativeWithoutHtmlStructure(2).html" width="744" height="106" hspace="0" vspace="0" frameborder="0">
+&lt;script language="javascript" type="text/javascript" src="http://banniere.reussissonsensemble.fr/view.asp?ref=762150&amp;site=12765&amp;type=html&amp;hnb=37&amp;js=1&amp;showlnk=1"&gt;&lt;/script&gt;
+&lt;noscript&gt;&lt;a href="http://clic.reussissonsensemble.fr/click.asp?ref=762150&amp;site=12765&amp;type=b1&amp;bnb=1" target="_blank"&gt;&lt;img src="http://banniere.reussissonsensemble.fr/view.asp?ref=762150&amp;site=12765&amp;b=1" border="0"/&gt;&lt;/a&gt;&lt;br&gt;&lt;/noscript&gt;</iframe></span>
+            <div id="ContentPlaceHolderContent_Frame1ContentWithNavigation_ctl02_showBannerOverwrite">
+                <span id="ContentPlaceHolderContent_Frame1ContentWithNavigation_ctl02_lblBannerOverwrite"></span><br>
+                <br>
+                
+            </div>
+            
+            <script type="text/javascript">
+                $(document).ready(function () {
+                    $(".AdspaceAssignmentAccordion").accordion({ header: 'h3', autoHeight: false });
+                });
+            </script>
+            <div id="ContentPlaceHolderContent_Frame1ContentWithNavigation_ctl02_BannerCode" class="AdspaceAssignmentAccordion ui-accordion ui-widget ui-helper-reset ui-accordion-icons" role="tablist">
+                
+                <div>
+                    <h3 class="ui-accordion-header ui-helper-reset ui-state-default ui-state-active ui-corner-top" role="tab" aria-expanded="true" aria-selected="true" tabindex="0"><span class="ui-icon ui-icon-triangle-1-s"></span>
+                        <span id="ContentPlaceHolderContent_Frame1ContentWithNavigation_ctl02_rbCreativeCode_UseStaticCode" style="display:none;">Afficher le code HTML statique</span>
+                        <span id="ContentPlaceHolderContent_Frame1ContentWithNavigation_ctl02_lblCreativeCodeForDisabledAdspaceManagement">Code HTML du visuel :</span>
+                    </h3>
+                    <div id="ContentPlaceHolderContent_Frame1ContentWithNavigation_ctl02_divStaticCode" style="height:130px;display:;" class="ui-accordion-content ui-helper-reset ui-widget-content ui-corner-bottom ui-accordion-content-active" role="tabpanel">
+                        <textarea name="ctl00$ctl00$ContentPlaceHolderContent$Frame1ContentWithNavigation$ctl02$codeBox" rows="4" cols="20" readonly="readonly" id="ContentPlaceHolderContent_Frame1ContentWithNavigation_ctl02_codeBox" onclick="this.select()">&lt;!-- BEGIN PARTNER PROGRAM - DO NOT CHANGE THE PARAMETERS OF THE HYPERLINK --&gt;
+&lt;script language="javascript" type="text/javascript" src="http://banniere.reussissonsensemble.fr/view.asp?ref=762150&amp;site=12765&amp;type=html&amp;hnb=37&amp;js=1"&gt;&lt;/script&gt;
+&lt;noscript&gt;&lt;a href="http://clic.reussissonsensemble.fr/click.asp?ref=762150&amp;site=12765&amp;type=b1&amp;bnb=1" target="_blank"&gt;
+&lt;img src="http://banniere.reussissonsensemble.fr/view.asp?ref=762150&amp;site=12765&amp;b=1" border="0" title="728x90" alt="728x90"/&gt;&lt;/a&gt;&lt;br /&gt;&lt;/noscript&gt;
+&lt;!-- END PARTNER PROGRAM --&gt;</textarea>
+                        <div class="right paddingTop1" style="padding-right:4px">
+                            <input type="submit" name="ctl00$ctl00$ContentPlaceHolderContent$Frame1ContentWithNavigation$ctl02$btnSendCreativeCode" value="Envoyer par email" onclick="javascript:return CreativesLibrary.SendCreativeCode(12765,&#39;728x90&#39;,&#39;%3C!--%20BEGIN%20PARTNER%20PROGRAM%20-%20DO%20NOT%20CHANGE%20THE%20PARAMETERS%20OF%20THE%20HYPERLINK%20--%3E%0D%0A%3Cscript%20language%3D%22javascript%22%20type%3D%22text%2Fjavascript%22%20src%3D%22http%3A%2F%2Fbanniere.reussissonsensemble.fr%2Fview.asp%3Fref%3D762150%26site%3D12765%26type%3Dhtml%26hnb%3D37%26js%3D1%22%3E%3C%2Fscript%3E%0A%3Cnoscript%3E%3Ca%20href%3D%22http%3A%2F%2Fclic.reussissonsensemble.fr%2Fclick.asp%3Fref%3D762150%26site%3D12765%26type%3Db1%26bnb%3D1%22%20target%3D%22_blank%22%3E%0D%0A%3Cimg%20src%3D%22http%3A%2F%2Fbanniere.reussissonsensemble.fr%2Fview.asp%3Fref%3D762150%26site%3D12765%26b%3D1%22%20border%3D%220%22%20title%3D%22728x90%22%20alt%3D%22728x90%22%2F%3E%3C%2Fa%3E%3Cbr%20%2F%3E%3C%2Fnoscript%3E%0D%0A%3C!--%20END%20PARTNER%20PROGRAM%20--%3E&#39;,728,90,&#39;Le%20code%20du%20visuel%20a%20bien%20%e9t%e9%20envoy%e9%20sur%20l%27adresse%20mail%20enregistr%e9e%20sur%20votre%20compte.&#39;,&#39;divStaticCode&#39;);WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$ctl00$ContentPlaceHolderContent$Frame1ContentWithNavigation$ctl02$btnSendCreativeCode&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, false))" id="ContentPlaceHolderContent_Frame1ContentWithNavigation_ctl02_btnSendCreativeCode" class="button">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="CreativesButtons">
+                <input name="ctl00$ctl00$ContentPlaceHolderContent$Frame1ContentWithNavigation$ctl02$clpb" type="button" id="ContentPlaceHolderContent_Frame1ContentWithNavigation_ctl02_clpb" onclick="clpSet(&#39;ctl00$ctl00$ContentPlaceHolderContent$Frame1ContentWithNavigation$ctl02$codeBox&#39;)" value="Copier code dans le presse-papiers">
+            </div>
+        </div>
+    </div>
+</div>
+</td>
+	</tr>
+</tbody></table>
+    <div class="progressOuter" id="spinner" style="display:none">
+        <div class="progressSpinner"></div>
+    </div>
+
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    </div>
+    
+    <div class="PageFooter">
+        <table id="tblFooter" class="innerPageFooter">
+	<tbody><tr>
+		<td>
+                    <p>
+                        <a id="hlHelp" title="Aide" href="http://publisher.affili.net/Help/Help.aspx" target="_top">Aide</a>
+                        <span id="lblHelpSpan">&nbsp;|&nbsp;</span>
+                        <a id="hlContact" title="Contact" href="http://publisher.affili.net/Help/FAQ.aspx" target="_blank">Contact</a><span>&nbsp;|&nbsp;</span>
+                        <a id="hlTandC" title="Termes et conditions" href="http://www.affili.net/AFFI/media/AFFIMediaLibraries/Documents/fr-FR/Footer/Conditions-generales_editeurs.pdf" target="_blank">Termes et conditions</a><span>&nbsp;|&nbsp;</span>
+                        <a id="hlImprint" title="Confidentialité" href="http://www.affili.net/fr/Informations-legales.aspx" target="_blank">Confidentialité</a>
+                    </p>
+                    <p>
+                        <span id="lblCopyright">Copyright&nbsp;©&nbsp;2016,&nbsp;affilinet GmbH</span>
+                    </p>
+                </td>
+		<td class="right middle">
+                    <a href="http://www.united-internet.de/" target="_blank">
+                        <img id="imgUnitedInternet" src="./bannieres carrefour_files/united_internet.png"></a>
+                </td>
+	</tr>
+</tbody></table>
+
+    </div>
+    
+<script type="text/javascript">
+//<![CDATA[
+var ucPageHeaderBar_ctlAccountList_tvAccounts_ImageArray =  new Array('', '', '', '/WebResource.axd?d=H40lCKS00wfswLePimFMPhjzdaJZv13tUw2f8EFfnU9YYw240O-TH24evwiwY8iHuAAB63MDnclvSJxz7hQJzDfhOVhnX0E9LakERE32Mqr5K1tYCmSAzp5SAjWvsrFh0&t=635589471476784022', '/WebResource.axd?d=8SCFgm4MAC40r8yygxQeQCMRsXFDnGqFXkarQYIKbr2YbhbTRGHk6h8zVxssjDSyVUHlSA4vli9G90McIu9h3PlVzwv8R_qYMZ2lv7XzPt4YJIGehYl9-gIQFVc5bn8-0&t=635589471476784022', '/WebResource.axd?d=HMbX785njQj-ALqWr5geh7zvPoGLy-_T__MonXBGyxGUr92Nzvdx5uu2k-8N9LMOEebudCU8C4a8sdujhrMtdD7DOqoQR3bxxhCyyK05g-baztSTiYaDLlac1qTYkfxv0&t=635589471476784022');
+//]]>
+</script>
+
+
+<script type="text/javascript">
+//<![CDATA[
+
+WebForm_InitCallback();var ucPageHeaderBar_ctlAccountList_tvAccounts_Data = new Object();
+ucPageHeaderBar_ctlAccountList_tvAccounts_Data.images = ucPageHeaderBar_ctlAccountList_tvAccounts_ImageArray;
+ucPageHeaderBar_ctlAccountList_tvAccounts_Data.collapseToolTip = "Collapse {0}";
+ucPageHeaderBar_ctlAccountList_tvAccounts_Data.expandToolTip = "Expand {0}";
+ucPageHeaderBar_ctlAccountList_tvAccounts_Data.expandState = theForm.elements['ucPageHeaderBar_ctlAccountList_tvAccounts_ExpandState'];
+ucPageHeaderBar_ctlAccountList_tvAccounts_Data.selectedNodeID = theForm.elements['ucPageHeaderBar_ctlAccountList_tvAccounts_SelectedNode'];
+ucPageHeaderBar_ctlAccountList_tvAccounts_Data.selectedClass = 'ucPageHeaderBar_ctlAccountList_tvAccounts_4 selected ';
+ucPageHeaderBar_ctlAccountList_tvAccounts_Data.selectedHyperLinkClass = 'ucPageHeaderBar_ctlAccountList_tvAccounts_3 selected ';
+(function() {
+  for (var i=0;i<6;i++) {
+  var preLoad = new Image();
+  if (ucPageHeaderBar_ctlAccountList_tvAccounts_ImageArray[i].length > 0)
+    preLoad.src = ucPageHeaderBar_ctlAccountList_tvAccounts_ImageArray[i];
+  }
+})();
+ucPageHeaderBar_ctlAccountList_tvAccounts_Data.lastIndex = 2;
+ucPageHeaderBar_ctlAccountList_tvAccounts_Data.populateLog = theForm.elements['ucPageHeaderBar_ctlAccountList_tvAccounts_PopulateLog'];
+ucPageHeaderBar_ctlAccountList_tvAccounts_Data.treeViewID = 'ctl00$ctl00$ucPageHeaderBar$ctlAccountList$tvAccounts';
+ucPageHeaderBar_ctlAccountList_tvAccounts_Data.name = 'ucPageHeaderBar_ctlAccountList_tvAccounts_Data';
+//]]>
+</script>
+<script type="text/javascript">new Sys.WebForms.Menu({ element: 'NewMainNavigation_MainMenu', disappearAfter: 500, orientation: 'horizontal', tabIndex: 0, disabled: false });</script>
+<script type="text/javascript">
+//<![CDATA[
+;(function() {
+                        function loadHandler() {
+                            var hf = $get('RadStyleSheetManager1_TSSM');
+                            if (!hf._RSSM_init) { hf._RSSM_init = true; hf.value = ''; }
+                            hf.value += ';Telerik.Web.UI, Version=2012.3.1016.40, Culture=neutral, PublicKeyToken=121fae78165ba3d4:fr-FR:eedc0a8d-48b8-46b8-a699-de66b4bdef1e:53e1db5a:d126a8ef:92753c09:45085116;Telerik.Web.UI.Skins, Version=2012.3.1016.40, Culture=neutral, PublicKeyToken=121fae78165ba3d4:fr-FR:ad8247f5-bfa4-411f-8f02-a4a9c3cb5ca9:bf721433:70970e8a';
+                            Sys.Application.remove_load(loadHandler);
+                        };
+                        Sys.Application.add_load(loadHandler);
+                    })();Sys.Application.add_init(function() {
+    $create(Telerik.Web.UI.RadToolTipManager, {"_cssClass":"","_manualCloseButtonText":"Close","_updatePanelUniqueId":"ctl00$ctl00$RadToolTipManager1RTMPanel","animation":2,"animationDuration":400,"clientStateFieldID":"ctl00_ctl00_RadToolTipManager1_ClientState","formID":"Form1","height":"100px","hideEvent":4,"isToolTipFactory":true,"loadOnDemand":true,"modal":true,"relativeTo":1,"showDelay":300,"showEvent":2,"skin":"Default","targetControls":"[]","width":"400px"}, null, null, $get("ctl00_ctl00_RadToolTipManager1"));
+});
+Sys.Application.add_init(function() {
+    $create(Telerik.Web.UI.RadWindow, {"_dockMode":false,"behaviors":0,"clientStateFieldID":"ctl00_ctl00_rwMainUrl_ClientState","formID":"Form1","height":"300px","iconUrl":"","minimizeIconUrl":"","modal":true,"name":"rwMainUrl","navigateUrl":"../App_MasterPages/#","reloadOnShow":true,"showContentDuringLoad":false,"skin":"Metro","top":"0px","visibleStatusbar":false,"width":"700px"}, null, null, $get("ctl00_ctl00_rwMainUrl"));
+});
+Sys.Application.add_init(function() {
+    $create(Telerik.Web.UI.RadWindow, {"_dockMode":false,"behaviors":36,"clientStateFieldID":"ctl00_ctl00_rwAcceptInvitation_ClientState","formID":"Form1","height":"460px","iconUrl":"","minimizeIconUrl":"","modal":true,"name":"rwAcceptInvitation","navigateUrl":"../App_MasterPages/#","reloadOnShow":true,"showContentDuringLoad":false,"skin":"Metro","top":"0px","visibleStatusbar":false,"width":"530px"}, {"close":OnAcceptInvitationClose}, null, $get("ctl00_ctl00_rwAcceptInvitation"));
+});
+Sys.Application.add_init(function() {
+    $create(Telerik.Web.UI.RadAjaxManager, {"_updatePanels":"","ajaxSettings":[],"clientEvents":{OnRequestStart:"",OnResponseEnd:""},"defaultLoadingPanelID":"","enableAJAX":true,"enableHistory":true,"links":[],"styles":[],"uniqueID":"ctl00$ctl00$ContentPlaceHolderContent$RadAjaxManager2","updatePanelsRenderMode":0}, null, null, $get("ctl00_ctl00_ContentPlaceHolderContent_RadAjaxManager2"));
+});
+Sys.Application.add_init(function() {
+    $create(Telerik.Web.UI.RadAjaxLoadingPanel, {"initialDelayTime":0,"isSticky":false,"minDisplayTime":0,"skin":"Transparent","transparency":0,"uniqueID":"ctl00$ctl00$ContentPlaceHolderContent$AjaxLoadingPanel2","zIndex":90000}, null, null, $get("ContentPlaceHolderContent_AjaxLoadingPanel2"));
+});
+Sys.Application.add_init(function() {
+    $create(Telerik.Web.UI.RadWindow, {"_dockMode":false,"behaviors":37,"clientStateFieldID":"ctl00_ctl00_ContentPlaceHolderContent_Frame1ContentWithNavigation_radWindowTermsAndConditions_ClientState","formID":"Form1","height":"500px","iconUrl":"","minimizeIconUrl":"","modal":true,"name":"radWindowTermsAndConditions","skin":"Metro","visibleStatusbar":false,"width":"500px"}, {"close":TermsAndConditions_OnClientClose}, null, $get("ctl00_ctl00_ContentPlaceHolderContent_Frame1ContentWithNavigation_radWindowTermsAndConditions"));
+});
+//]]>
+</script>
+</form>
+    <div id="jAlertWrapper" class="jAlert" style="display: none;">
+        <p>
+            <span class="ui-icon ui-icon-alert jAlert-icon"></span><span id="jAlertText"></span>
+        </p>
+    </div>
+    <script type="text/javascript">
+
+        function OpenMainUrlWindow(content) {
+            var wnd = $find("ctl00_ctl00_rwMainUrl");
+            wnd.setUrl("../Account/MainUrlPrompt.aspx");
+            wnd.center();
+            wnd.show();
+            return false;
+        }
+
+        function OpenAcceptInvitationWindow(publisherId, programId, invitationId) {
+            var wnd = $find("ctl00_ctl00_rwAcceptInvitation");
+            wnd.argument = invitationId;
+            wnd.setUrl("../Programs/AcceptInvitation.aspx?programId=" + programId + "&publisherId=" + publisherId);
+            wnd.center();
+            wnd.show();
+            return false;
+        }
+    </script>
+    
+    <script type="text/javascript">
+       
+        
+
+        // TODO: display logic or, better, opener function
+        function ShowMissingFieldsDialog(){
+                	           
+           
+            var $dialog = $("#dialog-modal-missing-data");
+            var strTitle =  'Attention !';
+
+            $dialog.dialog({
+                width: 620,
+                modal: true,
+                show: 'slide',
+                hide: 'explode',
+                resizable: false,
+                title: strTitle,
+                autoOpen: true
+            });
+        }
+          
+            
+        // query missing fields
+        function CheckMissingFields() {
+            $.ajax({
+                type: "POST",
+                url: StringLibrary.StripTrailingSlash(AuthenticationLibrary.PageMethodPath) + "/Account/PublisherInformation.aspx/GetMissingFields", 
+                data:  "",
+                contentType: "application/json; charset=utf-8",
+                dataType: "json",
+                success: function (msg) { 
+                    if(msg) {
+                        DecideInfoVisibility(msg.d);
+                    }
+                },
+                error: HandleMissingFieldsError          
+            });                
+        }
+
+
+
+        function OpenTermsAndConditionsPopup(programId, publisherId)
+        {
+            var path = MasterPage.RootPath + "/Programs/TermsAndConditions.aspx?showCloseButton=false&pid=" + programId + "&pubid=" + publisherId;
+           
+            $("#dialog-modal-terms:ui-dialog").dialog("destroy");
+	                   
+            var $dialog = $("#dialog-modal-terms");
+            var strTitle = 'Termes et conditions';
+
+            $dialog.dialog({
+                width: 460,
+                modal: true,
+                show: 'slide',
+                resizable: false,
+                title: strTitle,
+                autoOpen: true,
+                open: function(event, ui) {
+                    $("#iFrameTerms").attr("src",path);
+                },
+                close: function(event, ui) {
+                    // Clear the URL so Chrome/Firefox don't refresh the iframe when it's hidden.
+                    iframe.src = "about:blank";
+                }
+            });
+
+                         
+
+        }
+
+        // show missing field infos and their container
+        function DecideInfoVisibility(list)
+        {
+            var dataIsComplete = true;              
+            // 'reset' dialog could be shown twice without page reload (2x update)
+            $(".info_content li").hide();
+
+            // check for missing data
+            var data = $.evalJSON(list);
+            if(data != null) {
+                   
+                $("#MissingData").show();
+
+                // make all missing fields visible
+                $.each(data, function (index) {
+                    $("#" + data[index]).show();
+                    $("#" + data[index]).attr("visible", "visible");
+                });
+
+                // make container with missing fields visible
+                $(".info_content").has("li[visible='visible']").show();
+            }
+                
+            if($(".info_content").has("li[visible='visible']").length > 0)
+            {
+                dataIsComplete = false;
+                ShowMissingFieldsDialog();
+            }
+
+            return dataIsComplete;
+        }
+
+
+        function HandleMissingFieldsError(msg) {
+            // see Management.aspx HandleAjaxError(jqXHR, textStatus, errorThrown, context)
+            // could be centralized but ShowSpinner() is NOT defined in this master!
+        }
+           
+
+        
+
+
+        
+        $(document).ready(function () {                
+            ShowNotifications();
+        });  
+        
+
+
+        $(document).ready(function (){                
+            if( typeof(Page_ClientValidate) == 'function')
+            {                    
+                eval('Page_ClientValidate = ' + Page_ClientValidate.toString().replace('return Page_IsValid;', ' AddValidationErrorClassToAllTextboxes(); if(!Page_IsValid){ ShowNotifications(); } return Page_IsValid;'));                
+            }
+            AddValidationErrorClassToAllTextboxes();
+            $("input[type=text]").change(function() {AddValidationErrorClassToTextbox(this);});
+        });
+
+        function AddValidationErrorClassToAllTextboxes()
+        {           
+            var textboxes = $("input[type=text]");
+            $.each(textboxes, function(i) {
+                AddValidationErrorClassToTextbox(textboxes[i]);
+            });
+        }
+
+
+        function AddValidationErrorClassToTextbox(obj) {
+            var validators = obj.Validators;
+            if(typeof obj.Validators != "undefined")
+            {
+                var isValid = true;
+                for (i in validators)
+                {
+                    if (!validators[i].isvalid)
+                    {
+                        isValid = false;
+                    }
+                    $(validators[i]).hide(); 
+                }
+                if (isValid)
+                {
+                    $(obj).removeClass('error');
+                }
+                else
+                {                
+                    $(obj).addClass('error');
+                }
+            }
+        }
+
+    </script>
+    
+    <div>
+        <div id="dialog-modal-missing-data" title="Basic modal dialog" style="display: none;">
+            <div id="divForm" class=" affilinet-form">
+                <div id="MissingData" style="display: none;">
+                    <div>
+                        <div class="twelve columns">
+                            <b>Vous devez compléter les informations manquantes afin de pouvoir postuler aux programmes et que vos candidatures soient visibles par les annonceurs.</b>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="twelve columns">
+                            <div class="info_content BorderBottom" style="display: none">
+                                <h1>
+                                    <span>
+                                        Les informations manquantes :</span></h1>
+                                <ul>
+                                    <li id="MissingField_Publisher_BusinessModel" style="display: none">
+                                        Sélectionnez votre business model</li>
+                                    <li id="MissingField_Publisher_Category1" style="display: none">
+                                        Sélectionnez votre catégorie</li>
+                                    <li id="MissingField_Publisher_AccountDescription" style="display: none">
+                                        Décrivez votre activité</li>
+                                </ul>
+                                <div style="text-align: right;">
+                                    <a href="http://publisher.affili.net/Account/PublisherInformation.aspx?tab=1" target="_parent">
+                                        Cliquez ici pour saisir vos informations</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="">
+                        <div class="twelve columns">
+                            <div class="info_content BorderBottom" style="display: none">
+                                <h1>
+                                    <span>
+                                        Vos informations personnelles</span></h1>
+                                <ul>
+                                    <li id="MissingField_Publisher_Adress1" style="display: none">
+                                        Rue</li>
+                                    <li id="MissingField_Publisher_PLZ" style="display: none">
+                                        Code postal</li>
+                                    <li id="MissingField_Publisher_City" style="display: none">
+                                        Ville</li>
+                                    <li id="MissingField_Publisher_PhoneNumber" style="display: none">
+                                        Téléphone</li>
+                                    <li id="MissingField_Publisher_Sba" style="display: none">
+                                        Mandat d'auto facturation</li>
+                                    <li id="MissingField_Publisher_TaxInformation" style="display: none">
+                                       Numéro de taxe national ou numéro de TVA
+
+
+</li>
+                               
+                                </ul>
+                                <div style="text-align: right;">
+                                    <a href="http://publisher.affili.net/Account/PublisherInformation.aspx?tab=2" target="_parent">
+                                        Cliquez ici pour saisir vos informations</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="">
+                        <div class="twelve columns">
+                            <div class="info_content BorderBottom" style="display: none">
+                                <h1>
+                                    <span>
+                                        Détails du paiement</span></h1>
+                                <ul>
+                                    <li id="MissingField_Publisher_PaymentInformation" style="display: none">
+                                        Coordonnées bancaires</li>
+                                </ul>
+                                <div style="text-align: right;">
+                                    <a href="http://publisher.affili.net/Account/PublisherInformation.aspx?tab=3" target="_parent">
+                                        Cliquez ici pour saisir vos informations</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="dialog-modal-terms" title="Basic modal dialog" style="display: none;">
+            <iframe id="iFrameTerms" border="0" class="iFrameTerms" frameborder="0" scrolling="auto">
+            </iframe>
+        </div>
+    </div>
+    
+
+
+<span style="height: 20px; width: 40px; position: absolute; opacity: 1; z-index: 8675309; display: none; cursor: pointer; border: none; background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFAAAAAoCAYAAABpYH0BAAAHjElEQVR4Ae1bBXAbvRLO0GNmpv+VmflnZmZmZi4zMzMzM4Y58ZwTz4SZnZzpjLWzBa38Zs8aO332pdy7ma9JPmml1XfSaqXacfgYjRIcPrwP9u7dqSMKHDq0D5hmiLi4vDwJEH6/H86dOxcFdAQCfq5ZQUEexOHM8/l8cPbsWR0xADVD7eJwSuqCaANqpwt4MQTU9uiPLuDFErC1tVUDdFw0AV0l5VA1dS4Y7n4SUv7VD+J/0QHif3YT/1168Dmonb8MfBbr9StgIBDQBE9DE+Q//zYX69QP/3NBJP6pO1TPXgwBvx9trwu0S0BblgFSOwwigRJ+1xnyn3wVqqfNh6aVG6Fu7mIofudzSL1poCCk6aX3wO/1XV8C4ikkFjgKSiD5b71IlIIX3oHTbDayR5ji/GEdVU+dK8zS0m8mYDvXPLQJyDLw7CH3khjlTAx8LmSDYtbOXEg28b/sAPb8Qir3ebxg3ncY5MTUiz5Ir80BTTv2UX+R4KyownraBcRjSbRo3LaHhDDc8Ri0BgKcd5lboOTL0ZDPZqOclBpmh/XSuwwj2+IPv+a81+2B3DsfI75+/VbkLwpczTKkdx+B7fKNzSblCeVl42dA8j/78PLaZWtjbl+TgManXqPBWk4mBXmvF7KH3U98CnOKCRNmW/zul1QnvdfNnDMfPkEcomzklIsmYOWMBULbTdv3Ik8+J/+9N5UpRSXaBfR6vVEj5d99sUMeA/3/4xp3H0ROgFJbF2ZbMW66uun8thPnbAaJ4mMKG5CztAL5i4LGDduov6w+t4FPUahMzjJQWep/B6EgMbdPAno8nqhx6sfBTrMH3k1c6feTwlIW1kGYbdk3E9U4+PMOyPF69uQMqF+8Gk43y2R3MYBxSt5zCJpWb4ZWl1AmzM6CF9/V0r42AZP/3CP4RgfcRVzozEIYH3kxom3Bqx+qb/3f/ThXtXAlSI+9xPAytJxIpLp2FtilJ14F6dGXoPCT78AqmcDI4mtqx8Ec+S+/D0pdwwV9Lfl6QrDtJ14BW1Ep5/JZGpVz+6NsJfUnX9I6D+WcxMKTJgHdbnfUyBn+QHAJ/rojOOobOGfef0QQsHbBioi2Wf3vFDYgxqHzxDEBqW7l3MWq2DcNYEu+c1iYMDz0XJt+Kk1mnOU0251sk7MyEck+AnKDPkULbQJWz1LTEdNbn3FOzsolDpe4s7I6zM5aXAanfqrmgpVs1lpNheqy/2M38DjV+sYnXxUHd/ODUP7VeBbLbicOd9a2/KzbskuwRc7O/Cr7gmUKT71OZXjcLPt8JIclMUWbgE6nM2p4HQ4ekPlO2n045yoox2Nct+HYeJid6d0vQuLff3nuVTl/GXHSwy+o9RVFSNSL3vqMck1bcoa6Ef2+c5t+Fryj9lf+7STOoV/YRtWUuVRW+PrHyCFwWcakBQmoKEpM8LHlYHrmDXSM/y09qaY2mBo4mmWhfgNb4vE/+68QtNEBSZ1lbGYvovpNKapIyX/thUkuldWG7KzZg+9p08eMPreGhgahzHDvU2reuW4LcpqgWUAcfCCYQOPfbBn0FWMTu4FpZstaLiyCEpasJvymkxrP/jOAX0IoDgfmi8RbDRK1XzZ5NvGm594W+i54T51ZpZ+PiuifpbwCQwmd0d0O9QU4rFZI/EMXCjeYbrVbQIfDoRnNBkm4UMD8LkKApnzLXVwanGWpmULizV4KtRk6Q+qWrRX6ywiGDw7zgWMRfapavl59mXc/IZQ1HDlJZRhP0RetY78oAlYuWK7GMTZw64nE0CMbxaoSFgNPt8gkVPm0+VRufPwVag9nT8KvO1CZrbhMLauqoY0Iz9NOiyWiT/mvfED2FSOnCGWYCtFxkvmEXLsFtNvtmmF87i11Z500BwXCKxlQciSQ9x0BR1oWtHr4sQ47JTvp6deF2xniX3qPePYiBJvaXQeoLKPXzW36lNlX3anrWMwkexaLQzOBavbyeRl7EebMnJjHTgJarVbNSOs0hBySU7OQQ1CsxJ+R7LIG3k12Eku8G1nMzHv9I+IQhW98LNhUhOSGiSyhrz8eDzVMVF6uAlMiqpfDLipq2Xm7YulqtBETfnYZ3HAqCQwsiY9ns95skGIae7sFtDQ20hvFkwVuDNHaSvc/g3YC8EysxlC+Qwo2dZt2Ih+G8oUrhXrGR1+KWA83Ddq4RODlL852bQJaLBZNMEt56i0KW4ax2MrH4zE2CsvVcugEJP6e75Bs5+4ItqoawUaxWjEpFs7TRW9+CoosC/W8DCUffsN2224hu39/MG/cCbb4FDyrE48XGHhXiSEm1vG3W8Bmo4kuD5Sa2phscWkHZAvfdFySCeMmcvgf1vj5E/yJbznMLoCpU7YB7EyIQIscceBoh5cSGHudBiO4C0rwZpxCSiuDkmXAfpHHBBvttAsoy7I2VFUHA/WC5dhgrPZoQ5tEDHZYH+3+b59YjnVR0Eg89asR2gVUHaFTBfHXPy6egAhcQtrtdQERuoAtLS06NEAX8GIJaDabdWgAFxA/ptrQUBejsQ7UDLXjHzLPzExjREOUxjpQK9SsoMAIcewf/jWHQ4e0fM1B/5rDebD10oZZukwlAAAAAElFTkSuQmCC&quot;); background-color: transparent; background-size: 40px 20px;"></span></body></html>

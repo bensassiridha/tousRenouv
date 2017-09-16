@@ -1,0 +1,100 @@
+/*! responsive-nav.js 1.0.34 by @viljamis */
+
+@media(min-width: 776px){
+
+  .js .menu {
+    position: relative;
+  }
+  .js .menu.closed {
+    max-height: none;
+  }
+  .nav-toggle {
+    display: none;
+  }
+
+}
+
+@media (max-width: 480px) {
+
+  .menu ul {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    display: block;
+    list-style: none;
+    position: relative;
+    z-index: 9999;
+  }
+
+  .menu li {
+    width: 100%;
+    display: block;
+  }
+
+  .js .menu {
+    clip: rect(0 0 0 0);
+    max-height: 0;
+    position: absolute;
+    display: block;
+    overflow: hidden;
+    zoom: 1;
+  }
+
+  .menu.opened {
+    max-height: 9999px;
+  }
+
+  .nav-toggle {
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+    float: right;
+  }
+
+}
+
+@media (min-width: 480px) and (max-width: 776px){
+
+  .menu ul {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    display: block;
+    list-style: none;
+  }
+
+  .menu li {
+    width: 100%;
+    display: block;
+  }
+
+  .js .menu {
+    clip: rect(0 0 0 0);
+    max-height: 0;
+    position: absolute;
+    display: block;
+    overflow: hidden;
+    zoom: 1;
+    width: 100%
+  }
+
+  .menu.opened {
+    max-height: 9999px;
+  }
+
+  .nav-toggle {
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+    float: right;
+  }
+
+}

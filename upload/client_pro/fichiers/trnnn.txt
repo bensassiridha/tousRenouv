@@ -1,0 +1,64 @@
+
+******************************* admin ********************************* 
+ 
+-espace professionnel :
+	+ recherche par nom , prenom , tel , email , num sirene ...
+	+ agrandir contenu texte  et ajouter piece jointe dans l'envoie mail
+	+ modifier tous les coordonnées sauf mot de passe
+	+ ajouter date d'inscription
+	+ ajouter titre à newsletter
+
+-espace particulier :
+	+ recherche par nom , prenom , tel , email  ...
+	+ modifier tous les coordonnées sauf mot de passe
+	+ agrandir contenu texte  et ajouter piece jointe dans l'envoie mail
+	+ ajouter titre à newsletter
+
++gestion de site :
+	+ ajouter titre à newsletter
+	+ annonce : trier par choix
+
++Devis avec achat imédiat :
+	+ supprimer devis ajoutés parl'admin 
+
+-Devis ajoutés parl'admin ( on ajoute ) :
+	l'admin ajouter devis puis il valide le devis ,
+	on envoie automatiquement une alerte au client ,
+	apres il choisit quelques client => envoie automatiquement le coordonnées du client
+	enfin valide le client qui va faire le projet et reste dans l'historique
+
+-gestion des utilisateurs :
+	-ajouter partie zone d'intervention quand il clique sur espace pro et devis ajouté par l'admin
+	et lorsque il entre sur la partie admin il affiche seulement les clients et les devis 
+	dans ces zones.
+
+
+prtie salarié ni modif ni sppr
+
+
+******************************* site ********************************* 
+
++Petites annonces 
+	- ouvrir dans une nouvel ongle
+
++Partenaires 
+	- ouvrir dans une nouvel ongle
+
++adthis ( fcb ... ) 
+	- ouvrir dans une nouvel ongle
+
++formulaire 
+	- ouvrir dans une nouvel ongle
+
++mentions légale 
+	-erreur de la page
+	-à l'inscription de pro ou part , ouvrir une popup lors de clique sur condition générale
+
+
+
+
+
+
+
+
+

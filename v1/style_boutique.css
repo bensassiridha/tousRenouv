@@ -1,0 +1,268 @@
+/***** Styles personnalisables *****/
+
+div#espace_compte a { /* Couleur des liens */ color:#000; text-decoration:underline; }	
+div#espace_compte a:hover { /* Couleur des liens au survol */ text-decoration:none; }	
+
+div#espace_compte form fieldset { /* Conteneur du formulaire */ padding:0 20px; padding-bottom:10px; border:1px solid #333; }
+div#espace_compte form legend { /* Titres dans les formulaires */ font-size:105%; padding:0 5px; margin-left:-5px; font-weight:bold;color:#000; }
+
+div#espace_compte ul#compte_details_com li h4 { /* Détails commande couleur du trait de séparation */ border-bottom:1px solid #333; }
+
+	/* Boutons fashions */
+
+div#espace_compte .boutons_persos_1 { /* Les boutons que l'on peut trouver pour l'authentification par exemple */ background:#f0f0f0; border:1px solid #333; padding:4px 5px; color:#333; text-decoration:none; -moz-border-radius:5px; -webkit-border-radius:5px; border-radius:5px; /* <= Arrondi */ font-size:12px; font-weight:bold; font-family:"Trebuchet MS", Tahoma, Arial, Verdana, sans-serif; }	
+div#espace_compte .boutons_persos_1:hover { /* Boutons fashion au survol */ background:#ddd; color:#333; }	
+	
+	/* Fil d'ariane des commandes */
+
+div#espace_compte ul#compte_ariane_cmd li.ariane_cmd_fil { /* Couleur du trait */ border-bottom:1px solid #999 !important; }
+div#espace_compte ul#compte_ariane_cmd li { /* Etapes en mode "repos" */ -moz-border-radius:5px; -webkit-border-radius:5px; border-radius:5px; /* <= Arrondi */ background:#333; margin-left:3px; padding:5px 8px; border:1px solid #999; color:#fff; font-size:95%; }
+div#espace_compte ul#compte_ariane_cmd li.done { /* Etape passée */ background:#eee; color:#666; }
+div#espace_compte ul#compte_ariane_cmd li.done a { /* Lien étapes déjà passées */ color:#666; }
+div#espace_compte ul#compte_ariane_cmd li.courant { /* Etape "courante" */ font-weight:bold; border-color:#000; color:#fff; background:#666; }
+div#espace_compte ul#compte_ariane_cmd li.courant a { /* Lien étape en cours */ color:#fff; }
+	
+	/* Panier */
+
+div#espace_compte td.prix_final { /* Montant total à payer */ font-weight:bold; font-size:130% !important; }
+div#espace_compte p#panier_boutons input { /* Styles propres aux deux boutons "Recalculer" et "Passer la commande" */ -moz-border-radius:5px; -webkit-border-radius:5px; border-radius:5px; /* <= Arrondi */ -moz-box-shadow:3px 3px 3px #ccc; -webkit-box-shadow:3px 3px 3px #ccc; box-shadow:3px 3px 3px #ccc; /* <= Ombre portée */ margin:0 5px; font-size:100%; font-weight:bold; font-family:"Trebuchet MS", Tahoma, Arial, Verdana, sans-serif; }
+div#espace_compte p#panier_boutons input:hover { /* Survol des deux boutons "Recalculer" et "Passer la commande" */ color:#fff; background-color:#333; }
+
+
+	/* Styles des formulaires */
+div#espace_compte .tpl_form_defaut span.label,
+div#espace_compte .tpl_form_defaut label { /* Stylage des <label> */ width:110px; }
+
+div#espace_compte form.tpl_form_defaut input[type=text],
+div#espace_compte form.tpl_form_defaut input[type=file],
+div#espace_compte form.tpl_form_defaut input[type=password],
+div#espace_compte form.tpl_form_defaut textarea,
+div#espace_compte form.tpl_form_defaut select { /* Stylage des champs */ font-family:Arial, Verdana, sans-serif; font-size:105%; border:1px solid #333 !important; width:120px; }
+div#espace_compte form.tpl_form_defaut select { /* Le champ <select> a besoin de 6px supplémentaires pour faire la même taille que les <input> */ width:126px; }
+
+div#espace_compte form.tpl_form_defaut input[type=submit]:hover { /* Stylage bouton "submit" au survol */ background:#ddd; border:1px solid #232323 !important; }
+
+div#espace_compte form.tpl_form_defaut input[type=text]:hover, form.tpl_form_defaut input[type=text]:focus,
+div#espace_compte form.tpl_form_defaut input[type=password]:hover, form.tpl_form_defaut input[type=password]:focus,
+div#espace_compte form.tpl_form_defaut textarea:hover, form.tpl_form_defaut textarea:focus,
+div#espace_compte form.tpl_form_defaut select:hover, form.tpl_form_defaut select:focus { /* Stylage des champs lors du focus et du hover */ border:1px solid #000 !important; background:#f0f0f0;}
+
+	/* Styles des tableaux */
+
+div#espace_compte table.tpl_table_defaut td { /* Couleur des bordures du tableau */ border-bottom: 1px solid #333; }
+div#espace_compte table.tpl_table_defaut tr.entete { /* Couleurs dans l'entete du tableau */ background:#333; color:#fff; }
+	
+	/* Tableau de bord */
+
+div#espace_compte ul#tableau_bord li dl dt { /* Couleur trait de séparation */ border-bottom:1px solid #333; }
+
+/***** 
+
+		/!\	/!\	/!\	/!\	/!\	/!\	/!\	/!\	/!\	/!\	/!\	/!\	/!\	/!\	/!\	/!\	/!\	/!\	
+		/!\	MODIFIEZ LES BOUTS DE CODE CI-DESSOUS A VOS RISQUES ET PERILS ! /!\	
+		/!\	/!\	/!\	/!\	/!\	/!\	/!\	/!\	/!\	/!\	/!\	/!\	/!\	/!\	/!\	/!\	/!\	/!\	
+		
+		Reset *****/
+	
+div#espace_compte *,
+div#espace_compte div, div#espace_compte span, div#espace_compte p, 
+div#espace_compte a, div#espace_compte img, div#espace_compte strong, 
+div#espace_compte dl, div#espace_compte dt, div#espace_compte dd, div#espace_compte ol, div#espace_compte ul, div#espace_compte li,
+div#espace_compte fieldset, div#espace_compte form, div#espace_compte label, div#espace_compte legend, 
+div#espace_compte table, div#espace_compte tr, div#espace_compte td { border:1; margin:0; padding:0; list-style:none; outline:none; font-size:100%;}
+
+/* Ancient Reset
+div#espace_compte *,
+div#espace_compte { border:0; margin:0; padding:0; list-style:none; outline:none; } */
+
+div#espace_compte { /*margin:0 0 0 50px;*/ text-align:left; font-family:Verdana; overflow:hidden; line-height:1.3em; font-size:12px; color:#333; width:690px;/*margin-left:15px;*/}
+
+div#espace_compte input, 
+textarea, 
+select {padding:2px !important; vertical-align:middle; }
+
+div#espace_compte input[type=submit],
+input[type=button] { cursor:pointer; padding:3px 5px !important; background:#eeeeee; border:1px solid #232323 !important; }
+select option { padding-right:5px !important; }
+
+div#espace_compte .padding_top_5 { padding-top:5px; }
+div#espace_compte .padding_tb_20 { padding:20px 0; }
+div#espace_compte .padding_bottom_20 { padding-bottom:20px; }
+div#espace_compte .margin_top_20 { margin-top:20px; }
+div#espace_compte .align_center { text-align:center; }
+div#espace_compte .align_left { text-align:left; }
+
+div#espace_compte .overflow_hidden { overflow:hidden; }
+div#espace_compte .float_left { float:left; }
+div#espace_compte .float_right { float:right; }
+div#espace_compte .note { color:red; font-size:90%; }
+
+/***** Formulaires *****/
+
+div#espace_compte form.tpl_form_defaut { font-size:95%; display:-moz-inline-stack; display:inline-block; overflow:hidden; }
+div#espace_compte span.obli { color:red; }
+div#espace_compte form fieldset legend + p { /* Le 1er <p> qui suit le <legend> **** Correctif */ padding-top:20px; }
+
+form.tpl_form_defaut label, 
+form.tpl_form_defaut input[type=submit] { cursor:pointer; }
+
+form.tpl_form_defaut input[type=checkbox], 
+form.tpl_form_defaut input[type=radiobox], 
+form.tpl_form_defaut input[type=image] { border:0; }
+
+.tpl_form_defaut .display_block { display:block; }
+
+ul.tpl_form_defaut li, 
+form.tpl_form_defaut p { overflow:hidden; margin-bottom:3px !important; }
+
+.tpl_form_defaut span.label, 
+.tpl_form_defaut label { padding:2px !important; display:block; padding-right:20px !important; float:left; width:100px; }
+
+.intitules_larges  span.label, 
+.intitules_larges  label { width:180px !important; }
+
+.intitules_moyens  span.label, 
+.intitules_moyens  label { width:150px !important; }
+
+.tpl_form_defaut .label_inline label, 
+.tpl_form_defaut .label_inline span.label { padding-right:0; display:inline; float:none; }
+
+form.tpl_form_defaut input[type=text], 
+form.tpl_form_defaut input[type=password], 
+form.tpl_form_defaut textarea, 
+form.tpl_form_defaut select { border:1px solid #666; width:120px; }
+
+form.champs_larges input[type=text],
+form.champs_larges input[type=password], 
+form.champs_larges textarea, 
+form.champs_larges select { width:200px !important; }
+
+form.tpl_form_defaut input[type=submit]:hover { color:#000; background:#ccc; border:1px solid #000 !important; }
+
+form.tpl_form_defaut input[type=text]:hover, form.tpl_form_defaut input[type=text]:focus,
+form.tpl_form_defaut textarea:hover, form.tpl_form_defaut textarea:focus,
+form.tpl_form_defaut select:hover, form.tpl_form_defaut select:focus { border:1px solid #000 !important; background:#eee; }
+
+/***** Tableaux *****/
+
+div#espace_compte table.tpl_table_defaut { text-align:center; position:relative; left:1px; border-collapse:collapse; width:99%; font-size:95%; }
+div#espace_compte table.tpl_table_defaut td { padding:3px 5px; }
+div#espace_compte table.tpl_table_defaut td img { vertical-align:middle; }
+div#espace_compte table.tpl_table_defaut td.width_60 { width:60px; }
+div#espace_compte table.tpl_table_defaut td.photo img { max-width:50px; max-height:50px; }
+div#espace_compte table.tpl_table_defaut td.width_80 { width:80px; }
+div#espace_compte table.tpl_table_defaut td.width_40 { width:40px; }
+div#espace_compte table.tpl_table_defaut td.width_20 { width:20px; }
+div#espace_compte table.tpl_table_defaut tr.entete { height:25px; }
+div#espace_compte table.tpl_table_defaut tr.total td { border:0; }
+div#espace_compte table.tpl_table_defaut tr.total td[colspan] { font-size:105%; text-align:right; }
+div#espace_compte table.tpl_table_defaut tr.entete td { border-bottom:0; padding:0; font-size:105%; font-weight:bold; }
+
+/***** Fil d'ariane *****/
+
+div#espace_compte p#compte_ariane { font-size:95%; padding-bottom:30px; }
+
+/***** Fil d'ariane commandes *****/
+
+div#espace_compte div.conteneur_ariane_cmd { text-align:center; padding-bottom:20px; }
+div#espace_compte ul#compte_ariane_cmd { position:relative; display:inline-block; }
+div#espace_compte ul#compte_ariane_cmd li.ariane_cmd_fil { z-index:1; display:block; margin:0; padding:0; position:absolute; top:50%; left:0; border:none; width:100%; }
+div#espace_compte ul#compte_ariane_cmd li { position:relative; z-index:2; display:inline-block; text-align:center; }
+div#espace_compte ul#compte_ariane_cmd li:first-child { margin-left:0; }
+
+/***** Tableau de bord *****/
+
+div#espace_compte ul#tableau_bord { overflow:hidden; }
+div#espace_compte ul#tableau_bord li { width:49.9%; float:left; padding-bottom:20px; }
+div#espace_compte ul#tableau_bord li dl { padding-right:10px; }
+div#espace_compte ul#tableau_bord li.droite dl { padding-left:10px; padding-right:0; }
+div#espace_compte ul#tableau_bord li dl dt { height:1.3em; line-height:1.3em; padding-left:22px; padding-bottom:5px; margin-bottom:5px;color:#333; }
+div#espace_compte ul#tableau_bord li dl dd { font-size:95%; }
+div#espace_compte ul#tableau_bord li dl dd.description { overflow:hidden; height:45px; }
+div#espace_compte ul#tableau_bord li dl dd.lien { padding-top:10px; height:20px; text-align:right; }
+
+div#espace_compte li#compte_infos dl dt { /* Icone informations personnelles */ background:transparent url(stockage_img/user.png) no-repeat left top; }
+div#espace_compte li#compte_mdp dl dt { /* Icone mot de passe */ background:transparent url(stockage_img/key.png) no-repeat left top; }
+div#espace_compte li#compte_commandes dl dt { /* Icone commandes */ background:transparent url(stockage_img/lorry.png) no-repeat left top; }
+div#espace_compte li#compte_adresses dl dt { /* Icone adresses */ background:transparent url(stockage_img/book.png) no-repeat left top; }
+div#espace_compte li#compte_panier dl dt { /* Icone paniers enregistrés */ background:transparent url(stockage_img/cart.png) no-repeat left top; }
+div#espace_compte li#compte_newsletter dl dt { /* Icone newsletter */ background:transparent url(stockage_img/email.png) no-repeat left 1px; }
+
+/***** Détails de la commande *****/
+
+div#espace_compte ul#compte_details_com { overflow:hidden; padding-bottom:30px; }
+div#espace_compte ul#compte_details_com li { text-align:center; float:left; width:31%; }
+div#espace_compte ul#compte_details_com li h4 { margin-bottom:10px; font-size:100%; /* Correctif IE7*/ }
+div#espace_compte ul#compte_details_com li dl { padding:0 5px; font-size:95%; }
+div#espace_compte ul#compte_details_com li dl dt { font-weight:bold; }
+div#espace_compte ul#compte_details_com.livraison li { text-align:left; width:49.9%; }
+div#espace_compte ul#compte_details_com.livraison li dl { padding-left:0; }
+div#espace_compte ul#compte_details_com.livraison li:first-child { width:49.9%; }
+div#espace_compte ul#compte_details_com.livraison li:first-child dl dt { float:none; margin-right:0; }
+div#espace_compte ul#compte_details_com li:first-child { text-align:left; width:37%; }
+div#espace_compte ul#compte_details_com li:first-child dl { padding-left:0; }
+div#espace_compte ul#compte_details_com li:first-child dl dt { float:left; margin-right:5px; }
+
+/***** Panier *****/
+
+div#espace_compte input.panier_qte { width:25px; text-align:right; font-size:95%; }
+div#espace_compte p#panier_boutons span.panier_actions { float:left; }
+div#espace_compte p#panier_boutons span.panier_actions a { margin:0 5px; padding:5px 0; padding-left:22px; }
+div#espace_compte p#panier_boutons span.panier_actions a.panier_modifier { background:transparent url(stockage_img/cart_edit.png) no-repeat left center; }
+div#espace_compte p#panier_boutons span.panier_actions a.panier_vider { background:transparent url(stockage_img/delete.png) no-repeat left center;color: #000000; }
+div#espace_compte p#panier_boutons span.panier_actions a.panier_enregistrer { background:transparent url(stockage_img/disk.png) no-repeat left center; }
+div#espace_compte p#panier_boutons span.droit_actions { float:left; }
+div#espace_compte p#panier_boutons span.droit_actions a { margin:0 5px; padding:5px 0; padding-left:22px; }
+div#espace_compte p#panier_boutons span.droit_actions a.panier_modifier { background:transparent url(stockage_img/user.png) no-repeat left center; }
+div#espace_compte p#panier_boutons { padding:20px 0; text-align:right; overflow:hidden; }
+
+/***** Page authentification *****/
+
+div#espace_compte ul#compte_authentification { overflow:hidden; }
+div#espace_compte ul#compte_authentification li { border:1px solid #333; width:48%; float:right; }
+div#espace_compte ul#compte_authentification li.compte_inscription div { font-size:95%; }
+div#espace_compte ul#compte_authentification li:first-child { float:left; color: rgb(0, 0, 0); }
+div#espace_compte ul#compte_authentification li p.titre { padding:5px 10px; background:#333; color:#FFFFFF; }
+div#espace_compte ul#compte_authentification .boutons_persos_1 { position:absolute; bottom:10px; left:10px; }
+div#espace_compte ul#compte_authentification li div { position:relative; padding:5px 10px; height:90px; padding-bottom:90px; background:#fff; color: rgb(0, 0, 0);}
+
+#style_paypal
+{
+	border:none;
+	width:213px;
+	height:37px;
+	background-image:url(img/img_paypal.gif);	
+}
+
+
+
+
+/***** Page paiement *****/
+
+.payment_module {
+    display: block;margin:0 0 10px;
+}
+.payment_module a {
+    border: 1px solid #595A5E;
+    display: block;
+    padding: 0.6em;
+    text-decoration: none;
+}
+.payment_module img {
+    margin-right: 1em;
+    vertical-align: middle;
+}
+.payment_module a:hover, .payment_module a:focus, .payment_module a:active {
+    background-color: #E5E6E7;
+    border: 1px solid #000;
+    color: #374853;
+}
+.bold {
+    font-weight: bold;
+}
+.price, .price-shipping, .price-wrapping {
+    color: #DA0F00;
+    font-size: 1.1em;
+    font-weight: bold;
+    white-space: nowrap;
+}
